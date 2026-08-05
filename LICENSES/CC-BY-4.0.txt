@@ -1,0 +1,9 @@
+Creative Commons Attribution 4.0 International
+
+Portfolio prose, career information, and authored editorial content in `content/`
+are licensed under CC BY 4.0.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+
+You are free to share and adapt this material for any purpose, provided appropriate
+credit is given, a link to the license is supplied, and changes are indicated.

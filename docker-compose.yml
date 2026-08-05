@@ -1,0 +1,11 @@
+services:
+  latex:
+    build:
+      context: .
+    working_dir: /work
+    volumes:
+      - ./output:/artifacts
+    environment:
+      HOME: /tmp
+      TEXMFVAR: /tmp/texmf-var
+      SOURCE_DATE_EPOCH: "1785888000"

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you reference this portfolio or its build system, please cite it as follows."
+title: "Stephen Rudd Executive Portfolio"
+type: software
+authors:
+  - family-names: Rudd
+    given-names: Stephen
+repository-code: "https://github.com/sagrudd/vitae"
+url: "https://sagrudd.github.io/vitae/"
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2026-08-05
