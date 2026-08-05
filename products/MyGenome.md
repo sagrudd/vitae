@@ -1,7 +1,7 @@
 # MyGenome
 
-MyGenome represented a national-genomics capability challenge at Malaysian Genomics Resource Centre: combine laboratory implementation, bioinformatics interpretation and scientific leadership into a service that could support real decisions.
+Problem - A national genomics service must join laboratory implementation, bioinformatics interpretation and scientific leadership before it can support consequential decisions.
 
-Stephen helped establish Illumina sequencing and the associated analysis capability, joining laboratory operations with practical pipelines, staff development and customer-facing scientific communication. The work sat alongside population, microbial and biodiversity genomics programmes.
+Solution - At Malaysian Genomics Resource Centre, Stephen helped establish Illumina sequencing and associated analysis capability, connecting laboratory operations, practical pipelines, staff development and customer-facing scientific communication.
 
-The case study is about building confidence across an entire delivery system. Instruments, workflows and people have to mature together before genomics becomes dependable rather than experimental.
+Impact - MyGenome sat alongside population, microbial and biodiversity programmes within a more dependable delivery system. Instruments, workflows and people matured together, turning genomics from an experimental proposition into usable national capability.

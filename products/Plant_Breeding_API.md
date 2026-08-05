@@ -1,7 +1,7 @@
 # Plant Breeding API
 
-At IPK Gatersleben, Stephen worked at the transition between research infrastructure and interoperability. The Plant Breeding API work translated plant-science requirements into a clearer model for exchanging data between systems.
+Problem - Research infrastructure depends on systems exchanging data without losing scientific meaning.
 
-Technical writing was central to the contribution. Clear developer-facing documentation gives an interface its real usefulness: it makes assumptions visible, aligns collaborators and lowers the cost of adoption across a distributed scientific community.
+Solution - At IPK Gatersleben, the Plant Breeding API work translated plant-science requirements into a clearer interoperability model and developer-facing documentation.
 
-This concise chapter demonstrates a continuing thread in the portfolio: robust scientific software depends on both sound technical design and communication that enables people to use it correctly.
+Impact - Clear documentation made assumptions visible, aligned collaborators and lowered the cost of adoption. The work shows why scientific software needs both technical design and communication that enables people to use it correctly.

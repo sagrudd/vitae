@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026.2 - 2026-08-05
+
+- Recast the executive narrative around scientific credibility, product strategy, commercial judgement and international capability building.
+- Strengthen the Oxford Nanopore, Turku, training, publication and career-transition narratives.
+- Reframe product case studies around problem, solution and impact.
+
 ## 2026.1 - 2026-08-05
 
 - Add canonical product case studies and generated Pages product routes.

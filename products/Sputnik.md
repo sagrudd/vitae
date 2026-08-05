@@ -1,7 +1,7 @@
 # Sputnik
 
-Sputnik was an early comparative plant-genomics platform created during Stephen's research at the Max Planck Institute of Biochemistry and Helmholtz Zentrum Munchen. It brought together genome annotation, comparative analysis and marker development at a formative moment for plant genomics.
+Problem - Plant biologists needed a practical way to connect the emerging Arabidopsis genome with expressed-sequence data and comparative evidence.
 
-The work addressed a practical scientific problem: researchers needed a navigable system for connecting the emerging Arabidopsis genome with expressed-sequence data and comparative evidence. Sputnik made those resources usable for working plant biologists rather than leaving them as disconnected datasets.
+Solution - Sputnik, created at the Max Planck Institute of Biochemistry and Helmholtz Zentrum München, brought together genome annotation, comparative analysis and marker development in a navigable platform.
 
-The project remains an important example of Stephen's approach to scientific software: start with the scientific question, organise the evidence into an understandable system, and create a platform that helps a community work with confidence.
+Impact - The platform made connected genomic evidence usable for working plant biologists. It established an enduring pattern in Stephen's work: start with the scientific question, organise the evidence, and build a system a community can trust.
