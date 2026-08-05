@@ -1,0 +1,10 @@
+{
+  "id": "training_01",
+  "type": "Training Course",
+  "description": "International customer enablement for nanopore analysis, including Bioinformatics 101 and the Nextflow Summit.",
+  "relationships": {
+    "domains": [
+      "Bioinformatics Capability Building"
+    ]
+  }
+}

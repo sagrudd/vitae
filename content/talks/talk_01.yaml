@@ -1,0 +1,11 @@
+{
+  "id": "talk_01",
+  "type": "Talk",
+  "title": "Nextflow and nanopores: democratising the analysis of long-read DNA sequences",
+  "venue": "Nextflow Summit, 2023",
+  "relationships": {
+    "technologies": [
+      "nextflow"
+    ]
+  }
+}

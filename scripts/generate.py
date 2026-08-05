@@ -125,7 +125,7 @@ def generate_site() -> None:
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Executive portfolio of Stephen Rudd, computational biology and bioinformatics product leader.">
 <title>{html.escape(DATA['name'])} - {html.escape(DATA['title'])}</title><link rel="stylesheet" href="style.css"></head>
-<body><header><nav><a class="mark" href="#top">SR</a><div><a href="#leadership">Leadership</a><a href="#career">Career</a><a href="#training">Training</a><a href="#products">Products</a><a href="https://github.com/sagrudd/vitae/releases/latest">PDF portfolio</a></div></nav>
+<body><header><nav><a class="mark" href="#top">SR</a><div><a href="#leadership">Leadership</a><a href="#career">Career</a><a href="#training">Training</a><a href="#products">Products</a><a href="publications/index.html">Publications</a><a href="search/index.html">Search</a><a href="https://github.com/sagrudd/vitae/releases/latest">PDF portfolio</a></div></nav>
 <main id="top"><p class="kicker">{html.escape(DATA['strapline'])}</p><h1>{html.escape(DATA['name'])}</h1><h2>{html.escape(DATA['title'])}</h2><p class="lede">{html.escape(DATA['summary'])}</p><p class="international">{html.escape(DATA['international_experience'])}</p></main></header>
 <section id="leadership"><p class="eyebrow">Areas of leadership</p><h2>Science translated into systems</h2><div class="grid">{theme_cards}</div></section>
 <section class="dark"><blockquote>“Listen closely to scientific users. Build repeatable capability. Turn analysis into a platform.”</blockquote></section>

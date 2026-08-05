@@ -1,0 +1,17 @@
+{
+  "id": "qfab_bioinformatics_head_of_computational_biology",
+  "type": "Role",
+  "title": "Head of Computational Biology",
+  "period": "Commercial bioinformatics",
+  "summary": "Led commercial bioinformatics services, scientific consultancy and customer delivery.",
+  "employer": "qfab_bioinformatics",
+  "achievements": [
+    "Developed internal tooling and repeatable delivery practices that helped turn expert analyses into scalable services.",
+    "Built customer confidence by connecting experimental context, computational design and decision-ready reporting."
+  ],
+  "relationships": {
+    "technologies": [
+      "genomics"
+    ]
+  }
+}

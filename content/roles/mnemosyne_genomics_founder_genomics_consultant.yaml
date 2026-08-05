@@ -1,0 +1,16 @@
+{
+  "id": "mnemosyne_genomics_founder_genomics_consultant",
+  "type": "Role",
+  "title": "Founder / Genomics Consultant",
+  "period": "Independent consultancy",
+  "summary": "Provided independent genomics, bioinformatics and scientific software advice.",
+  "employer": "mnemosyne_genomics",
+  "achievements": [
+    "Helped organisations frame analysis problems, delivery models and technology choices."
+  ],
+  "relationships": {
+    "technologies": [
+      "genomics"
+    ]
+  }
+}

@@ -6,6 +6,9 @@ services:
     volumes:
       - ./output:/artifacts
       - ./publications:/work/publications
+      - ./content:/work/content
+      - ./dashboard:/work/dashboard
+      - ./site:/work/site
     environment:
       HOME: /tmp
       TEXMFVAR: /tmp/texmf-var

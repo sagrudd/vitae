@@ -1,0 +1,10 @@
+{
+  "id": "training_03",
+  "type": "Training Course",
+  "description": "Academic supervision and embedded training that helped teams apply bioinformatics with confidence.",
+  "relationships": {
+    "domains": [
+      "Bioinformatics Capability Building"
+    ]
+  }
+}

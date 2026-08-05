@@ -1,0 +1,19 @@
+{
+  "id": "epi2me",
+  "type": "Product",
+  "name": "EPI2ME",
+  "description": "Oxford Nanopore workflow platform.",
+  "problem": "Scientific data and analysis need accessible, reusable systems.",
+  "solution": "Oxford Nanopore workflow platform.",
+  "impact": "Connects scientific users with repeatable delivery.",
+  "technologies": [
+    "genomics",
+    "nextflow"
+  ],
+  "publications": [],
+  "employers": [
+    "oxford_nanopore_technologies"
+  ],
+  "projects": [],
+  "career_phase": "Product leadership"
+}

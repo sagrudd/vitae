@@ -1,0 +1,12 @@
+{
+  "id": "arabidopsis_genome",
+  "type": "Project",
+  "name": "Arabidopsis Genome",
+  "relationships": {
+    "products": [],
+    "publications": [],
+    "technologies": [
+      "genomics"
+    ]
+  }
+}

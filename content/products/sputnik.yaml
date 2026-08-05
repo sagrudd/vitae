@@ -1,0 +1,16 @@
+{
+  "id": "sputnik",
+  "type": "Product",
+  "name": "Sputnik",
+  "description": "Comparative plant-genomics database platform.",
+  "problem": "Scientific data and analysis need accessible, reusable systems.",
+  "solution": "Comparative plant-genomics database platform.",
+  "impact": "Connects scientific users with repeatable delivery.",
+  "technologies": [
+    "genomics"
+  ],
+  "publications": [],
+  "employers": [],
+  "projects": [],
+  "career_phase": "Product leadership"
+}

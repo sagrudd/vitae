@@ -1,0 +1,16 @@
+{
+  "id": "ipk_gatersleben_research_scientist",
+  "type": "Role",
+  "title": "Research Scientist",
+  "period": "2017-2018",
+  "summary": "Advanced scientific interoperability through technical writing and development of a Plant Breeding API.",
+  "employer": "ipk_gatersleben",
+  "achievements": [
+    "Translated plant-science requirements into a clear interoperability model and developer-facing documentation."
+  ],
+  "relationships": {
+    "technologies": [
+      "genomics"
+    ]
+  }
+}

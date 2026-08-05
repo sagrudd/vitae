@@ -1,0 +1,12 @@
+{
+  "id": "proboscis_monkey",
+  "type": "Project",
+  "name": "Proboscis Monkey",
+  "relationships": {
+    "products": [],
+    "publications": [],
+    "technologies": [
+      "genomics"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "pacific_biosciences_territory_manager",
+  "type": "Role",
+  "title": "Territory Manager",
+  "period": "Commercial genomics",
+  "summary": "Enabled long-read sequencing adoption across India, South-East Asia, Australia and New Zealand.",
+  "employer": "pacific_biosciences",
+  "achievements": [
+    "Combined technical support, commercial leadership and voice-of-customer insight across a diverse international territory."
+  ],
+  "relationships": {
+    "technologies": [
+      "genomics"
+    ]
+  }
+}

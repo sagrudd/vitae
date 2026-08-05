@@ -1,0 +1,69 @@
+{
+  "objects": {
+    "Employer": 9,
+    "Role": 9,
+    "Talk": 3,
+    "Training Course": 3,
+    "Product": 7,
+    "Project": 6,
+    "Technology": 5,
+    "Publication": 48
+  },
+  "employers": 9,
+  "countries": [
+    "Asia-Pacific",
+    "Brisbane, Australia",
+    "Finland",
+    "Germany",
+    "International",
+    "Kuala Lumpur, Malaysia",
+    "United Kingdom / international"
+  ],
+  "leadership_progression": [
+    {
+      "role": "Research Scientist",
+      "employer": "ipk_gatersleben",
+      "period": "2017-2018"
+    },
+    {
+      "role": "Chief Scientific Officer",
+      "employer": "malaysian_genomics_resource_centre",
+      "period": "National genomics"
+    },
+    {
+      "role": "Postdoctoral Researcher",
+      "employer": "max_planck_institute_of_biochemistry_helmholtz_zentrum_m_nchen",
+      "period": "Research"
+    },
+    {
+      "role": "Founder / Genomics Consultant",
+      "employer": "mnemosyne_genomics",
+      "period": "Independent consultancy"
+    },
+    {
+      "role": "Senior Specialist, Bioinformatics",
+      "employer": "orion_pharma",
+      "period": "Pharmaceutical R&D"
+    },
+    {
+      "role": "Director, Bioinformatics Product",
+      "employer": "oxford_nanopore_technologies",
+      "period": "2018-present"
+    },
+    {
+      "role": "Territory Manager",
+      "employer": "pacific_biosciences",
+      "period": "Commercial genomics"
+    },
+    {
+      "role": "Head of Computational Biology",
+      "employer": "qfab_bioinformatics",
+      "period": "Commercial bioinformatics"
+    },
+    {
+      "role": "Senior Scientist / Head of Bioinformatics / Visiting Scientist",
+      "employer": "university_of_turku_turku_centre_for_biotechnology",
+      "period": "Academic leadership"
+    }
+  ]
+}

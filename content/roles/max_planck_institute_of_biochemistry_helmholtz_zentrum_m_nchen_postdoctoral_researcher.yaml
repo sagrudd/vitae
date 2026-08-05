@@ -1,0 +1,17 @@
+{
+  "id": "max_planck_institute_of_biochemistry_helmholtz_zentrum_m_nchen_postdoctoral_researcher",
+  "type": "Role",
+  "title": "Postdoctoral Researcher",
+  "period": "Research",
+  "summary": "Developed comparative-genomics resources, annotation systems and molecular-marker methods.",
+  "employer": "max_planck_institute_of_biochemistry_helmholtz_zentrum_m_nchen",
+  "achievements": [
+    "Contributed to annotation of the first Arabidopsis genome and built Sputnik, a comparative plant-genomics platform covering millions of expressed sequences.",
+    "Connected genome annotation, comparative analysis and marker discovery in tools designed for working plant biologists."
+  ],
+  "relationships": {
+    "technologies": [
+      "genomics"
+    ]
+  }
+}

@@ -1,4 +1,4 @@
-.PHONY: pdf pdf-in-container generate website verify render clean cv portfolio biography docker release publications publications-in-container publications-metrics publications-verify
+.PHONY: pdf pdf-in-container generate website verify render clean cv portfolio biography docker release publications publications-in-container publications-metrics publications-verify knowledge dashboard talks timeline
 
 DOCS := Executive_CV Executive_Portfolio Executive_Biography Cover_Letter_Template
 
@@ -36,6 +36,17 @@ generate:
 	python3 scripts/generate.py
 
 website: generate
+
+knowledge:
+	mkdir -p content dashboard site output
+	docker compose build latex
+	docker compose run --rm latex sh -lc 'python3 scripts/build_knowledge_graph.py && cp output/career_dashboard.pdf output/career_timeline.pdf /artifacts/'
+
+dashboard: knowledge
+
+talks: knowledge
+
+timeline: knowledge
 
 publications:
 	mkdir -p publications output

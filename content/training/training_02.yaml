@@ -1,0 +1,10 @@
+{
+  "id": "training_02",
+  "type": "Training Course",
+  "description": "Scientific workshops spanning long-read sequencing, bacterial genomics and reproducible workflow adoption.",
+  "relationships": {
+    "domains": [
+      "Bioinformatics Capability Building"
+    ]
+  }
+}

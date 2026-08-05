@@ -1,0 +1,12 @@
+{
+  "id": "core_facility",
+  "type": "Project",
+  "name": "Core Facility",
+  "relationships": {
+    "products": [],
+    "publications": [],
+    "technologies": [
+      "genomics"
+    ]
+  }
+}

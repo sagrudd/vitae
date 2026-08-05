@@ -1,0 +1,12 @@
+{
+  "id": "covid_response",
+  "type": "Project",
+  "name": "COVID Response",
+  "relationships": {
+    "products": [],
+    "publications": [],
+    "technologies": [
+      "genomics"
+    ]
+  }
+}

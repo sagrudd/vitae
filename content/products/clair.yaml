@@ -1,0 +1,16 @@
+{
+  "id": "clair",
+  "type": "Product",
+  "name": "Éclair",
+  "description": "Sequence-origin web service.",
+  "problem": "Scientific data and analysis need accessible, reusable systems.",
+  "solution": "Sequence-origin web service.",
+  "impact": "Connects scientific users with repeatable delivery.",
+  "technologies": [
+    "genomics"
+  ],
+  "publications": [],
+  "employers": [],
+  "projects": [],
+  "career_phase": "Product leadership"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "malaysian_genomics_resource_centre_chief_scientific_officer",
+  "type": "Role",
+  "title": "Chief Scientific Officer",
+  "period": "National genomics",
+  "summary": "Built laboratory and bioinformatics capability for commercial and national genomics programmes.",
+  "employer": "malaysian_genomics_resource_centre",
+  "achievements": [
+    "Established Illumina sequencing capability and integrated laboratory, analysis and scientific leadership.",
+    "Supported MyGenome, microbial and biodiversity programmes including the Proboscis Monkey genome.",
+    "Developed staff capability and robust analysis pipelines for human genome delivery and interpretation."
+  ],
+  "relationships": {
+    "technologies": [
+      "genomics"
+    ]
+  }
+}

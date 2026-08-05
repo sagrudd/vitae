@@ -1,0 +1,18 @@
+{
+  "id": "university_of_turku_turku_centre_for_biotechnology_senior_scientist_head_of_bioinformatics_visiting_scientist",
+  "type": "Role",
+  "title": "Senior Scientist / Head of Bioinformatics / Visiting Scientist",
+  "period": "Academic leadership",
+  "summary": "Established and led the bioinformatics core facility and research capability within the Turku Centre for Biotechnology, a department of the University of Turku.",
+  "employer": "university_of_turku_turku_centre_for_biotechnology",
+  "achievements": [
+    "Built workflows for Affymetrix, Illumina and Agilent platforms with a semi-automatic reporting framework.",
+    "Led research and service delivery across clinical genomics, plant genomics, endometriosis and mouse myelination.",
+    "Developed researchers through training, supervision and embedded project collaboration."
+  ],
+  "relationships": {
+    "technologies": [
+      "genomics"
+    ]
+  }
+}

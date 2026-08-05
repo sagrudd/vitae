@@ -1,0 +1,9 @@
+{
+  "id": "talk_02",
+  "type": "Talk",
+  "title": "Bioinformatics 101",
+  "venue": "Oxford Nanopore Technologies, 2020",
+  "relationships": {
+    "technologies": []
+  }
+}

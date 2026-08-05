@@ -1,0 +1,12 @@
+{
+  "id": "commercial_bioinformatics",
+  "type": "Project",
+  "name": "Commercial Bioinformatics",
+  "relationships": {
+    "products": [],
+    "publications": [],
+    "technologies": [
+      "genomics"
+    ]
+  }
+}

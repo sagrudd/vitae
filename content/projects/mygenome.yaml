@@ -1,0 +1,12 @@
+{
+  "id": "mygenome",
+  "type": "Project",
+  "name": "MyGenome",
+  "relationships": {
+    "products": [],
+    "publications": [],
+    "technologies": [
+      "genomics"
+    ]
+  }
+}

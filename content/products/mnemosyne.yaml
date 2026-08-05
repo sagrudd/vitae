@@ -1,0 +1,16 @@
+{
+  "id": "mnemosyne",
+  "type": "Product",
+  "name": "Mnemosyne",
+  "description": "Independent genomics consultancy.",
+  "problem": "Scientific data and analysis need accessible, reusable systems.",
+  "solution": "Independent genomics consultancy.",
+  "impact": "Connects scientific users with repeatable delivery.",
+  "technologies": [
+    "genomics"
+  ],
+  "publications": [],
+  "employers": [],
+  "projects": [],
+  "career_phase": "Product leadership"
+}

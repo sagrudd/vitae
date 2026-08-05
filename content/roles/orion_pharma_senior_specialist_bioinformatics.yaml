@@ -1,0 +1,17 @@
+{
+  "id": "orion_pharma_senior_specialist_bioinformatics",
+  "type": "Role",
+  "title": "Senior Specialist, Bioinformatics",
+  "period": "Pharmaceutical R&D",
+  "summary": "Applied computational biology to discovery research and strengthened bioinformatics practice within pharmaceutical R&D.",
+  "employer": "orion_pharma",
+  "achievements": [
+    "Developed translational analysis approaches for gene expression, toxicogenomics and pharmacogenomics.",
+    "Supervised research and helped scientists use reproducible computational methods in decision-making."
+  ],
+  "relationships": {
+    "technologies": [
+      "genomics"
+    ]
+  }
+}
