@@ -30,7 +30,14 @@
 \setsansfont{IBM Plex Sans}
 \setmonofont{IBM Plex Mono}
 \AtBeginDocument{\RaggedRight\setlength{\parindent}{0pt}\setlength{\parskip}{4pt}}
-\emergencystretch=2em
+\microtypesetup{protrusion=true,expansion=true,tracking=true}
+\emergencystretch=3em
+% Ragged-right composition intentionally permits loose lines; ignore sub-pixel drift.
+\hbadness=10000
+\hfuzz=.5pt
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
 \hypersetup{colorlinks=true,urlcolor=Accent,linkcolor=OxfordBlue,pdfauthor={Stephen Rudd},pdftitle={Stephen Rudd Executive Portfolio}}
 \pagestyle{fancy}\fancyhf{}
 \fancyhead[L]{\sffamily\scriptsize\color{Slate}\MakeUppercase{Stephen Rudd}}

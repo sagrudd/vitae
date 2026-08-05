@@ -1,3 +1,3 @@
 # Products
 
-Product narratives are maintained in `content/profile.json` so that PDF and web outputs remain synchronized.
+Each product case study below is a canonical Markdown source. The website generator turns the same text into `/products/` pages without duplicating content.
