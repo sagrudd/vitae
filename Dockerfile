@@ -1,7 +1,7 @@
 FROM debian:12.6-slim
 
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
-    biber latexmk make poppler-utils python3 python3-pypdf \
+    biber latexmk make poppler-utils python3 python3-pypdf python3-reportlab \
     texlive-bibtex-extra texlive-fonts-extra texlive-fonts-recommended texlive-latex-extra texlive-luatex texlive-pictures \
     && rm -rf /var/lib/apt/lists/*
 RUN luaotfload-tool --update --force

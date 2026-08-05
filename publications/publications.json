@@ -1,0 +1,2437 @@
+[
+  {
+    "id": "arabidopsis2000",
+    "title": "Analysis of the genome sequence of the flowering plant Arabidopsis thaliana",
+    "year": 2000,
+    "journal": "Nature",
+    "volume": "408",
+    "issue": "",
+    "pages": "796--815",
+    "doi": "10.1038/35048692",
+    "pmid": "",
+    "url": "https://doi.org/10.1038/35048692",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Plant Genomics",
+      "Methods"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": true,
+    "software": false,
+    "database": false,
+    "methods": true,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Plant Genomics",
+      "Methods"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [
+      "arabidopsis"
+    ],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "Contributing author: Stephen Rudd",
+    "authors": "The Arabidopsis Genome Initiative",
+    "career_phase": "Genome-era resources",
+    "raw_bibtex": "@article{arabidopsis2000,\n  author  = {{The Arabidopsis Genome Initiative}},\n  title   = {Analysis of the genome sequence of the flowering plant Arabidopsis thaliana},\n  journal = {Nature},\n  year    = {2000},\n  volume  = {408},\n  pages   = {796--815},\n  doi     = {10.1038/35048692},\n  note    = {Contributing author: Stephen Rudd}\n}"
+  },
+  {
+    "id": "dalmay2000silencing",
+    "title": "An RNA-dependent RNA polymerase gene in Arabidopsis is required for posttranscriptional gene silencing mediated by a transgene but not by a virus",
+    "year": 2000,
+    "journal": "Cell",
+    "volume": "101",
+    "issue": "5",
+    "pages": "543--553",
+    "doi": "10.1016/s0092-8674(00)80864-8",
+    "pmid": "",
+    "url": "https://doi.org/10.1016/S0092-8674(00)80864-8",
+    "publication_type": "article",
+    "category": [
+      "Transcriptomics",
+      "Plant Genomics"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Transcriptomics",
+      "Plant Genomics"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [
+      "arabidopsis"
+    ],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Dalmay, Tamas and Hamilton, Andrew and Rudd, Stephen and Angell, Susan and Baulcombe, David C.",
+    "career_phase": "Genome-era resources",
+    "raw_bibtex": "@article{dalmay2000silencing,\n  author = {Dalmay, Tamas and Hamilton, Andrew and Rudd, Stephen and Angell, Susan and Baulcombe, David C.},\n  title = {An {RNA}-dependent {RNA} polymerase gene in {Arabidopsis} is required for posttranscriptional gene silencing mediated by a transgene but not by a virus},\n  journal = {Cell}, year = {2000}, volume = {101}, number = {5}, pages = {543--553}, doi = {10.1016/S0092-8674(00)80864-8}\n}"
+  },
+  {
+    "id": "eu2000chromosome3",
+    "title": "Sequence and analysis of chromosome 3 of the plant Arabidopsis thaliana",
+    "year": 2000,
+    "journal": "Nature",
+    "volume": "408",
+    "issue": "6814",
+    "pages": "820--823",
+    "doi": "10.1038/35048706",
+    "pmid": "",
+    "url": "https://doi.org/10.1038/35048706",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Plant Genomics",
+      "Methods"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": true,
+    "software": false,
+    "database": false,
+    "methods": true,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Plant Genomics",
+      "Methods"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [
+      "arabidopsis"
+    ],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "European Union Chromosome 3 Arabidopsis Genome Sequencing Consortium and The Institute for Genomic Research and Kazusa DNA Research Institute",
+    "career_phase": "Genome-era resources",
+    "raw_bibtex": "@article{eu2000chromosome3,\n  author = {{European Union Chromosome 3 Arabidopsis Genome Sequencing Consortium} and {The Institute for Genomic Research} and {Kazusa DNA Research Institute}},\n  title = {Sequence and analysis of chromosome 3 of the plant {Arabidopsis thaliana}},\n  journal = {Nature}, year = {2000}, volume = {408}, number = {6814}, pages = {820--823}, doi = {10.1038/35048706}\n}"
+  },
+  {
+    "id": "kazusa2000chromosome5",
+    "title": "Sequence and analysis of chromosome 5 of the plant Arabidopsis thaliana",
+    "year": 2000,
+    "journal": "Nature",
+    "volume": "408",
+    "issue": "6814",
+    "pages": "823--826",
+    "doi": "10.1038/35048507",
+    "pmid": "",
+    "url": "https://doi.org/10.1038/35048507",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Plant Genomics",
+      "Methods"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": true,
+    "software": false,
+    "database": false,
+    "methods": true,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Plant Genomics",
+      "Methods"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [
+      "arabidopsis"
+    ],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Kazusa DNA Research Institute and The Cold Spring Harbor and Washington University Sequencing Consortium and The European Union Arabidopsis Genome Sequencing Consortium and Institute of Plant Genetics and Crop Plant Research (IPK)",
+    "career_phase": "Genome-era resources",
+    "raw_bibtex": "@article{kazusa2000chromosome5,\n  author = {{Kazusa DNA Research Institute} and {The Cold Spring Harbor and Washington University Sequencing Consortium} and {The European Union Arabidopsis Genome Sequencing Consortium} and {Institute of Plant Genetics and Crop Plant Research (IPK)}},\n  title = {Sequence and analysis of chromosome 5 of the plant {Arabidopsis thaliana}},\n  journal = {Nature}, year = {2000}, volume = {408}, number = {6814}, pages = {823--826}, doi = {10.1038/35048507}\n}"
+  },
+  {
+    "id": "mayer2000chromosome4",
+    "title": "Arabidopsis genome analysis as exemplified by analysis of chromosome 4",
+    "year": 2000,
+    "journal": "Briefings in Bioinformatics",
+    "volume": "1",
+    "issue": "4",
+    "pages": "389--397",
+    "doi": "10.1093/bib/1.4.389",
+    "pmid": "",
+    "url": "https://doi.org/10.1093/bib/1.4.389",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Plant Genomics",
+      "Bioinformatics Infrastructure",
+      "Methods"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": true,
+    "methods": true,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Plant Genomics",
+      "Bioinformatics Infrastructure",
+      "Methods"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [
+      "arabidopsis"
+    ],
+    "technologies": [
+      "genomics",
+      "bioinformatics"
+    ],
+    "notes": "",
+    "authors": "Mayer, Klaus F. X. and Lemcke, Kai and Rudd, Stephen and Zaccaria, Paolo and Schuller, Christine M.",
+    "career_phase": "Genome-era resources",
+    "raw_bibtex": "@article{mayer2000chromosome4,\n  author = {Mayer, Klaus F. X. and Lemcke, Kai and Rudd, Stephen and Zaccaria, Paolo and Schuller, Christine M.},\n  title = {{Arabidopsis} genome analysis as exemplified by analysis of chromosome 4},\n  journal = {Briefings in Bioinformatics}, year = {2000}, volume = {1}, number = {4}, pages = {389--397}, doi = {10.1093/bib/1.4.389}\n}"
+  },
+  {
+    "id": "haas2002full",
+    "title": "Full-length messenger RNA sequences greatly improve genome annotation",
+    "year": 2002,
+    "journal": "Genome Biology",
+    "volume": "3",
+    "issue": "6",
+    "pages": "research0029",
+    "doi": "10.1186/gb-2002-3-6-research0029",
+    "pmid": "",
+    "url": "https://doi.org/10.1186/gb-2002-3-6-research0029",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Transcriptomics"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": true,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Transcriptomics"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "Data contribution including Stephen Rudd",
+    "authors": "Haas, Brian J. and Volfovsky, Natalia and Town, Christopher D. and Troukhan, Michael and Alexandrov, Nikolai and Feldmann, Kenneth A. and Flavell, Richard B. and White, Owen and Salzberg, Steven L.",
+    "career_phase": "Genome-era resources",
+    "raw_bibtex": "@article{haas2002full,\n  author  = {Haas, Brian J. and Volfovsky, Natalia and Town, Christopher D. and Troukhan, Michael and Alexandrov, Nikolai and Feldmann, Kenneth A. and Flavell, Richard B. and White, Owen and Salzberg, Steven L.},\n  title   = {Full-length messenger {RNA} sequences greatly improve genome annotation},\n  journal = {Genome Biology},\n  year    = {2002},\n  volume  = {3},\n  number  = {6},\n  pages   = {research0029},\n  doi     = {10.1186/gb-2002-3-6-research0029},\n  note    = {Data contribution including Stephen Rudd}\n}"
+  },
+  {
+    "id": "mewes2002mips",
+    "title": "MIPS: a database for genomes and protein sequences",
+    "year": 2002,
+    "journal": "Nucleic Acids Research",
+    "volume": "30",
+    "issue": "1",
+    "pages": "31--34",
+    "doi": "10.1093/nar/30.1.31",
+    "pmid": "",
+    "url": "https://doi.org/10.1093/nar/30.1.31",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Bioinformatics Databases"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": true,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Bioinformatics Databases"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [
+      "mips"
+    ],
+    "technologies": [
+      "genomics",
+      "bioinformatics"
+    ],
+    "notes": "",
+    "authors": "Mewes, H. W. and Frishman, D. and Guldener, U. and others",
+    "career_phase": "Genome-era resources",
+    "raw_bibtex": "@article{mewes2002mips,\n  author = {Mewes, H. W. and Frishman, D. and Guldener, U. and others},\n  title = {{MIPS}: a database for genomes and protein sequences},\n  journal = {Nucleic Acids Research}, year = {2002}, volume = {30}, number = {1}, pages = {31--34}, doi = {10.1093/nar/30.1.31}\n}"
+  },
+  {
+    "id": "schoof2002matdb",
+    "title": "MIPS Arabidopsis thaliana Database (MAtDB): an integrated biological knowledge resource based on the first complete plant genome",
+    "year": 2002,
+    "journal": "Nucleic Acids Research",
+    "volume": "30",
+    "issue": "1",
+    "pages": "91--93",
+    "doi": "10.1093/nar/30.1.91",
+    "pmid": "",
+    "url": "https://doi.org/10.1093/nar/30.1.91",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Plant Genomics",
+      "Bioinformatics Databases",
+      "Resources"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": true,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Plant Genomics",
+      "Bioinformatics Databases",
+      "Resources"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [
+      "mips",
+      "arabidopsis"
+    ],
+    "technologies": [
+      "genomics",
+      "bioinformatics"
+    ],
+    "notes": "",
+    "authors": "Schoof, Heiko and Zaccaria, Paolo and Gundlach, Heidrun and Lemcke, Kai and Rudd, Stephen and Kolesov, Grigory and Arnold, Roland and Mewes, Hans-Werner and Mayer, Klaus F. X.",
+    "career_phase": "Genome-era resources",
+    "raw_bibtex": "@article{schoof2002matdb,\n  author  = {Schoof, Heiko and Zaccaria, Paolo and Gundlach, Heidrun and Lemcke, Kai and Rudd, Stephen and Kolesov, Grigory and Arnold, Roland and Mewes, Hans-Werner and Mayer, Klaus F. X.},\n  title   = {{MIPS Arabidopsis thaliana Database (MAtDB)}: an integrated biological knowledge resource based on the first complete plant genome},\n  journal = {Nucleic Acids Research},\n  year    = {2002},\n  volume  = {30},\n  number  = {1},\n  pages   = {91--93},\n  doi     = {10.1093/nar/30.1.91}\n}"
+  },
+  {
+    "id": "brenner2003cycas",
+    "title": "Expressed sequence tag analysis in Cycas, the most primitive living seed plant",
+    "year": 2003,
+    "journal": "Genome Biology",
+    "volume": "4",
+    "issue": "12",
+    "pages": "R78",
+    "doi": "10.1186/gb-2003-4-12-r78",
+    "pmid": "",
+    "url": "https://doi.org/10.1186/gb-2003-4-12-r78",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Plant Genomics",
+      "Methods"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": true,
+    "review": false,
+    "open_access": true,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Plant Genomics",
+      "Methods"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Brenner, Eric D. and Stevenson, Dennis W. and McCombie, Richard W. and others",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{brenner2003cycas,\n  author = {Brenner, Eric D. and Stevenson, Dennis W. and McCombie, Richard W. and others},\n  title = {Expressed sequence tag analysis in {Cycas}, the most primitive living seed plant},\n  journal = {Genome Biology}, year = {2003}, volume = {4}, number = {12}, pages = {R78}, doi = {10.1186/gb-2003-4-12-r78}\n}"
+  },
+  {
+    "id": "galagan2003neurospora",
+    "title": "The genome sequence of the filamentous fungus Neurospora crassa",
+    "year": 2003,
+    "journal": "Nature",
+    "volume": "422",
+    "issue": "6934",
+    "pages": "859--868",
+    "doi": "10.1038/nature01554",
+    "pmid": "",
+    "url": "https://doi.org/10.1038/nature01554",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Galagan, James E. and Calvo, Sarah E. and Borkovich, Katherine A. and others",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{galagan2003neurospora,\n  author = {Galagan, James E. and Calvo, Sarah E. and Borkovich, Katherine A. and others},\n  title = {The genome sequence of the filamentous fungus {Neurospora crassa}},\n  journal = {Nature}, year = {2003}, volume = {422}, number = {6934}, pages = {859--868}, doi = {10.1038/nature01554}\n}"
+  },
+  {
+    "id": "kota2003barley",
+    "title": "Snipping polymorphisms from large EST collections in barley (Hordeum vulgare L.)",
+    "year": 2003,
+    "journal": "Molecular Genetics and Genomics",
+    "volume": "270",
+    "issue": "1",
+    "pages": "24--33",
+    "doi": "10.1007/s00438-003-0891-6",
+    "pmid": "",
+    "url": "https://doi.org/10.1007/s00438-003-0891-6",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Population Genomics",
+      "Plant Genomics",
+      "Resources"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Population Genomics",
+      "Plant Genomics",
+      "Resources"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Kota, R. and Rudd, S. and Facius, A. and others",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{kota2003barley,\n  author = {Kota, R. and Rudd, S. and Facius, A. and others},\n  title = {Snipping polymorphisms from large {EST} collections in barley ({Hordeum vulgare} {L.})},\n  journal = {Molecular Genetics and Genomics}, year = {2003}, volume = {270}, number = {1}, pages = {24--33}, doi = {10.1007/s00438-003-0891-6}\n}"
+  },
+  {
+    "id": "rudd2003est",
+    "title": "Expressed sequence tags: alternative or complement to whole genome sequences?",
+    "year": 2003,
+    "journal": "Trends in Plant Science",
+    "volume": "8",
+    "issue": "7",
+    "pages": "321--329",
+    "doi": "10.1016/s1360-1385(03)00131-6",
+    "pmid": "",
+    "url": "https://doi.org/10.1016/S1360-1385(03)00131-6",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Plant Genomics",
+      "Reviews"
+    ],
+    "role": "first author",
+    "first_author": true,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": true,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Plant Genomics",
+      "Reviews"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Rudd, Stephen",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{rudd2003est,\n  author = {Rudd, Stephen},\n  title = {Expressed sequence tags: alternative or complement to whole genome sequences?},\n  journal = {Trends in Plant Science}, year = {2003}, volume = {8}, number = {7}, pages = {321--329}, doi = {10.1016/S1360-1385(03)00131-6}\n}"
+  },
+  {
+    "id": "rudd2003sputnik",
+    "title": "Sputnik: a database platform for comparative plant genomics",
+    "year": 2003,
+    "journal": "Nucleic Acids Research",
+    "volume": "31",
+    "issue": "1",
+    "pages": "128--132",
+    "doi": "10.1093/nar/gkg075",
+    "pmid": "",
+    "url": "https://doi.org/10.1093/nar/gkg075",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Comparative Genomics",
+      "Plant Genomics",
+      "Bioinformatics Infrastructure",
+      "Bioinformatics Databases",
+      "Software"
+    ],
+    "role": "first author",
+    "first_author": true,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": true,
+    "database": true,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Comparative Genomics",
+      "Plant Genomics",
+      "Bioinformatics Infrastructure",
+      "Bioinformatics Databases",
+      "Software"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [
+      "sputnik"
+    ],
+    "technologies": [
+      "genomics",
+      "bioinformatics"
+    ],
+    "notes": "",
+    "authors": "Rudd, Stephen and Mewes, Hans-Werner and Mayer, Klaus F. X.",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{rudd2003sputnik,\n  author  = {Rudd, Stephen and Mewes, Hans-Werner and Mayer, Klaus F. X.},\n  title   = {Sputnik: a database platform for comparative plant genomics},\n  journal = {Nucleic Acids Research},\n  year    = {2003},\n  volume  = {31},\n  number  = {1},\n  pages   = {128--132},\n  doi     = {10.1093/nar/gkg075}\n}"
+  },
+  {
+    "id": "lai2004maize",
+    "title": "Characterization of the maize endosperm transcriptome and its comparison to the rice genome",
+    "year": 2004,
+    "journal": "Genome Research",
+    "volume": "14",
+    "issue": "10a",
+    "pages": "1932--1937",
+    "doi": "10.1101/gr.2780504",
+    "pmid": "",
+    "url": "https://doi.org/10.1101/gr.2780504",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Plant Genomics"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Plant Genomics"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Lai, Jinsheng and Dey, Nrisingha and Kim, Cheol-Soo and others",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{lai2004maize,\n  author = {Lai, Jinsheng and Dey, Nrisingha and Kim, Cheol-Soo and others},\n  title = {Characterization of the maize endosperm transcriptome and its comparison to the rice genome},\n  journal = {Genome Research}, year = {2004}, volume = {14}, number = {10a}, pages = {1932--1937}, doi = {10.1101/gr.2780504}\n}"
+  },
+  {
+    "id": "rudd2004smar",
+    "title": "Genome-wide in silico mapping of scaffold/matrix attachment regions in Arabidopsis suggests correlation of intragenic scaffold/matrix attachment regions with gene expression",
+    "year": 2004,
+    "journal": "Plant Physiology",
+    "volume": "135",
+    "issue": "2",
+    "pages": "715--722",
+    "doi": "10.1104/pp.103.037861",
+    "pmid": "",
+    "url": "https://doi.org/10.1104/pp.103.037861",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Comparative Genomics",
+      "Transcriptomics",
+      "Plant Genomics"
+    ],
+    "role": "first author",
+    "first_author": true,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Comparative Genomics",
+      "Transcriptomics",
+      "Plant Genomics"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [
+      "arabidopsis"
+    ],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Rudd, Stephen and Frisch, Matthias and Grote, Korbinian and Meyers, Blake C. and Mayer, Klaus and Werner, Thomas",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{rudd2004smar,\n  author = {Rudd, Stephen and Frisch, Matthias and Grote, Korbinian and Meyers, Blake C. and Mayer, Klaus and Werner, Thomas},\n  title = {Genome-wide in silico mapping of scaffold/matrix attachment regions in {Arabidopsis} suggests correlation of intragenic scaffold/matrix attachment regions with gene expression},\n  journal = {Plant Physiology}, year = {2004}, volume = {135}, number = {2}, pages = {715--722}, doi = {10.1104/pp.103.037861}\n}"
+  },
+  {
+    "id": "zhang2004barley",
+    "title": "Large-scale analysis of the barley transcriptome based on expressed sequence tags",
+    "year": 2004,
+    "journal": "The Plant Journal",
+    "volume": "40",
+    "issue": "2",
+    "pages": "276--290",
+    "doi": "10.1111/j.1365-313x.2004.02209.x",
+    "pmid": "",
+    "url": "https://doi.org/10.1111/j.1365-313X.2004.02209.x",
+    "publication_type": "article",
+    "category": [
+      "Transcriptomics",
+      "Plant Genomics",
+      "Methods"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": true,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Transcriptomics",
+      "Plant Genomics",
+      "Methods"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Zhang, Hangning and Sreenivasulu, Nese and Weschke, Winfriede and others",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{zhang2004barley,\n  author = {Zhang, Hangning and Sreenivasulu, Nese and Weschke, Winfriede and others},\n  title = {Large-scale analysis of the barley transcriptome based on expressed sequence tags},\n  journal = {The Plant Journal}, year = {2004}, volume = {40}, number = {2}, pages = {276--290}, doi = {10.1111/j.1365-313X.2004.02209.x}\n}"
+  },
+  {
+    "id": "battchikova2005ndh",
+    "title": "Identification of NdhL and Ssl1690 (NdhO) in NDH-1L and NDH-1M complexes of Synechocystis sp. PCC 6803",
+    "year": 2005,
+    "journal": "Journal of Biological Chemistry",
+    "volume": "280",
+    "issue": "4",
+    "pages": "2587--2595",
+    "doi": "10.1074/jbc.m410914200",
+    "pmid": "",
+    "url": "https://doi.org/10.1074/jbc.M410914200",
+    "publication_type": "article",
+    "category": [
+      "Transcriptomics"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Transcriptomics"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Battchikova, Natalia and Zhang, Pengpeng and Rudd, Stephen and Ogawa, Teruo and Aro, Eva-Mari",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{battchikova2005ndh,\n  author = {Battchikova, Natalia and Zhang, Pengpeng and Rudd, Stephen and Ogawa, Teruo and Aro, Eva-Mari},\n  title = {Identification of {NdhL} and {Ssl1690} ({NdhO}) in {NDH-1L} and {NDH-1M} complexes of {Synechocystis} sp. {PCC} 6803},\n  journal = {Journal of Biological Chemistry}, year = {2005}, volume = {280}, number = {4}, pages = {2587--2595}, doi = {10.1074/jbc.M410914200}\n}"
+  },
+  {
+    "id": "brenner2005ginkgo",
+    "title": "EST analysis in Ginkgo biloba: an assessment of conserved developmental regulators and gymnosperm-specific genes",
+    "year": 2005,
+    "journal": "BMC Genomics",
+    "volume": "6",
+    "issue": "1",
+    "pages": "143",
+    "doi": "10.1186/1471-2164-6-143",
+    "pmid": "",
+    "url": "https://doi.org/10.1186/1471-2164-6-143",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Plant Genomics",
+      "Methods"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": true,
+    "review": false,
+    "open_access": true,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Plant Genomics",
+      "Methods"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Brenner, Eric D. and Katari, Manpreet S. and Stevenson, Dennis W. and others",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{brenner2005ginkgo,\n  author = {Brenner, Eric D. and Katari, Manpreet S. and Stevenson, Dennis W. and others},\n  title = {{EST} analysis in {Ginkgo biloba}: an assessment of conserved developmental regulators and gymnosperm-specific genes},\n  journal = {BMC Genomics}, year = {2005}, volume = {6}, number = {1}, pages = {143}, doi = {10.1186/1471-2164-6-143}\n}"
+  },
+  {
+    "id": "brosche2005populus",
+    "title": "Gene expression and metabolite profiling of Populus euphratica growing in the Negev desert",
+    "year": 2005,
+    "journal": "Genome Biology",
+    "volume": "6",
+    "issue": "12",
+    "pages": "R101",
+    "doi": "10.1186/gb-2005-6-12-r101",
+    "pmid": "",
+    "url": "https://doi.org/10.1186/gb-2005-6-12-r101",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Plant Genomics",
+      "Methods"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": true,
+    "review": false,
+    "open_access": true,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Plant Genomics",
+      "Methods"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Brosche, Mikael and Vinocur, Basia and Alatalo, Edward R. and others",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{brosche2005populus,\n  author = {Brosche, Mikael and Vinocur, Basia and Alatalo, Edward R. and others},\n  title = {Gene expression and metabolite profiling of {Populus euphratica} growing in the {Negev} desert},\n  journal = {Genome Biology}, year = {2005}, volume = {6}, number = {12}, pages = {R101}, doi = {10.1186/gb-2005-6-12-r101}\n}"
+  },
+  {
+    "id": "friedel2005svm",
+    "title": "Support vector machines for separation of mixed plant-pathogen EST collections based on codon usage",
+    "year": 2005,
+    "journal": "Bioinformatics",
+    "volume": "21",
+    "issue": "8",
+    "pages": "1383--1388",
+    "doi": "10.1093/bioinformatics/bti200",
+    "pmid": "",
+    "url": "https://doi.org/10.1093/bioinformatics/bti200",
+    "publication_type": "article",
+    "category": [
+      "Transcriptomics",
+      "Plant Genomics",
+      "Bioinformatics Infrastructure",
+      "Methods",
+      "Machine Learning",
+      "Resources"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": true,
+    "methods": true,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Transcriptomics",
+      "Plant Genomics",
+      "Bioinformatics Infrastructure",
+      "Methods",
+      "Machine Learning",
+      "Resources"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics",
+      "bioinformatics"
+    ],
+    "notes": "",
+    "authors": "Friedel, Caroline C. and Jahn, Katharina H. V. and Sommer, Selina and Rudd, Stephen and Mewes, Hans W. and Tetko, Igor V.",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{friedel2005svm,\n  author = {Friedel, Caroline C. and Jahn, Katharina H. V. and Sommer, Selina and Rudd, Stephen and Mewes, Hans W. and Tetko, Igor V.},\n  title = {Support vector machines for separation of mixed plant-pathogen {EST} collections based on codon usage},\n  journal = {Bioinformatics}, year = {2005}, volume = {21}, number = {8}, pages = {1383--1388}, doi = {10.1093/bioinformatics/bti200}\n}"
+  },
+  {
+    "id": "germain2005solanum",
+    "title": "A 6374 unigene set corresponding to low abundance transcripts expressed following fertilization in Solanum chacoense and characterization of 30 receptor-like kinases",
+    "year": 2005,
+    "journal": "Plant Molecular Biology",
+    "volume": "59",
+    "issue": "3",
+    "pages": "515--532",
+    "doi": "10.1007/s11103-005-0536-8",
+    "pmid": "",
+    "url": "https://doi.org/10.1007/s11103-005-0536-8",
+    "publication_type": "article",
+    "category": [
+      "Transcriptomics",
+      "Plant Genomics"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Transcriptomics",
+      "Plant Genomics"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Germain, Hugo and Rudd, Stephen and Zotti, Corine and others",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{germain2005solanum,\n  author = {Germain, Hugo and Rudd, Stephen and Zotti, Corine and others},\n  title = {A 6374 unigene set corresponding to low abundance transcripts expressed following fertilization in {Solanum chacoense} and characterization of 30 receptor-like kinases},\n  journal = {Plant Molecular Biology}, year = {2005}, volume = {59}, number = {3}, pages = {515--532}, doi = {10.1007/s11103-005-0536-8}\n}"
+  },
+  {
+    "id": "laitinen2005gerbera",
+    "title": "Analysis of the floral transcriptome uncovers new regulators of organ determination and gene families related to flower organ differentiation in Gerbera hybrida (Asteraceae)",
+    "year": 2005,
+    "journal": "Genome Research",
+    "volume": "15",
+    "issue": "4",
+    "pages": "475--486",
+    "doi": "10.1101/gr.3043705",
+    "pmid": "",
+    "url": "https://doi.org/10.1101/gr.3043705",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Plant Genomics",
+      "Methods"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": true,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Plant Genomics",
+      "Methods"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Laitinen, Roosa A. E. and Immanen, Juha and Auvinen, Petri and others",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{laitinen2005gerbera,\n  author = {Laitinen, Roosa A. E. and Immanen, Juha and Auvinen, Petri and others},\n  title = {Analysis of the floral transcriptome uncovers new regulators of organ determination and gene families related to flower organ differentiation in {Gerbera hybrida} ({Asteraceae})},\n  journal = {Genome Research}, year = {2005}, volume = {15}, number = {4}, pages = {475--486}, doi = {10.1101/gr.3043705}\n}"
+  },
+  {
+    "id": "rudd2005eclair",
+    "title": "Eclair---a web service for unravelling species origin of sequences sampled from mixed host interfaces",
+    "year": 2005,
+    "journal": "Nucleic Acids Research",
+    "volume": "33",
+    "issue": "Suppl. 2",
+    "pages": "W724--W727",
+    "doi": "10.1093/nar/gki434",
+    "pmid": "",
+    "url": "https://doi.org/10.1093/nar/gki434",
+    "publication_type": "article",
+    "category": [
+      "Bioinformatics Infrastructure",
+      "Software"
+    ],
+    "role": "first author",
+    "first_author": true,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": true,
+    "database": true,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Bioinformatics Infrastructure",
+      "Software"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [
+      "eclair"
+    ],
+    "technologies": [
+      "genomics",
+      "bioinformatics"
+    ],
+    "notes": "",
+    "authors": "Rudd, Stephen and Tetko, Igor V.",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{rudd2005eclair,\n  author = {Rudd, Stephen and Tetko, Igor V.},\n  title = {{Eclair}---a web service for unravelling species origin of sequences sampled from mixed host interfaces},\n  journal = {Nucleic Acids Research}, year = {2005}, volume = {33}, number = {Suppl. 2}, pages = {W724--W727}, doi = {10.1093/nar/gki434}\n}"
+  },
+  {
+    "id": "rudd2005opensputnik",
+    "title": "openSputnik---a database to ESTablish comparative plant genomics using unsaturated sequence collections",
+    "year": 2005,
+    "journal": "Nucleic Acids Research",
+    "volume": "33",
+    "issue": "Suppl. 1",
+    "pages": "D622--D627",
+    "doi": "10.1093/nar/gki040",
+    "pmid": "",
+    "url": "https://doi.org/10.1093/nar/gki040",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Comparative Genomics",
+      "Transcriptomics",
+      "Plant Genomics",
+      "Bioinformatics Databases",
+      "Software",
+      "Resources"
+    ],
+    "role": "first author",
+    "first_author": true,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": true,
+    "database": true,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Comparative Genomics",
+      "Transcriptomics",
+      "Plant Genomics",
+      "Bioinformatics Databases",
+      "Software",
+      "Resources"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [
+      "sputnik",
+      "opensputnik"
+    ],
+    "technologies": [
+      "genomics",
+      "bioinformatics"
+    ],
+    "notes": "",
+    "authors": "Rudd, Stephen",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{rudd2005opensputnik,\n  author = {Rudd, Stephen},\n  title = {{openSputnik}---a database to {EST}ablish comparative plant genomics using unsaturated sequence collections},\n  journal = {Nucleic Acids Research}, year = {2005}, volume = {33}, number = {Suppl. 1}, pages = {D622--D627}, doi = {10.1093/nar/gki040}\n}"
+  },
+  {
+    "id": "rudd2005plantmarkers",
+    "title": "PlantMarkers---a database of predicted molecular markers from plants",
+    "year": 2005,
+    "journal": "Nucleic Acids Research",
+    "volume": "33",
+    "issue": "Suppl. 1",
+    "pages": "D628--D632",
+    "doi": "10.1093/nar/gki074",
+    "pmid": "",
+    "url": "https://doi.org/10.1093/nar/gki074",
+    "publication_type": "article",
+    "category": [
+      "Plant Genomics",
+      "Bioinformatics Databases"
+    ],
+    "role": "first author",
+    "first_author": true,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": true,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Plant Genomics",
+      "Bioinformatics Databases"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [
+      "plantmarkers"
+    ],
+    "technologies": [
+      "genomics",
+      "bioinformatics"
+    ],
+    "notes": "",
+    "authors": "Rudd, Stephen and Schoof, Heiko and Mayer, Klaus",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{rudd2005plantmarkers,\n  author = {Rudd, Stephen and Schoof, Heiko and Mayer, Klaus},\n  title = {{PlantMarkers}---a database of predicted molecular markers from plants},\n  journal = {Nucleic Acids Research}, year = {2005}, volume = {33}, number = {Suppl. 1}, pages = {D628--D632}, doi = {10.1093/nar/gki074}\n}"
+  },
+  {
+    "id": "technau2005cnidarians",
+    "title": "Maintenance of ancestral complexity and non-metazoan genes in two basal cnidarians",
+    "year": 2005,
+    "journal": "Trends in Genetics",
+    "volume": "21",
+    "issue": "12",
+    "pages": "633--639",
+    "doi": "10.1016/j.tig.2005.09.007",
+    "pmid": "",
+    "url": "https://doi.org/10.1016/j.tig.2005.09.007",
+    "publication_type": "article",
+    "category": [
+      "Transcriptomics"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Transcriptomics"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Technau, Ulrich and Rudd, Stephen and Maxwell, Peter and others",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{technau2005cnidarians,\n  author = {Technau, Ulrich and Rudd, Stephen and Maxwell, Peter and others},\n  title = {Maintenance of ancestral complexity and non-metazoan genes in two basal cnidarians},\n  journal = {Trends in Genetics}, year = {2005}, volume = {21}, number = {12}, pages = {633--639}, doi = {10.1016/j.tig.2005.09.007}\n}"
+  },
+  {
+    "id": "beldade2006bicyclus",
+    "title": "A wing expressed sequence tag resource for Bicyclus anynana butterflies, an evo-devo model",
+    "year": 2006,
+    "journal": "BMC Genomics",
+    "volume": "7",
+    "issue": "1",
+    "pages": "130",
+    "doi": "10.1186/1471-2164-7-130",
+    "pmid": "",
+    "url": "https://doi.org/10.1186/1471-2164-7-130",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Resources"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": true,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Resources"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Beldade, Patricia and Rudd, Stephen and Gruber, Jonathan D. and Long, Anthony D.",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{beldade2006bicyclus,\n  author = {Beldade, Patricia and Rudd, Stephen and Gruber, Jonathan D. and Long, Anthony D.},\n  title = {A wing expressed sequence tag resource for {Bicyclus anynana} butterflies, an evo-devo model},\n  journal = {BMC Genomics}, year = {2006}, volume = {7}, number = {1}, pages = {130}, doi = {10.1186/1471-2164-7-130}\n}"
+  },
+  {
+    "id": "bottger2006hydra",
+    "title": "Genetic screen for signal peptides in Hydra reveals novel secreted proteins and evidence for non-classical protein secretion",
+    "year": 2006,
+    "journal": "European Journal of Cell Biology",
+    "volume": "85",
+    "issue": "9",
+    "pages": "1107--1117",
+    "doi": "10.1016/j.ejcb.2006.05.007",
+    "pmid": "",
+    "url": "https://doi.org/10.1016/j.ejcb.2006.05.007",
+    "publication_type": "article",
+    "category": [
+      "Transcriptomics",
+      "Methods"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": true,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Transcriptomics",
+      "Methods"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Bottger, Angelika and Strasser, Dominik and Alexandrova, Olga and others",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{bottger2006hydra,\n  author = {Bottger, Angelika and Strasser, Dominik and Alexandrova, Olga and others},\n  title = {Genetic screen for signal peptides in {Hydra} reveals novel secreted proteins and evidence for non-classical protein secretion},\n  journal = {European Journal of Cell Biology}, year = {2006}, volume = {85}, number = {9}, pages = {1107--1117}, doi = {10.1016/j.ejcb.2006.05.007}\n}"
+  },
+  {
+    "id": "grapes2006pig",
+    "title": "Prospecting for pig single nucleotide polymorphisms in the human genome: have we struck gold?",
+    "year": 2006,
+    "journal": "Journal of Animal Breeding and Genetics",
+    "volume": "123",
+    "issue": "3",
+    "pages": "145--151",
+    "doi": "10.1111/j.1439-0388.2006.00587.x",
+    "pmid": "",
+    "url": "https://doi.org/10.1111/j.1439-0388.2006.00587.x",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Population Genomics"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Population Genomics"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Grapes, L. and Rudd, S. and Fernando, R. L. and Megy, K. and Rocha, D. and Rothschild, M. F.",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{grapes2006pig,\n  author = {Grapes, L. and Rudd, S. and Fernando, R. L. and Megy, K. and Rocha, D. and Rothschild, M. F.},\n  title = {Prospecting for pig single nucleotide polymorphisms in the human genome: have we struck gold?},\n  journal = {Journal of Animal Breeding and Genetics}, year = {2006}, volume = {123}, number = {3}, pages = {145--151}, doi = {10.1111/j.1439-0388.2006.00587.x}\n}"
+  },
+  {
+    "id": "mracek2006oenothera",
+    "title": "Construction, database integration, and application of an Oenothera EST library",
+    "year": 2006,
+    "journal": "Genomics",
+    "volume": "88",
+    "issue": "3",
+    "pages": "372--380",
+    "doi": "10.1016/j.ygeno.2006.05.010",
+    "pmid": "",
+    "url": "https://doi.org/10.1016/j.ygeno.2006.05.010",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Bioinformatics Databases",
+      "Resources"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": true,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Bioinformatics Databases",
+      "Resources"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics",
+      "bioinformatics"
+    ],
+    "notes": "",
+    "authors": "Mracek, Jaroslav and Greiner, Stephan and Cho, Won Kyong and others",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{mracek2006oenothera,\n  author = {Mracek, Jaroslav and Greiner, Stephan and Cho, Won Kyong and others},\n  title = {Construction, database integration, and application of an {Oenothera EST} library},\n  journal = {Genomics}, year = {2006}, volume = {88}, number = {3}, pages = {372--380}, doi = {10.1016/j.ygeno.2006.05.010}\n}"
+  },
+  {
+    "id": "tetko2006smar",
+    "title": "Spatiotemporal expression control correlates with intragenic scaffold matrix attachment regions (S/MARs) in Arabidopsis thaliana",
+    "year": 2006,
+    "journal": "PLOS Computational Biology",
+    "volume": "2",
+    "issue": "3",
+    "pages": "e21",
+    "doi": "10.1371/journal.pcbi.0020021",
+    "pmid": "",
+    "url": "https://doi.org/10.1371/journal.pcbi.0020021",
+    "publication_type": "article",
+    "category": [
+      "Plant Genomics"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": true,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Plant Genomics"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [
+      "arabidopsis"
+    ],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Tetko, Igor V. and Haberer, Georg and Rudd, Stephen and Meyers, Blake and Mewes, Hans-Werner and Mayer, Klaus F. X.",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{tetko2006smar,\n  author = {Tetko, Igor V. and Haberer, Georg and Rudd, Stephen and Meyers, Blake and Mewes, Hans-Werner and Mayer, Klaus F. X.},\n  title = {Spatiotemporal expression control correlates with intragenic scaffold matrix attachment regions ({S/MARs}) in {Arabidopsis thaliana}},\n  journal = {PLOS Computational Biology}, year = {2006}, volume = {2}, number = {3}, pages = {e21}, doi = {10.1371/journal.pcbi.0020021}\n}"
+  },
+  {
+    "id": "emmersen2007triplet",
+    "title": "Separation of sequences from host-pathogen interface using triplet nucleotide frequencies",
+    "year": 2007,
+    "journal": "Fungal Genetics and Biology",
+    "volume": "44",
+    "issue": "4",
+    "pages": "231--241",
+    "doi": "10.1016/j.fgb.2006.11.010",
+    "pmid": "",
+    "url": "https://doi.org/10.1016/j.fgb.2006.11.010",
+    "publication_type": "article",
+    "category": [
+      "Other"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Other"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Emmersen, Jeppe and Rudd, Stephen and Mewes, Hans-Werner and Tetko, Igor V.",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{emmersen2007triplet,\n  author = {Emmersen, Jeppe and Rudd, Stephen and Mewes, Hans-Werner and Tetko, Igor V.},\n  title = {Separation of sequences from host-pathogen interface using triplet nucleotide frequencies},\n  journal = {Fungal Genetics and Biology}, year = {2007}, volume = {44}, number = {4}, pages = {231--241}, doi = {10.1016/j.fgb.2006.11.010}\n}"
+  },
+  {
+    "id": "koutaniemi2007lignin",
+    "title": "Expression profiling of the lignin biosynthetic pathway in Norway spruce using EST sequencing and real-time RT-PCR",
+    "year": 2007,
+    "journal": "Plant Molecular Biology",
+    "volume": "65",
+    "issue": "3",
+    "pages": "311--328",
+    "doi": "10.1007/s11103-007-9220-5",
+    "pmid": "",
+    "url": "https://doi.org/10.1007/s11103-007-9220-5",
+    "publication_type": "article",
+    "category": [
+      "Transcriptomics",
+      "Plant Genomics",
+      "Methods"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": true,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Transcriptomics",
+      "Plant Genomics",
+      "Methods"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Koutaniemi, Sanna and Warinowski, Tino and Karkonen, Anna and others",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{koutaniemi2007lignin,\n  author = {Koutaniemi, Sanna and Warinowski, Tino and Karkonen, Anna and others},\n  title = {Expression profiling of the lignin biosynthetic pathway in Norway spruce using {EST} sequencing and real-time {RT-PCR}},\n  journal = {Plant Molecular Biology}, year = {2007}, volume = {65}, number = {3}, pages = {311--328}, doi = {10.1007/s11103-007-9220-5}\n}"
+  },
+  {
+    "id": "lokko2007cassava",
+    "title": "Characterization of an 18,166 EST dataset for cassava (Manihot esculenta Crantz) enriched for drought-responsive genes",
+    "year": 2007,
+    "journal": "Plant Cell Reports",
+    "volume": "26",
+    "issue": "9",
+    "pages": "1605--1618",
+    "doi": "10.1007/s00299-007-0378-8",
+    "pmid": "",
+    "url": "https://doi.org/10.1007/s00299-007-0378-8",
+    "publication_type": "article",
+    "category": [
+      "Transcriptomics",
+      "Plant Genomics",
+      "Resources"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Transcriptomics",
+      "Plant Genomics",
+      "Resources"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Lokko, Y. and Anderson, J. V. and Rudd, S. and others",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{lokko2007cassava,\n  author = {Lokko, Y. and Anderson, J. V. and Rudd, S. and others},\n  title = {Characterization of an 18,166 {EST} dataset for cassava ({Manihot esculenta} {Crantz}) enriched for drought-responsive genes},\n  journal = {Plant Cell Reports}, year = {2007}, volume = {26}, number = {9}, pages = {1605--1618}, doi = {10.1007/s00299-007-0378-8}\n}"
+  },
+  {
+    "id": "pauly2007hydra",
+    "title": "Proteomic screen in the simple metazoan Hydra identifies 14-3-3 binding proteins implicated in cellular metabolism, cytoskeletal organisation and Ca2+ signalling",
+    "year": 2007,
+    "journal": "BMC Cell Biology",
+    "volume": "8",
+    "issue": "1",
+    "pages": "31",
+    "doi": "10.1186/1471-2121-8-31",
+    "pmid": "",
+    "url": "https://doi.org/10.1186/1471-2121-8-31",
+    "publication_type": "article",
+    "category": [
+      "Methods"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": true,
+    "review": false,
+    "open_access": true,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Methods"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Pauly, Barbara and Lasi, Margherita and MacKintosh, Carol and others",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{pauly2007hydra,\n  author = {Pauly, Barbara and Lasi, Margherita and MacKintosh, Carol and others},\n  title = {Proteomic screen in the simple metazoan {Hydra} identifies 14-3-3 binding proteins implicated in cellular metabolism, cytoskeletal organisation and {Ca2+} signalling},\n  journal = {BMC Cell Biology}, year = {2007}, volume = {8}, number = {1}, pages = {31}, doi = {10.1186/1471-2121-8-31}\n}"
+  },
+  {
+    "id": "rotter2007bentgrass",
+    "title": "Analysis of EST sequences suggests recent origin of allotetraploid colonial and creeping bentgrasses",
+    "year": 2007,
+    "journal": "Molecular Genetics and Genomics",
+    "volume": "278",
+    "issue": "2",
+    "pages": "197--209",
+    "doi": "10.1007/s00438-007-0240-2",
+    "pmid": "",
+    "url": "https://doi.org/10.1007/s00438-007-0240-2",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Methods"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": true,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Methods"
+    ],
+    "organisations": [
+      "MIPS / Munich"
+    ],
+    "employers": [
+      "MIPS / Munich"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Rotter, David and Bharti, Arvind K. and Li, Huaijun Michael and others",
+    "career_phase": "Comparative genomics",
+    "raw_bibtex": "@article{rotter2007bentgrass,\n  author = {Rotter, David and Bharti, Arvind K. and Li, Huaijun Michael and others},\n  title = {Analysis of {EST} sequences suggests recent origin of allotetraploid colonial and creeping bentgrasses},\n  journal = {Molecular Genetics and Genomics}, year = {2007}, volume = {278}, number = {2}, pages = {197--209}, doi = {10.1007/s00438-007-0240-2}\n}"
+  },
+  {
+    "id": "grasso2008coral",
+    "title": "Microarray analysis identifies candidate genes for key roles in coral development",
+    "year": 2008,
+    "journal": "BMC Genomics",
+    "volume": "9",
+    "issue": "1",
+    "pages": "540",
+    "doi": "10.1186/1471-2164-9-540",
+    "pmid": "",
+    "url": "https://doi.org/10.1186/1471-2164-9-540",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Methods"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": true,
+    "review": false,
+    "open_access": true,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Methods"
+    ],
+    "organisations": [
+      "International collaborations"
+    ],
+    "employers": [
+      "International collaborations"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Grasso, Lauretta C. and Maindonald, John and Rudd, Stephen and others",
+    "career_phase": "Applied transcriptomics",
+    "raw_bibtex": "@article{grasso2008coral,\n  author = {Grasso, Lauretta C. and Maindonald, John and Rudd, Stephen and others},\n  title = {Microarray analysis identifies candidate genes for key roles in coral development},\n  journal = {BMC Genomics}, year = {2008}, volume = {9}, number = {1}, pages = {540}, doi = {10.1186/1471-2164-9-540}\n}"
+  },
+  {
+    "id": "hackauf2009rye",
+    "title": "Comparative mapping of DNA sequences in rye (Secale cereale L.) in relation to the rice genome",
+    "year": 2009,
+    "journal": "Theoretical and Applied Genetics",
+    "volume": "118",
+    "issue": "2",
+    "pages": "371--384",
+    "doi": "10.1007/s00122-008-0906-0",
+    "pmid": "",
+    "url": "https://doi.org/10.1007/s00122-008-0906-0",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Comparative Genomics",
+      "Plant Genomics"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Comparative Genomics",
+      "Plant Genomics"
+    ],
+    "organisations": [
+      "International collaborations"
+    ],
+    "employers": [
+      "International collaborations"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Hackauf, B. and Rudd, S. and van der Voort, J. R. and Miedaner, T. and Wehling, P.",
+    "career_phase": "Applied transcriptomics",
+    "raw_bibtex": "@article{hackauf2009rye,\n  author = {Hackauf, B. and Rudd, S. and van der Voort, J. R. and Miedaner, T. and Wehling, P.},\n  title = {Comparative mapping of {DNA} sequences in rye ({Secale cereale} {L.}) in relation to the rice genome},\n  journal = {Theoretical and Applied Genetics}, year = {2009}, volume = {118}, number = {2}, pages = {371--384}, doi = {10.1007/s00122-008-0906-0}\n}"
+  },
+  {
+    "id": "junttila2009rna",
+    "title": "Optimization and comparison of different methods for RNA isolation for cDNA library construction from the reindeer lichen Cladonia rangiferina",
+    "year": 2009,
+    "journal": "BMC Research Notes",
+    "volume": "2",
+    "issue": "1",
+    "pages": "204",
+    "doi": "10.1186/1756-0500-2-204",
+    "pmid": "",
+    "url": "https://doi.org/10.1186/1756-0500-2-204",
+    "publication_type": "article",
+    "category": [
+      "Transcriptomics",
+      "Methods",
+      "Resources"
+    ],
+    "role": "senior author",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": true,
+    "review": false,
+    "open_access": true,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Transcriptomics",
+      "Methods",
+      "Resources"
+    ],
+    "organisations": [
+      "International collaborations"
+    ],
+    "employers": [
+      "International collaborations"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Junttila, Sini and Lim, Kean-Jin and Rudd, Stephen",
+    "career_phase": "Applied transcriptomics",
+    "raw_bibtex": "@article{junttila2009rna,\n  author = {Junttila, Sini and Lim, Kean-Jin and Rudd, Stephen},\n  title = {Optimization and comparison of different methods for {RNA} isolation for {cDNA} library construction from the reindeer lichen {Cladonia rangiferina}},\n  journal = {BMC Research Notes}, year = {2009}, volume = {2}, number = {1}, pages = {204}, doi = {10.1186/1756-0500-2-204}\n}"
+  },
+  {
+    "id": "gunaletchumy2012",
+    "title": "Draft genome sequences of Helicobacter pylori isolates from Malaysia, cultured from patients with functional dyspepsia and gastric cancer",
+    "year": 2012,
+    "journal": "Journal of Bacteriology",
+    "volume": "194",
+    "issue": "20",
+    "pages": "5695--5696",
+    "doi": "10.1128/jb.01278-12",
+    "pmid": "",
+    "url": "https://doi.org/10.1128/JB.01278-12",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Cancer Genomics",
+      "Clinical Genomics"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Cancer Genomics",
+      "Clinical Genomics"
+    ],
+    "organisations": [
+      "International collaborations"
+    ],
+    "employers": [
+      "International collaborations"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "Includes Stephen Rudd",
+    "authors": "Gunaletchumy, Selva Perumal and Teh, Xinsheng and Khosravi, Yalda and others",
+    "career_phase": "Applied transcriptomics",
+    "raw_bibtex": "@article{gunaletchumy2012,\n  author  = {Gunaletchumy, Selva Perumal and Teh, Xinsheng and Khosravi, Yalda and others},\n  title   = {Draft genome sequences of Helicobacter pylori isolates from Malaysia, cultured from patients with functional dyspepsia and gastric cancer},\n  journal = {Journal of Bacteriology},\n  year    = {2012},\n  volume  = {194},\n  number  = {20},\n  pages   = {5695--5696},\n  doi     = {10.1128/JB.01278-12},\n  note    = {Includes Stephen Rudd}\n}"
+  },
+  {
+    "id": "junttila2012lichen",
+    "title": "Characterization of a transcriptome from a non-model organism, Cladonia rangiferina, the grey reindeer lichen, using high-throughput next generation sequencing and EST sequence data",
+    "year": 2012,
+    "journal": "BMC Genomics",
+    "volume": "13",
+    "issue": "1",
+    "pages": "575",
+    "doi": "10.1186/1471-2164-13-575",
+    "pmid": "",
+    "url": "https://doi.org/10.1186/1471-2164-13-575",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Transcriptomics"
+    ],
+    "role": "senior author",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": true,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Transcriptomics"
+    ],
+    "organisations": [
+      "International collaborations"
+    ],
+    "employers": [
+      "International collaborations"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Junttila, Sini and Rudd, Stephen",
+    "career_phase": "Applied transcriptomics",
+    "raw_bibtex": "@article{junttila2012lichen,\n  author = {Junttila, Sini and Rudd, Stephen},\n  title = {Characterization of a transcriptome from a non-model organism, {Cladonia rangiferina}, the grey reindeer lichen, using high-throughput next generation sequencing and {EST} sequence data},\n  journal = {BMC Genomics}, year = {2012}, volume = {13}, number = {1}, pages = {575}, doi = {10.1186/1471-2164-13-575}\n}"
+  },
+  {
+    "id": "junttila2013dehydration",
+    "title": "Whole transcriptome characterization of the effects of dehydration and rehydration on Cladonia rangiferina, the grey reindeer lichen",
+    "year": 2013,
+    "journal": "BMC Genomics",
+    "volume": "14",
+    "issue": "1",
+    "pages": "870",
+    "doi": "10.1186/1471-2164-14-870",
+    "pmid": "",
+    "url": "https://doi.org/10.1186/1471-2164-14-870",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Transcriptomics"
+    ],
+    "role": "senior author",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": true,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Transcriptomics"
+    ],
+    "organisations": [
+      "International collaborations"
+    ],
+    "employers": [
+      "International collaborations"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Junttila, Sini and Laiho, Asta and Gyenesei, Attila and Rudd, Stephen",
+    "career_phase": "Applied transcriptomics",
+    "raw_bibtex": "@article{junttila2013dehydration,\n  author = {Junttila, Sini and Laiho, Asta and Gyenesei, Attila and Rudd, Stephen},\n  title = {Whole transcriptome characterization of the effects of dehydration and rehydration on {Cladonia rangiferina}, the grey reindeer lichen},\n  journal = {BMC Genomics}, year = {2013}, volume = {14}, number = {1}, pages = {870}, doi = {10.1186/1471-2164-14-870}\n}"
+  },
+  {
+    "id": "melian2014westnile",
+    "title": "Programmed ribosomal frameshift alters expression of West Nile virus genes and facilitates virus replication in birds and mosquitoes",
+    "year": 2014,
+    "journal": "PLOS Pathogens",
+    "volume": "10",
+    "issue": "11",
+    "pages": "e1004447",
+    "doi": "10.1371/journal.ppat.1004447",
+    "pmid": "",
+    "url": "https://doi.org/10.1371/journal.ppat.1004447",
+    "publication_type": "article",
+    "category": [
+      "Transcriptomics"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": true,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Transcriptomics"
+    ],
+    "organisations": [
+      "Australia / industry"
+    ],
+    "employers": [
+      "Australia / industry"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Melian, Ezequiel Balmori and Hall-Mendelin, Sonja and Du, Fangyao and others",
+    "career_phase": "Clinical and data science",
+    "raw_bibtex": "@article{melian2014westnile,\n  author = {Melian, Ezequiel Balmori and Hall-Mendelin, Sonja and Du, Fangyao and others},\n  title = {Programmed ribosomal frameshift alters expression of {West Nile} virus genes and facilitates virus replication in birds and mosquitoes},\n  journal = {PLOS Pathogens}, year = {2014}, volume = {10}, number = {11}, pages = {e1004447}, doi = {10.1371/journal.ppat.1004447}\n}"
+  },
+  {
+    "id": "derienzo2016mesothelioma",
+    "title": "Gender-specific molecular and clinical features underlie malignant pleural mesothelioma",
+    "year": 2016,
+    "journal": "Cancer Research",
+    "volume": "76",
+    "issue": "2",
+    "pages": "319--328",
+    "doi": "10.1158/0008-5472.can-15-0751",
+    "pmid": "",
+    "url": "https://doi.org/10.1158/0008-5472.CAN-15-0751",
+    "publication_type": "article",
+    "category": [
+      "Cancer Genomics",
+      "Clinical Genomics"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Cancer Genomics",
+      "Clinical Genomics"
+    ],
+    "organisations": [
+      "Australia / industry"
+    ],
+    "employers": [
+      "Australia / industry"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "De Rienzo, Assunta and Archer, Michael A. and Yeap, Beow Y. and others",
+    "career_phase": "Clinical and data science",
+    "raw_bibtex": "@article{derienzo2016mesothelioma,\n  author = {De Rienzo, Assunta and Archer, Michael A. and Yeap, Beow Y. and others},\n  title = {Gender-specific molecular and clinical features underlie malignant pleural mesothelioma},\n  journal = {Cancer Research}, year = {2016}, volume = {76}, number = {2}, pages = {319--328}, doi = {10.1158/0008-5472.CAN-15-0751}\n}"
+  },
+  {
+    "id": "wise2016stemcells",
+    "title": "Human mesenchymal stem cells alter the gene profile of monocytes from patients with type 2 diabetes and end-stage renal disease",
+    "year": 2016,
+    "journal": "Regenerative Medicine",
+    "volume": "11",
+    "issue": "2",
+    "pages": "145--158",
+    "doi": "10.2217/rme.15.74",
+    "pmid": "",
+    "url": "https://doi.org/10.2217/rme.15.74",
+    "publication_type": "article",
+    "category": [
+      "Clinical Genomics"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Clinical Genomics"
+    ],
+    "organisations": [
+      "Australia / industry"
+    ],
+    "employers": [
+      "Australia / industry"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Wise, Andrea F. and Williams, Timothy M. and Rudd, Stephen and Wells, Christine A. and Kerr, Peter G. and Ricardo, Sharon D.",
+    "career_phase": "Clinical and data science",
+    "raw_bibtex": "@article{wise2016stemcells,\n  author = {Wise, Andrea F. and Williams, Timothy M. and Rudd, Stephen and Wells, Christine A. and Kerr, Peter G. and Ricardo, Sharon D.},\n  title = {Human mesenchymal stem cells alter the gene profile of monocytes from patients with type 2 diabetes and end-stage renal disease},\n  journal = {Regenerative Medicine}, year = {2016}, volume = {11}, number = {2}, pages = {145--158}, doi = {10.2217/rme.15.74}\n}"
+  },
+  {
+    "id": "schmutzer2017plant",
+    "title": "Bioinformatics in the plant genomic and phenomic domain: the German contribution to resources, services and perspectives",
+    "year": 2017,
+    "journal": "Journal of Biotechnology",
+    "volume": "261",
+    "issue": "",
+    "pages": "37--45",
+    "doi": "10.1016/j.jbiotec.2017.07.006",
+    "pmid": "",
+    "url": "https://doi.org/10.1016/j.jbiotec.2017.07.006",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Plant Genomics",
+      "Bioinformatics Infrastructure",
+      "Reviews",
+      "Resources"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": true,
+    "methods": false,
+    "review": true,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Transcriptomics",
+      "Plant Genomics",
+      "Bioinformatics Infrastructure",
+      "Reviews",
+      "Resources"
+    ],
+    "organisations": [
+      "Australia / industry"
+    ],
+    "employers": [
+      "Australia / industry"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics",
+      "bioinformatics"
+    ],
+    "notes": "",
+    "authors": "Schmutzer, Thomas and Bolger, Marie E. and Rudd, Stephen and others",
+    "career_phase": "Clinical and data science",
+    "raw_bibtex": "@article{schmutzer2017plant,\n  author = {Schmutzer, Thomas and Bolger, Marie E. and Rudd, Stephen and others},\n  title = {Bioinformatics in the plant genomic and phenomic domain: the {German} contribution to resources, services and perspectives},\n  journal = {Journal of Biotechnology}, year = {2017}, volume = {261}, pages = {37--45}, doi = {10.1016/j.jbiotec.2017.07.006}\n}"
+  },
+  {
+    "id": "chappell2018",
+    "title": "Rapid analysis of metagenomic data using signature-based clustering",
+    "year": 2018,
+    "journal": "BMC Bioinformatics",
+    "volume": "19",
+    "issue": "Suppl 20",
+    "pages": "509",
+    "doi": "10.1186/s12859-018-2540-4",
+    "pmid": "",
+    "url": "https://doi.org/10.1186/s12859-018-2540-4",
+    "publication_type": "article",
+    "category": [
+      "Genome Resources",
+      "Metagenomics",
+      "Bioinformatics Infrastructure",
+      "Methods",
+      "Machine Learning"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": true,
+    "methods": true,
+    "review": false,
+    "open_access": true,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Genome Resources",
+      "Metagenomics",
+      "Bioinformatics Infrastructure",
+      "Methods",
+      "Machine Learning"
+    ],
+    "organisations": [
+      "Australia / industry"
+    ],
+    "employers": [
+      "Australia / industry"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics",
+      "bioinformatics"
+    ],
+    "notes": "",
+    "authors": "Chappell, Timothy and Geva, Shlomo and Hogan, James M. and Huygens, Flavia and Rathnayake, Irani U. and Rudd, Stephen and Kelly, Wayne and Perrin, Dimitri",
+    "career_phase": "Clinical and data science",
+    "raw_bibtex": "@article{chappell2018,\n  author  = {Chappell, Timothy and Geva, Shlomo and Hogan, James M. and Huygens, Flavia and Rathnayake, Irani U. and Rudd, Stephen and Kelly, Wayne and Perrin, Dimitri},\n  title   = {Rapid analysis of metagenomic data using signature-based clustering},\n  journal = {BMC Bioinformatics},\n  year    = {2018},\n  volume  = {19},\n  number  = {Suppl 20},\n  pages   = {509},\n  doi     = {10.1186/s12859-018-2540-4}\n}"
+  },
+  {
+    "id": "lee2018intellectual",
+    "title": "Gene networks associated with non-syndromic intellectual disability",
+    "year": 2018,
+    "journal": "Journal of Neurogenetics",
+    "volume": "32",
+    "issue": "1",
+    "pages": "6--14",
+    "doi": "10.1080/01677063.2017.1404058",
+    "pmid": "",
+    "url": "https://doi.org/10.1080/01677063.2017.1404058",
+    "publication_type": "article",
+    "category": [
+      "Transcriptomics",
+      "Clinical Genomics"
+    ],
+    "role": "contributor",
+    "first_author": false,
+    "corresponding_author": false,
+    "consortium": false,
+    "software": false,
+    "database": false,
+    "methods": false,
+    "review": false,
+    "open_access": false,
+    "impact_factor": null,
+    "citations": null,
+    "citation_source": "not yet enriched",
+    "abstract": "",
+    "keywords": [
+      "Transcriptomics",
+      "Clinical Genomics"
+    ],
+    "organisations": [
+      "Australia / industry"
+    ],
+    "employers": [
+      "Australia / industry"
+    ],
+    "projects": [],
+    "technologies": [
+      "genomics"
+    ],
+    "notes": "",
+    "authors": "Lee, Soohyun and Rudd, Stephen and Gratten, Jacob and Visscher, Peter M. and Prins, Johannes B. and Dawson, Paul A.",
+    "career_phase": "Clinical and data science",
+    "raw_bibtex": "@article{lee2018intellectual,\n  author = {Lee, Soohyun and Rudd, Stephen and Gratten, Jacob and Visscher, Peter M. and Prins, Johannes B. and Dawson, Paul A.},\n  title = {Gene networks associated with non-syndromic intellectual disability},\n  journal = {Journal of Neurogenetics}, year = {2018}, volume = {32}, number = {1}, pages = {6--14}, doi = {10.1080/01677063.2017.1404058}\n}"
+  }
+]

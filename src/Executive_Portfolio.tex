@@ -42,12 +42,12 @@
 \PortfolioPage{05 / Evidence}{Research, communication and professional foundation}
 \section{Selected Publications}
 \begin{Publication}This selection spans the first Arabidopsis genome, RNA silencing, the Sputnik comparative-genomics platform and bioinformatics methods for metagenomic analysis. The complete publication record is maintained in the repository bibliography.\end{Publication}
-\nocite{arabidopsis2000,dalmay2000silencing,rudd2003sputnik,rudd2005opensputnik,schoof2002matdb,chappell2018}
+\begingroup
+\scriptsize
+\setlength{\bibitemsep}{0pt}
+\input{publications/portfolio_publications.tex}
 \printbibliography[heading=none]
-\section{Selected Talks}
-\input{build/generated/talks.tex}
-\section{Training and enablement}
-\input{build/generated/training.tex}
+\endgroup
 \section{Education}
 \input{build/generated/education.tex}
 \end{document}

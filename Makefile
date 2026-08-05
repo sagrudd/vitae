@@ -1,4 +1,4 @@
-.PHONY: pdf pdf-in-container generate website verify render clean cv portfolio biography docker release
+.PHONY: pdf pdf-in-container generate website verify render clean cv portfolio biography docker release publications publications-in-container publications-metrics publications-verify
 
 DOCS := Executive_CV Executive_Portfolio Executive_Biography Cover_Letter_Template
 
@@ -36,6 +36,22 @@ generate:
 	python3 scripts/generate.py
 
 website: generate
+
+publications:
+	mkdir -p publications output
+	docker compose build latex
+	docker compose run --rm latex sh -lc 'make publications-in-container && cp output/publication_dashboard.pdf output/publication_timeline.pdf /artifacts/'
+
+publications-in-container:
+	python3 scripts/import_publications.py
+	python3 scripts/verify_dois.py
+	python3 scripts/build_dashboard.py
+
+publications-metrics: publications
+	docker compose run --rm latex python3 scripts/update_metrics.py
+
+publications-verify:
+	docker compose run --rm latex python3 scripts/verify_dois.py
 
 verify:
 	docker compose run --rm latex python3 scripts/verify.py /artifacts

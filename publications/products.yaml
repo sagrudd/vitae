@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Sputnik",
+    "problem": "Comparative plant-genomics data needed a durable integration layer.",
+    "solution": "A database platform for comparative plant genomics.",
+    "scientific_contribution": "A database platform for comparative plant genomics.",
+    "publications": [
+      "rudd2003sputnik",
+      "rudd2005opensputnik"
+    ],
+    "associated_employers": [
+      "MIPS / Munich"
+    ],
+    "associated_technologies": [
+      "bioinformatics",
+      "genomics"
+    ]
+  },
+  {
+    "name": "openSputnik",
+    "problem": "Unsaturated EST collections were difficult to compare and reuse.",
+    "solution": "An EST-oriented comparative plant-genomics database.",
+    "scientific_contribution": "An EST-oriented comparative plant-genomics database.",
+    "publications": [
+      "rudd2005opensputnik"
+    ],
+    "associated_employers": [
+      "MIPS / Munich"
+    ],
+    "associated_technologies": [
+      "bioinformatics",
+      "genomics"
+    ]
+  },
+  {
+    "name": "PlantMarkers",
+    "problem": "Plant molecular-marker discovery was fragmented.",
+    "solution": "A database of predicted molecular markers from plants.",
+    "scientific_contribution": "A database of predicted molecular markers from plants.",
+    "publications": [
+      "rudd2005plantmarkers"
+    ],
+    "associated_employers": [
+      "MIPS / Munich"
+    ],
+    "associated_technologies": [
+      "bioinformatics",
+      "genomics"
+    ]
+  },
+  {
+    "name": "Eclair",
+    "problem": "Mixed host-interface sequence samples obscure organismal origin.",
+    "solution": "A web service to separate sampled sequence origins.",
+    "scientific_contribution": "A web service to separate sampled sequence origins.",
+    "publications": [
+      "rudd2005eclair"
+    ],
+    "associated_employers": [
+      "MIPS / Munich"
+    ],
+    "associated_technologies": [
+      "bioinformatics",
+      "genomics"
+    ]
+  },
+  {
+    "name": "MIPS",
+    "problem": "Genome and protein annotation required integrated reference resources.",
+    "solution": "A genome and protein-sequence database resource.",
+    "scientific_contribution": "A genome and protein-sequence database resource.",
+    "publications": [
+      "mewes2002mips",
+      "schoof2002matdb"
+    ],
+    "associated_employers": [
+      "MIPS / Munich"
+    ],
+    "associated_technologies": [
+      "bioinformatics",
+      "genomics"
+    ]
+  },
+  {
+    "name": "Arabidopsis Genome",
+    "problem": "The first plant genome needed a reusable community reference.",
+    "solution": "Genome analysis and biological knowledge resources for Arabidopsis.",
+    "scientific_contribution": "Genome analysis and biological knowledge resources for Arabidopsis.",
+    "publications": [
+      "arabidopsis2000",
+      "dalmay2000silencing",
+      "eu2000chromosome3",
+      "kazusa2000chromosome5",
+      "mayer2000chromosome4",
+      "schoof2002matdb",
+      "rudd2004smar",
+      "tetko2006smar"
+    ],
+    "associated_employers": [
+      "MIPS / Munich"
+    ],
+    "associated_technologies": [
+      "bioinformatics",
+      "genomics"
+    ]
+  }
+]

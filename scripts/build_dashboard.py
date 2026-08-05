@@ -1,0 +1,108 @@
+#!/usr/bin/env python3
+"""Produce the dashboard, timeline and web catalogue from publications.yaml."""
+from __future__ import annotations
+
+import csv
+import html
+import json
+from collections import Counter
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+PUB = ROOT / "publications"
+OUT = ROOT / "output"
+
+
+def load() -> list[dict]:
+    return json.loads((PUB / "publications.yaml").read_text())["records"]
+
+
+def count(records, key):
+    values = Counter()
+    for record in records:
+        value = record[key]
+        for item in value if isinstance(value, list) else [value]:
+            if item: values[item] += 1
+    return dict(values.most_common())
+
+
+def table(items: dict, limit=12) -> str:
+    rows = "".join(f"<tr><td>{html.escape(str(k))}</td><td>{v}</td></tr>" for k, v in list(items.items())[:limit])
+    return f"<table><thead><tr><th>Dimension</th><th>Publications</th></tr></thead><tbody>{rows}</tbody></table>"
+
+
+def dashboard(records):
+    years, topics = count(records, "year"), count(records, "category")
+    metrics = {
+        "Total publications": len(records), "First-author publications": sum(r["first_author"] for r in records),
+        "Senior-author publications": sum(r["role"] == "senior author" for r in records), "Consortium publications": sum(r["consortium"] for r in records),
+        "Software papers": sum(r["software"] for r in records), "Database papers": sum(r["database"] for r in records),
+        "Review papers": sum(r["review"] for r in records), "Methods papers": sum(r["methods"] for r in records),
+    }
+    payload = {"metrics": metrics, "publications_per_year": years, "topics": topics, "institutions": count(records, "organisations"), "employers": count(records, "employers"), "journals": count(records, "journal"), "publishers": {}, "technology_evolution": count(records, "technologies"), "citation_note": "Citation metrics are refreshed by update_metrics.py when external services are available."}
+    (PUB / "dashboard.json").write_text(json.dumps(payload, indent=2) + "\n")
+    cards = "".join(f"<article><strong>{v}</strong><span>{html.escape(k)}</span></article>" for k, v in metrics.items())
+    body = f"""<!doctype html><html lang=\"en\"><meta charset=\"utf-8\"><title>Stephen Rudd | Publications dashboard</title>
+<style>body{{font:16px system-ui;margin:3rem auto;max-width:1100px;color:#162b42}}h1{{font-size:2.5rem}}.grid{{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}}article,section{{border:1px solid #d7e1eb;border-radius:10px;padding:1rem;background:#f9fbfd}}article strong{{display:block;font-size:2rem;color:#137c8b}}article span{{font-size:.85rem}}main{{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:1.5rem}}table{{width:100%;border-collapse:collapse}}td,th{{text-align:left;padding:.4rem;border-bottom:1px solid #e3e8ee}}@media(max-width:700px){{.grid,main{{grid-template-columns:1fr 1fr}}}}</style>
+<h1>Publications dashboard</h1><p>Stephen Rudd's scholarly record. Generated from the canonical BibTeX source.</p><div class=grid>{cards}</div><main><section><h2>Topic evolution</h2>{table(topics)}</section><section><h2>Publications by year</h2>{table(years)}</section><section><h2>Journals</h2>{table(payload['journals'])}</section><section><h2>Career phases</h2>{table(count(records,'career_phase'))}</section></main></html>"""
+    (PUB / "publication_dashboard.html").write_text(body)
+    md = ["# Publications dashboard", "", "Generated from `content/publications.bib`.", "", "## Metrics", ""]
+    md += [f"- {k}: **{v}**" for k, v in metrics.items()]
+    md += ["", "## Publications by topic", ""] + [f"- {k}: {v}" for k, v in topics.items()]
+    (PUB / "publication_dashboard.md").write_text("\n".join(md) + "\n")
+    return payload
+
+
+def timeline(records):
+    rows = [{"year": r["year"], "topic": "; ".join(r["category"]), "career_phase": r["career_phase"], "institution": "; ".join(r["organisations"]), "publication_count": 1, "major": r["first_author"] or r["software"] or r["database"], "publication": r["id"], "title": r["title"]} for r in records]
+    payload = {"timeline": rows, "counts_by_year": count(records, "year")}
+    (PUB / "timeline.json").write_text(json.dumps(payload, indent=2) + "\n")
+    (PUB / "publication_timeline.json").write_text(json.dumps(payload, indent=2) + "\n")
+    with (PUB / "publication_timeline.csv").open("w", newline="") as stream:
+        writer = csv.DictWriter(stream, fieldnames=rows[0].keys(), lineterminator="\n"); writer.writeheader(); writer.writerows(rows)
+    events = "\n".join(f"<li><b>{r['year']}</b> - {html.escape(r['title'])} <small>{html.escape(r['career_phase'])}</small></li>" for r in rows)
+    (PUB / "publication_timeline.html").write_text(f"<!doctype html><meta charset=utf-8><title>Publication timeline</title><style>body{{font:16px system-ui;max-width:900px;margin:3rem auto}}li{{margin:.75rem 0}}small{{color:#567}}</style><h1>Publication timeline</h1><ol>{events}</ol>")
+    tex = "% Generated by scripts/build_dashboard.py\n\\begin{itemize}\n" + "\n".join(f"\\item {r['year']}: {r['title']}" for r in rows) + "\n\\end{itemize}\n"
+    (PUB / "publication_timeline.tex").write_text(tex)
+    return rows
+
+
+def catalogue(records):
+    entries = []
+    for r in sorted(records, key=lambda x: (-x["year"], x["title"])):
+        attrs = " ".join(r["category"] + [str(r["year"]), r["journal"]]).lower()
+        doi = f'<a href="{html.escape(r["url"])}">DOI</a>' if r["url"] else ""
+        bib = html.escape(r["raw_bibtex"])
+        entries.append(f'<article data-filter="{html.escape(attrs)}"><h2>{html.escape(r["title"])}</h2><p>{r["year"]} · {html.escape(r["journal"])} · {html.escape(", ".join(r["category"]))}</p><p>{doi} <button onclick="this.nextElementSibling.hidden=!this.nextElementSibling.hidden">BibTeX</button><pre hidden>{bib}</pre></p></article>')
+    page = """<!doctype html><meta charset=utf-8><title>Stephen Rudd | Publications</title><style>body{font:16px system-ui;max-width:1000px;margin:3rem auto;color:#162b42}input{width:100%;padding:.8rem;font-size:1rem}article{border-bottom:1px solid #dde5ec;padding:1rem 0}h1{font-size:2.5rem}h2{font-size:1.2rem}pre{white-space:pre-wrap;background:#f5f7f9;padding:1rem}</style><h1>Publication catalogue</h1><p>Filter by year, topic, journal, institution, software or database. Records are generated from the canonical BibTeX source.</p><input id=q placeholder="Filter publications"><section id=list>""" + "\n".join(entries) + "</section><script>q.oninput=()=>document.querySelectorAll('article[data-filter]').forEach(x=>x.hidden=!x.dataset.filter.includes(q.value.toLowerCase()))</script>"
+    (PUB / "index.html").write_text(page)
+
+
+def pdfs(payload, rows):
+    try:
+        from reportlab.lib import colors
+        from reportlab.lib.pagesizes import A4
+        from reportlab.lib.styles import getSampleStyleSheet
+        from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
+    except ImportError as error:
+        raise SystemExit(f"reportlab is required inside the Docker image: {error}")
+    OUT.mkdir(exist_ok=True); styles = getSampleStyleSheet()
+    def write(path, title, sections):
+        story=[Paragraph(title,styles['Title']), Paragraph('Generated from the canonical publication record.',styles['Normal']), Spacer(1,14)]
+        for heading, data in sections:
+            rows = [[Paragraph(str(k), styles['BodyText']), Paragraph(str(v), styles['BodyText'])] for k, v in data]
+            story += [Paragraph(heading,styles['Heading2']), Table(rows, colWidths=[180,280], style=TableStyle([('GRID',(0,0),(-1,-1),.25,colors.lightgrey),('BACKGROUND',(0,0),(-1,0),colors.HexColor('#e8f3f5')),('VALIGN',(0,0),(-1,-1),'TOP')])), Spacer(1,12)]
+        SimpleDocTemplate(str(path),pagesize=A4,rightMargin=42,leftMargin=42,topMargin=42,bottomMargin=42).build(story)
+    # The complete journal distribution remains available in the machine-readable
+    # and web outputs; the PDF is intentionally a concise executive dashboard.
+    write(OUT / "publication_dashboard.pdf", "Publications dashboard", [("Metrics", payload['metrics'].items()), ("Topics", list(payload['topics'].items())[:12]), ("Top journals", list(payload['journals'].items())[:7])])
+    annual = Counter(r['year'] for r in rows)
+    major = [(r['year'], r['title']) for r in rows if r['major']][:8]
+    write(OUT / "publication_timeline.pdf", "Publication timeline", [("Publications per year", sorted(annual.items())), ("Major publications", major)])
+
+
+def main():
+    records=load(); payload=dashboard(records); rows=timeline(records); catalogue(records); pdfs(payload, rows)
+    print(f"Built dashboard and timeline for {len(records)} publications.")
+
+if __name__ == '__main__': main()

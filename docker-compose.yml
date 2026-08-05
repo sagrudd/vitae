@@ -5,6 +5,7 @@ services:
     working_dir: /work
     volumes:
       - ./output:/artifacts
+      - ./publications:/work/publications
     environment:
       HOME: /tmp
       TEXMFVAR: /tmp/texmf-var

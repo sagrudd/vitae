@@ -1,0 +1,102 @@
+[
+  {
+    "publication": "chappell2018",
+    "title": "Rapid analysis of metagenomic data using signature-based clustering",
+    "why_it_matters": "Genome Resources, Metagenomics, Bioinformatics Infrastructure, Methods, Machine Learning"
+  },
+  {
+    "publication": "schmutzer2017plant",
+    "title": "Bioinformatics in the plant genomic and phenomic domain: the German contribution to resources, services and perspectives",
+    "why_it_matters": "Genome Resources, Transcriptomics, Plant Genomics, Bioinformatics Infrastructure, Reviews, Resources"
+  },
+  {
+    "publication": "derienzo2016mesothelioma",
+    "title": "Gender-specific molecular and clinical features underlie malignant pleural mesothelioma",
+    "why_it_matters": "Cancer Genomics, Clinical Genomics"
+  },
+  {
+    "publication": "melian2014westnile",
+    "title": "Programmed ribosomal frameshift alters expression of West Nile virus genes and facilitates virus replication in birds and mosquitoes",
+    "why_it_matters": "Transcriptomics"
+  },
+  {
+    "publication": "mracek2006oenothera",
+    "title": "Construction, database integration, and application of an Oenothera EST library",
+    "why_it_matters": "Genome Resources, Transcriptomics, Bioinformatics Databases, Resources"
+  },
+  {
+    "publication": "tetko2006smar",
+    "title": "Spatiotemporal expression control correlates with intragenic scaffold matrix attachment regions (S/MARs) in Arabidopsis thaliana",
+    "why_it_matters": "Plant Genomics"
+  },
+  {
+    "publication": "friedel2005svm",
+    "title": "Support vector machines for separation of mixed plant-pathogen EST collections based on codon usage",
+    "why_it_matters": "Transcriptomics, Plant Genomics, Bioinformatics Infrastructure, Methods, Machine Learning, Resources"
+  },
+  {
+    "publication": "laitinen2005gerbera",
+    "title": "Analysis of the floral transcriptome uncovers new regulators of organ determination and gene families related to flower organ differentiation in Gerbera hybrida (Asteraceae)",
+    "why_it_matters": "Genome Resources, Transcriptomics, Plant Genomics, Methods"
+  },
+  {
+    "publication": "rudd2005eclair",
+    "title": "Eclair---a web service for unravelling species origin of sequences sampled from mixed host interfaces",
+    "why_it_matters": "Bioinformatics Infrastructure, Software"
+  },
+  {
+    "publication": "rudd2005opensputnik",
+    "title": "openSputnik---a database to ESTablish comparative plant genomics using unsaturated sequence collections",
+    "why_it_matters": "Genome Resources, Comparative Genomics, Transcriptomics, Plant Genomics, Bioinformatics Databases, Software, Resources"
+  },
+  {
+    "publication": "rudd2005plantmarkers",
+    "title": "PlantMarkers---a database of predicted molecular markers from plants",
+    "why_it_matters": "Plant Genomics, Bioinformatics Databases"
+  },
+  {
+    "publication": "lai2004maize",
+    "title": "Characterization of the maize endosperm transcriptome and its comparison to the rice genome",
+    "why_it_matters": "Genome Resources, Transcriptomics, Plant Genomics"
+  },
+  {
+    "publication": "rudd2004smar",
+    "title": "Genome-wide in silico mapping of scaffold/matrix attachment regions in Arabidopsis suggests correlation of intragenic scaffold/matrix attachment regions with gene expression",
+    "why_it_matters": "Genome Resources, Comparative Genomics, Transcriptomics, Plant Genomics"
+  },
+  {
+    "publication": "galagan2003neurospora",
+    "title": "The genome sequence of the filamentous fungus Neurospora crassa",
+    "why_it_matters": "Genome Resources"
+  },
+  {
+    "publication": "rudd2003est",
+    "title": "Expressed sequence tags: alternative or complement to whole genome sequences?",
+    "why_it_matters": "Genome Resources, Transcriptomics, Plant Genomics, Reviews"
+  },
+  {
+    "publication": "rudd2003sputnik",
+    "title": "Sputnik: a database platform for comparative plant genomics",
+    "why_it_matters": "Genome Resources, Comparative Genomics, Plant Genomics, Bioinformatics Infrastructure, Bioinformatics Databases, Software"
+  },
+  {
+    "publication": "mewes2002mips",
+    "title": "MIPS: a database for genomes and protein sequences",
+    "why_it_matters": "Genome Resources, Bioinformatics Databases"
+  },
+  {
+    "publication": "schoof2002matdb",
+    "title": "MIPS Arabidopsis thaliana Database (MAtDB): an integrated biological knowledge resource based on the first complete plant genome",
+    "why_it_matters": "Genome Resources, Plant Genomics, Bioinformatics Databases, Resources"
+  },
+  {
+    "publication": "arabidopsis2000",
+    "title": "Analysis of the genome sequence of the flowering plant Arabidopsis thaliana",
+    "why_it_matters": "Genome Resources, Plant Genomics, Methods"
+  },
+  {
+    "publication": "dalmay2000silencing",
+    "title": "An RNA-dependent RNA polymerase gene in Arabidopsis is required for posttranscriptional gene silencing mediated by a transgene but not by a virus",
+    "why_it_matters": "Transcriptomics, Plant Genomics"
+  }
+]
