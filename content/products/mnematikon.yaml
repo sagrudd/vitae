@@ -1,0 +1,15 @@
+{
+  "id": "mnematikon",
+  "type": "Product",
+  "name": "Mnematikon",
+  "description": "An edge-computing bioinformatics platform for intraoperative tumour classification, developed with UKSH in Germany.",
+  "problem": "Scientific support units need computational systems that can be used close to the experiment and clinical decision point.",
+  "scientific_context": "Intraoperative tumour classification requires timely, reproducible computational support.",
+  "solution": "An edge-computing bioinformatics platform within the Mnemosyne ecosystem.",
+  "design_decisions": ["Keep execution close to the point of use.", "Support scientific support units and bioinformatics core facilities.", "Develop with an external clinical collaborator."],
+  "impact": "Extends the same product and workflow thinking into a current clinical collaboration.",
+  "future_evolution": "Developed as part of the Mnemosyne Biosciences ecosystem.",
+  "technologies": ["genomics", "cloud_computing"],
+  "employers": ["mnemosyne_genomics"],
+  "projects": ["mnematikon_uksh"]
+}

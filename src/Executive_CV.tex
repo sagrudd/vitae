@@ -1,25 +1,40 @@
 \documentclass{vitae}
-\addbibresource{/work/content/publications.bib}
+\hypersetup{pdftitle={Stephen Rudd - Curriculum Vitae}}
 \begin{document}
+\fancyhead[R]{}
+\fancyfoot[L]{}
 \input{build/generated/header.tex}
-\input{build/generated/summary.tex}
-\section{Career}
-\input{build/generated/experience-cv-primary.tex}
-\section{Leadership perspective}
-\begin{minipage}[t]{.49\linewidth}\input{build/generated/themes-core.tex}\end{minipage}\hfill
-\begin{minipage}[t]{.47\linewidth}\input{build/generated/highlights-core.tex}\end{minipage}
-\clearpage
-\section{Career, continued}
-\input{build/generated/timeline.tex}
-\vspace{5mm}
-\input{build/generated/experience-cv-history.tex}
+
+\section{Profile}
+\begin{ExecutiveSummary}For more than twenty-five years, my work has followed the changing scale of biological data. I began in genome annotation and comparative genomics, then moved through bioinformatics core facilities, pharmaceutical research, sequencing technology and scientific software. Much of that work has involved deciding which computational methods should become useful software, databases and analysis workflows for other scientists. That progression led to responsibility for EPI2ME and computational analysis products at Oxford Nanopore Technologies.\end{ExecutiveSummary}
+
+\section{Current work}
+\begin{CvEntry}{Mnemosyne Biosciences Ltd}{Founder}{January 2026-present}{Current work centres on Mnematikon, an edge-computing platform for intraoperative tumour classification being developed with UKSH in Germany.}\end{CvEntry}
+
+\section{Oxford Nanopore Technologies}
+\begin{CvEntry}{Oxford Nanopore Technologies}{Strategic Account Manager $\rightarrow$ Market Development Manager, Data Analysis $\rightarrow$ Product Manager, Bioinformatics $\rightarrow$ Director, Bioinformatics Product}{Jul 2017-Nov 2025}{Germany / remote}
+I joined to work with sequencing customers in Germany and Austria, then moved through data analysis and bioinformatics product roles to Director, Bioinformatics Product. My work centred on EPI2ME: deciding which analyses should become supported products and how they should be delivered as open-source Nextflow workflows across sequencing devices, desktop systems and the cloud. I worked with sequencing laboratories, applications scientists and software engineers, translating practical scientific requirements into product decisions. During COVID-19, I adapted EPI2ME analyses as sequencing requirements changed.\end{CvEntry}
+
+\section{Earlier roles}
+\begin{CvEntry}{IPK Gatersleben}{Bioinformatician}{May-Jul 2017}{Gatersleben, Germany. I wrote technical documentation and worked on a Plant Breeding API.}\end{CvEntry}
+\begin{CvEntry}{Pacific Biosciences}{Territory Manager, India, SE Asia, Australia and New Zealand}{Sep 2015-Sep 2016}{Singapore. I worked with sequencing laboratories across Asia-Pacific on long-read sequencing, from choosing applications and planning experiments to interpreting results and resolving technical problems. Conversations usually started with the biology rather than the technology.}\end{CvEntry}
+\clearpage\pagestyle{fancy}\thispagestyle{fancy}\vspace*{4mm}
+\begin{CvEntry}{QFAB Bioinformatics}{Head of Computational Biology}{Jan 2013-Aug 2015}{Greater Brisbane Area. I led the computational biology group, delivering commercial analyses and scientific services. I developed internal software so recurring analyses did not have to be rebuilt for every project, discussed experimental design and results directly with customers, and trained researchers in the methods behind their analyses.}\end{CvEntry}
+\begin{CvEntry}{Malaysian Genomics Resource Centre Berhad}{Chief Scientific Officer}{Aug 2010-Jan 2013}{Kuala Lumpur, Malaysia. I established the Illumina sequencing laboratory and the bioinformatics needed to analyse the sequence data. The work included MyGenome, an indigenous and local population genomics programme, microbial genomics and the Proboscis Monkey genome.}\end{CvEntry}
+\begin{CvEntry}{Orion Pharma}{Senior Specialist, Bioinformatics}{Oct 2006-Aug 2010}{Finland. The role focused on gene expression, toxicogenomics and pharmacogenomics, helping research scientists apply computational methods to their studies.}\end{CvEntry}
+\begin{CvEntry}{University of Turku / Turku Centre for Biotechnology}{Senior Scientist / Head of Bioinformatics / Visiting Scientist}{Jan 2004-Aug 2010}{Finland. I arrived as a Senior Scientist and established the Centre's bioinformatics core facility and a research group at the University. The core supported clinical and plant genomics; we wrote workflows and reporting software for Affymetrix, Illumina and Agilent data, and trained the researchers who used them.}\end{CvEntry}
+\begin{CvEntry}{Max Planck Institute for Biochemistry}{Postdoctoral Researcher}{Mar 2000-Dec 2003}{Martinsried and Neuherberg, Munich. My work covered comparative genomics, Arabidopsis genome annotation and molecular-marker methods, and included developing Sputnik, a database for comparative plant genomics.}\end{CvEntry}
+
 \section{Education}
-\input{build/generated/education.tex}
-\section{Selected Publications}
-\begingroup
-\scriptsize
-\setlength{\bibitemsep}{0pt}
-\input{publications/executive_publications.tex}
-\printbibliography[heading=none]
-\endgroup
+\EducationEntry{PhD, Molecular Biology - University of East Anglia}
+\EducationEntry{Thesis: \textit{Towards an understanding of the host encoded RdRp}}
+\EducationEntry{BSc, Genetics - University of Nottingham; classical genetics, molecular biology and general plant sciences}
+
+\section{Selected contributions}
+\CvContribution{Éclair (2005)}{Early computational sequence classification for mixed biological samples.}{Rudd and Tetko, \textit{Nucleic Acids Research}}
+\CvContribution{Genome-wide S/MAR prediction (2004)}{Demonstrated that genome-wide computational analysis could predict structural features associated with gene expression.}{Rudd et al., \textit{Plant Physiology}}
+\CvContribution{openSputnik (2005)}{Treated incomplete EST collections as searchable comparative genomics resources when complete genomes were still uncommon.}{Rudd, \textit{Nucleic Acids Research}}
+\CvContribution{EST review (2003)}{Argued for the continuing scientific value of expressed sequence tags alongside whole-genome sequencing.}{Rudd, \textit{Trends in Plant Science}}
+\CvContribution{Clinical genomics (2012, 2016)}{Applied computational genomics to infectious disease and cancer, extending earlier plant-genomics work into translational human biology.}{Gunaletchumy et al., \textit{Journal of Bacteriology}; De Rienzo et al., \textit{Cancer Research}}
+\CvContribution{Signature-based metagenomic clustering (2018)}{Used signature-based clustering to accelerate classification of large metagenomic sequence collections.}{Chappell et al., \textit{BMC Bioinformatics}}
 \end{document}

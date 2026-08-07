@@ -1,16 +1,20 @@
 {
   "id": "mnemosyne_genomics_founder_genomics_consultant",
   "type": "Role",
-  "title": "Founder / Genomics Consultant",
-  "period": "Independent consultancy",
-  "summary": "Provided independent genomics, bioinformatics and scientific software advice.",
+  "title": "Founder",
+  "period": "Jan 2026-present",
+  "summary": "Developing software for scientific support units and bioinformatics core facilities.",
   "employer": "mnemosyne_genomics",
   "achievements": [
-    "Helped organisations frame analysis problems, delivery models and technology choices."
+    "Developing Mnematikon with UKSH in Germany for intraoperative tumour classification.",
+    "Applying product and workflow thinking to the infrastructure needs of scientific support units."
   ],
   "relationships": {
     "technologies": [
-      "genomics"
-    ]
+      "genomics",
+      "cloud_computing"
+    ],
+    "products": ["mnematikon"],
+    "projects": ["mnematikon_uksh"]
   }
 }

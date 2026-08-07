@@ -1,0 +1,22 @@
+[
+  {
+    "technology": "Genomics",
+    "connections": 74
+  },
+  {
+    "technology": "Bioinformatics",
+    "connections": 12
+  },
+  {
+    "technology": "Cloud Computing",
+    "connections": 4
+  },
+  {
+    "technology": "Nextflow",
+    "connections": 4
+  },
+  {
+    "technology": "Long-read Sequencing",
+    "connections": 1
+  }
+]

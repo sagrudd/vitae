@@ -1,0 +1,26 @@
+[
+  {
+    "country": "Asia-Pacific",
+    "connections": 1
+  },
+  {
+    "country": "Australia",
+    "connections": 2
+  },
+  {
+    "country": "Finland",
+    "connections": 2
+  },
+  {
+    "country": "Germany",
+    "connections": 3
+  },
+  {
+    "country": "Malaysia",
+    "connections": 2
+  },
+  {
+    "country": "United Kingdom",
+    "connections": 2
+  }
+]

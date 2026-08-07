@@ -1,5 +1,6 @@
 {
   "id": "clair",
+  "aliases": ["eclair"],
   "type": "Product",
   "name": "Éclair",
   "description": "Sequence-origin web service.",

@@ -1,0 +1,11 @@
+{
+  "id": "mips",
+  "type": "Product",
+  "name": "MIPS",
+  "description": "Integrated genome and protein-sequence database resources.",
+  "problem": "Genome annotation and protein knowledge needed a shared, searchable reference layer.",
+  "solution": "Integrated genome and protein-sequence databases.",
+  "impact": "Supported the early genome-resource infrastructure that enabled comparative analysis.",
+  "technologies": ["genomics", "bioinformatics"],
+  "projects": ["arabidopsis_genome"]
+}

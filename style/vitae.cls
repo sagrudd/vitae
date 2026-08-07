@@ -69,6 +69,9 @@
   \par\vspace{2pt}\noindent\begin{tabularx}{\linewidth}{@{}>{\RaggedRight\arraybackslash}X>{\RaggedLeft\arraybackslash}p{32mm}@{}}
   {\sffamily\small\bfseries\color{OxfordBlue}#1} -- {\sffamily\footnotesize\color{Accent}#2} & {\sffamily\scriptsize\color{Slate}#3, #4}
   \end{tabularx}\vspace{-2pt}\par\footnotesize}{\par}
+\newenvironment{CvEntry}[4]{%
+  \par\vspace{4pt}\noindent{\sffamily\small\bfseries\color{OxfordBlue}#1} {\sffamily\footnotesize\color{Accent}-- #2}\par
+  {\sffamily\fontsize{7.5}{9}\selectfont\color{Slate}#3 \enspace #4}\par\fontsize{9}{11}\selectfont}{\par\vspace{2pt}}
 \newenvironment{Programme}[1]{\begin{LeadershipAchievement}{#1}}{\end{LeadershipAchievement}}
 \newenvironment{Publication}{\begin{quote}\small}{\end{quote}}
 \newenvironment{Timeline}{\begin{center}\sffamily\footnotesize}{\end{center}}
@@ -77,6 +80,7 @@
 \newcommand{\RoleProgression}[1]{{\sffamily\scriptsize\bfseries\color{Accent}\MakeUppercase{#1}}}
 \newcommand{\LeadershipArea}[2]{\noindent\begin{tabularx}{\linewidth}{@{}p{40mm}X@{}}\sffamily\small\bfseries\color{OxfordBlue}#1 & \small #2\end{tabularx}\par\vspace{3pt}}
 \newcommand{\EducationEntry}[1]{\par{\small #1}\par}
+\newcommand{\CvContribution}[3]{\par\vspace{3pt}\begingroup\setlength{\parskip}{1pt}\noindent{\sffamily\small\bfseries\color{OxfordBlue}#1}\par{\small #2}\par{\sffamily\scriptsize\color{Slate}#3}\par\endgroup}
 \newcommand{\TalkEntry}[1]{\par{\small #1}\par}
 \newcommand{\CareerTimeline}[6]{%
   \begin{Timeline}\begin{tikzpicture}[x=2.75cm]

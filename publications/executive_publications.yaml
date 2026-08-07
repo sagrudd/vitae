@@ -1,0 +1,53 @@
+{
+  "selection": [
+    {
+      "id": "rudd2003est",
+      "career_score": 16,
+      "theme": "Scientific Vision",
+      "title": "Expressed sequence tags: alternative or complement to whole genome sequences?",
+      "story": "Articulated a scientific direction for sequence resources as a complement to whole genomes; a conversation starter on evidence, data strategy and biological utility."
+    },
+    {
+      "id": "rudd2005opensputnik",
+      "career_score": 32,
+      "theme": "Software Platforms",
+      "title": "openSputnik---a database to ESTablish comparative plant genomics using unsaturated sequence collections",
+      "story": "Extended comparative-genomics infrastructure into a reusable EST resource for working scientists."
+    },
+    {
+      "id": "rudd2004smar",
+      "career_score": 16,
+      "theme": "Computational Methods",
+      "title": "Genome-wide in silico mapping of scaffold/matrix attachment regions in Arabidopsis suggests correlation of intragenic scaffold/matrix attachment regions with gene expression",
+      "story": "Applied genome-scale computational prediction to expose a biological pattern in scaffold/matrix attachment regions - evidence of algorithmic and systems-level thinking."
+    },
+    {
+      "id": "rudd2005eclair",
+      "career_score": 32,
+      "theme": "Classification & Machine Learning",
+      "title": "Eclair---a web service for unravelling species origin of sequences sampled from mixed host interfaces",
+      "story": "Addressed mixed biological sequence analysis through computational classification and decision support, foreshadowing modern AI-assisted assignment workflows without overstating the method."
+    },
+    {
+      "id": "derienzo2016mesothelioma",
+      "career_score": 16,
+      "theme": "Clinical Translation",
+      "title": "Gender-specific molecular and clinical features underlie malignant pleural mesothelioma",
+      "story": "Contributed to molecular and clinical understanding of malignant pleural mesothelioma, evidencing breadth into human disease."
+    },
+    {
+      "id": "gunaletchumy2012",
+      "career_score": 16,
+      "theme": "Clinical Translation",
+      "title": "Draft genome sequences of Helicobacter pylori isolates from Malaysia, cultured from patients with functional dyspepsia and gastric cancer",
+      "story": "Applied genome sequencing to clinically sourced Helicobacter pylori isolates from Malaysia, adding a practical infectious-disease and national-genomics perspective."
+    },
+    {
+      "id": "chappell2018",
+      "career_score": 32,
+      "theme": "Classification & Machine Learning",
+      "title": "Rapid analysis of metagenomic data using signature-based clustering",
+      "story": "Applied signature-based clustering to metagenomic analysis, linking computational classification to fast scientific decision support."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "source": "ipk_gatersleben_research_scientist",
+    "target": "ipk_gatersleben",
+    "kind": "employer"
+  },
+  {
+    "source": "malaysian_genomics_resource_centre_chief_scientific_officer",
+    "target": "malaysian_genomics_resource_centre",
+    "kind": "employer"
+  },
+  {
+    "source": "max_planck_institute_of_biochemistry_helmholtz_zentrum_m_nchen_postdoctoral_researcher",
+    "target": "max_planck_institute_of_biochemistry_helmholtz_zentrum_m_nchen",
+    "kind": "employer"
+  },
+  {
+    "source": "mnemosyne_genomics_founder_genomics_consultant",
+    "target": "mnemosyne_genomics",
+    "kind": "employer"
+  },
+  {
+    "source": "orion_pharma_senior_specialist_bioinformatics",
+    "target": "orion_pharma",
+    "kind": "employer"
+  },
+  {
+    "source": "oxford_nanopore_technologies_director_bioinformatics_product",
+    "target": "oxford_nanopore_technologies",
+    "kind": "employer"
+  },
+  {
+    "source": "pacific_biosciences_territory_manager",
+    "target": "pacific_biosciences",
+    "kind": "employer"
+  },
+  {
+    "source": "qfab_bioinformatics_head_of_computational_biology",
+    "target": "qfab_bioinformatics",
+    "kind": "employer"
+  },
+  {
+    "source": "university_of_turku_turku_centre_for_biotechnology_senior_scientist_head_of_bioinformatics_visiting_scientist",
+    "target": "university_of_turku_turku_centre_for_biotechnology",
+    "kind": "employer"
+  }
+]

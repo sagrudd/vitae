@@ -1,0 +1,589 @@
+{
+  "selection": [
+    {
+      "id": "arabidopsis2000",
+      "themes": [
+        "Genome Resources",
+        "Plant Genomics",
+        "Methods"
+      ],
+      "career_phase": "Genome-era resources",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "dalmay2000silencing",
+      "themes": [
+        "Transcriptomics",
+        "Plant Genomics"
+      ],
+      "career_phase": "Genome-era resources",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "eu2000chromosome3",
+      "themes": [
+        "Genome Resources",
+        "Plant Genomics",
+        "Methods"
+      ],
+      "career_phase": "Genome-era resources",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "kazusa2000chromosome5",
+      "themes": [
+        "Genome Resources",
+        "Plant Genomics",
+        "Methods"
+      ],
+      "career_phase": "Genome-era resources",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "mayer2000chromosome4",
+      "themes": [
+        "Genome Resources",
+        "Plant Genomics",
+        "Bioinformatics Infrastructure",
+        "Methods"
+      ],
+      "career_phase": "Genome-era resources",
+      "technologies": [
+        "genomics",
+        "bioinformatics"
+      ]
+    },
+    {
+      "id": "haas2002full",
+      "themes": [
+        "Genome Resources",
+        "Transcriptomics"
+      ],
+      "career_phase": "Genome-era resources",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "mewes2002mips",
+      "themes": [
+        "Genome Resources",
+        "Bioinformatics Databases"
+      ],
+      "career_phase": "Genome-era resources",
+      "technologies": [
+        "genomics",
+        "bioinformatics"
+      ]
+    },
+    {
+      "id": "schoof2002matdb",
+      "themes": [
+        "Genome Resources",
+        "Plant Genomics",
+        "Bioinformatics Databases",
+        "Resources"
+      ],
+      "career_phase": "Genome-era resources",
+      "technologies": [
+        "genomics",
+        "bioinformatics"
+      ]
+    },
+    {
+      "id": "brenner2003cycas",
+      "themes": [
+        "Genome Resources",
+        "Transcriptomics",
+        "Plant Genomics",
+        "Methods"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "galagan2003neurospora",
+      "themes": [
+        "Genome Resources"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "kota2003barley",
+      "themes": [
+        "Genome Resources",
+        "Transcriptomics",
+        "Population Genomics",
+        "Plant Genomics",
+        "Resources"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "rudd2003est",
+      "themes": [
+        "Genome Resources",
+        "Transcriptomics",
+        "Plant Genomics",
+        "Reviews"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "rudd2003sputnik",
+      "themes": [
+        "Genome Resources",
+        "Comparative Genomics",
+        "Plant Genomics",
+        "Bioinformatics Infrastructure",
+        "Bioinformatics Databases",
+        "Software"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics",
+        "bioinformatics"
+      ]
+    },
+    {
+      "id": "lai2004maize",
+      "themes": [
+        "Genome Resources",
+        "Transcriptomics",
+        "Plant Genomics"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "rudd2004smar",
+      "themes": [
+        "Genome Resources",
+        "Comparative Genomics",
+        "Transcriptomics",
+        "Plant Genomics"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "zhang2004barley",
+      "themes": [
+        "Transcriptomics",
+        "Plant Genomics",
+        "Methods"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "battchikova2005ndh",
+      "themes": [
+        "Transcriptomics"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "brenner2005ginkgo",
+      "themes": [
+        "Genome Resources",
+        "Transcriptomics",
+        "Plant Genomics",
+        "Methods"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "brosche2005populus",
+      "themes": [
+        "Genome Resources",
+        "Plant Genomics",
+        "Methods"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "friedel2005svm",
+      "themes": [
+        "Transcriptomics",
+        "Plant Genomics",
+        "Bioinformatics Infrastructure",
+        "Methods",
+        "Machine Learning",
+        "Resources"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics",
+        "bioinformatics"
+      ]
+    },
+    {
+      "id": "germain2005solanum",
+      "themes": [
+        "Transcriptomics",
+        "Plant Genomics"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "laitinen2005gerbera",
+      "themes": [
+        "Genome Resources",
+        "Transcriptomics",
+        "Plant Genomics",
+        "Methods"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "rudd2005eclair",
+      "themes": [
+        "Bioinformatics Infrastructure",
+        "Software"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics",
+        "bioinformatics"
+      ]
+    },
+    {
+      "id": "rudd2005opensputnik",
+      "themes": [
+        "Genome Resources",
+        "Comparative Genomics",
+        "Transcriptomics",
+        "Plant Genomics",
+        "Bioinformatics Databases",
+        "Software",
+        "Resources"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics",
+        "bioinformatics"
+      ]
+    },
+    {
+      "id": "rudd2005plantmarkers",
+      "themes": [
+        "Plant Genomics",
+        "Bioinformatics Databases"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics",
+        "bioinformatics"
+      ]
+    },
+    {
+      "id": "technau2005cnidarians",
+      "themes": [
+        "Transcriptomics"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "beldade2006bicyclus",
+      "themes": [
+        "Genome Resources",
+        "Transcriptomics",
+        "Resources"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "bottger2006hydra",
+      "themes": [
+        "Transcriptomics",
+        "Methods"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "grapes2006pig",
+      "themes": [
+        "Genome Resources",
+        "Transcriptomics",
+        "Population Genomics"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "mracek2006oenothera",
+      "themes": [
+        "Genome Resources",
+        "Transcriptomics",
+        "Bioinformatics Databases",
+        "Resources"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics",
+        "bioinformatics"
+      ]
+    },
+    {
+      "id": "tetko2006smar",
+      "themes": [
+        "Plant Genomics"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "emmersen2007triplet",
+      "themes": [
+        "Other"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "koutaniemi2007lignin",
+      "themes": [
+        "Transcriptomics",
+        "Plant Genomics",
+        "Methods"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "lokko2007cassava",
+      "themes": [
+        "Transcriptomics",
+        "Plant Genomics",
+        "Resources"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "pauly2007hydra",
+      "themes": [
+        "Methods"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "rotter2007bentgrass",
+      "themes": [
+        "Genome Resources",
+        "Transcriptomics",
+        "Methods"
+      ],
+      "career_phase": "Comparative genomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "grasso2008coral",
+      "themes": [
+        "Genome Resources",
+        "Methods"
+      ],
+      "career_phase": "Applied transcriptomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "hackauf2009rye",
+      "themes": [
+        "Genome Resources",
+        "Comparative Genomics",
+        "Plant Genomics"
+      ],
+      "career_phase": "Applied transcriptomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "junttila2009rna",
+      "themes": [
+        "Transcriptomics",
+        "Methods",
+        "Resources"
+      ],
+      "career_phase": "Applied transcriptomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "gunaletchumy2012",
+      "themes": [
+        "Genome Resources",
+        "Transcriptomics",
+        "Cancer Genomics",
+        "Clinical Genomics"
+      ],
+      "career_phase": "Applied transcriptomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "junttila2012lichen",
+      "themes": [
+        "Genome Resources",
+        "Transcriptomics"
+      ],
+      "career_phase": "Applied transcriptomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "junttila2013dehydration",
+      "themes": [
+        "Genome Resources",
+        "Transcriptomics"
+      ],
+      "career_phase": "Applied transcriptomics",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "melian2014westnile",
+      "themes": [
+        "Transcriptomics"
+      ],
+      "career_phase": "Clinical and data science",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "derienzo2016mesothelioma",
+      "themes": [
+        "Cancer Genomics",
+        "Clinical Genomics"
+      ],
+      "career_phase": "Clinical and data science",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "wise2016stemcells",
+      "themes": [
+        "Clinical Genomics"
+      ],
+      "career_phase": "Clinical and data science",
+      "technologies": [
+        "genomics"
+      ]
+    },
+    {
+      "id": "schmutzer2017plant",
+      "themes": [
+        "Genome Resources",
+        "Transcriptomics",
+        "Plant Genomics",
+        "Bioinformatics Infrastructure",
+        "Reviews",
+        "Resources"
+      ],
+      "career_phase": "Clinical and data science",
+      "technologies": [
+        "genomics",
+        "bioinformatics"
+      ]
+    },
+    {
+      "id": "chappell2018",
+      "themes": [
+        "Genome Resources",
+        "Metagenomics",
+        "Bioinformatics Infrastructure",
+        "Methods",
+        "Machine Learning"
+      ],
+      "career_phase": "Clinical and data science",
+      "technologies": [
+        "genomics",
+        "bioinformatics"
+      ]
+    },
+    {
+      "id": "lee2018intellectual",
+      "themes": [
+        "Transcriptomics",
+        "Clinical Genomics"
+      ],
+      "career_phase": "Clinical and data science",
+      "technologies": [
+        "genomics"
+      ]
+    }
+  ]
+}

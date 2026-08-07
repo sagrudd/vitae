@@ -1,0 +1,565 @@
+{
+  "nodes": [
+    {
+      "name": "others",
+      "publication_count": 22
+    },
+    {
+      "name": "Mayer, Klaus F. X.",
+      "publication_count": 4
+    },
+    {
+      "name": "Mewes, Hans-Werner",
+      "publication_count": 4
+    },
+    {
+      "name": "Tetko, Igor V.",
+      "publication_count": 4
+    },
+    {
+      "name": "Junttila, Sini",
+      "publication_count": 3
+    },
+    {
+      "name": "Kazusa DNA Research Institute",
+      "publication_count": 2
+    },
+    {
+      "name": "Lemcke, Kai",
+      "publication_count": 2
+    },
+    {
+      "name": "Zaccaria, Paolo",
+      "publication_count": 2
+    },
+    {
+      "name": "Schoof, Heiko",
+      "publication_count": 2
+    },
+    {
+      "name": "Brenner, Eric D.",
+      "publication_count": 2
+    },
+    {
+      "name": "Stevenson, Dennis W.",
+      "publication_count": 2
+    },
+    {
+      "name": "Mayer, Klaus",
+      "publication_count": 2
+    },
+    {
+      "name": "The Arabidopsis Genome Initiative",
+      "publication_count": 1
+    },
+    {
+      "name": "Dalmay, Tamas",
+      "publication_count": 1
+    },
+    {
+      "name": "Hamilton, Andrew",
+      "publication_count": 1
+    },
+    {
+      "name": "Angell, Susan",
+      "publication_count": 1
+    },
+    {
+      "name": "Baulcombe, David C.",
+      "publication_count": 1
+    },
+    {
+      "name": "European Union Chromosome 3 Arabidopsis Genome Sequencing Consortium",
+      "publication_count": 1
+    },
+    {
+      "name": "The Institute for Genomic Research",
+      "publication_count": 1
+    },
+    {
+      "name": "The Cold Spring Harbor",
+      "publication_count": 1
+    },
+    {
+      "name": "Washington University Sequencing Consortium",
+      "publication_count": 1
+    },
+    {
+      "name": "The European Union Arabidopsis Genome Sequencing Consortium",
+      "publication_count": 1
+    },
+    {
+      "name": "Institute of Plant Genetics",
+      "publication_count": 1
+    },
+    {
+      "name": "Crop Plant Research (IPK)",
+      "publication_count": 1
+    },
+    {
+      "name": "Schuller, Christine M.",
+      "publication_count": 1
+    },
+    {
+      "name": "Haas, Brian J.",
+      "publication_count": 1
+    },
+    {
+      "name": "Volfovsky, Natalia",
+      "publication_count": 1
+    },
+    {
+      "name": "Town, Christopher D.",
+      "publication_count": 1
+    },
+    {
+      "name": "Troukhan, Michael",
+      "publication_count": 1
+    },
+    {
+      "name": "Alexandrov, Nikolai",
+      "publication_count": 1
+    },
+    {
+      "name": "Feldmann, Kenneth A.",
+      "publication_count": 1
+    },
+    {
+      "name": "Flavell, Richard B.",
+      "publication_count": 1
+    },
+    {
+      "name": "White, Owen",
+      "publication_count": 1
+    },
+    {
+      "name": "Salzberg, Steven L.",
+      "publication_count": 1
+    },
+    {
+      "name": "Mewes, H. W.",
+      "publication_count": 1
+    },
+    {
+      "name": "Frishman, D.",
+      "publication_count": 1
+    },
+    {
+      "name": "Guldener, U.",
+      "publication_count": 1
+    },
+    {
+      "name": "Gundlach, Heidrun",
+      "publication_count": 1
+    },
+    {
+      "name": "Kolesov, Grigory",
+      "publication_count": 1
+    },
+    {
+      "name": "Arnold, Roland",
+      "publication_count": 1
+    },
+    {
+      "name": "McCombie, Richard W.",
+      "publication_count": 1
+    },
+    {
+      "name": "Galagan, James E.",
+      "publication_count": 1
+    },
+    {
+      "name": "Calvo, Sarah E.",
+      "publication_count": 1
+    },
+    {
+      "name": "Borkovich, Katherine A.",
+      "publication_count": 1
+    },
+    {
+      "name": "Kota, R.",
+      "publication_count": 1
+    },
+    {
+      "name": "Facius, A.",
+      "publication_count": 1
+    },
+    {
+      "name": "Lai, Jinsheng",
+      "publication_count": 1
+    },
+    {
+      "name": "Dey, Nrisingha",
+      "publication_count": 1
+    },
+    {
+      "name": "Kim, Cheol-Soo",
+      "publication_count": 1
+    },
+    {
+      "name": "Frisch, Matthias",
+      "publication_count": 1
+    },
+    {
+      "name": "Grote, Korbinian",
+      "publication_count": 1
+    },
+    {
+      "name": "Meyers, Blake C.",
+      "publication_count": 1
+    },
+    {
+      "name": "Werner, Thomas",
+      "publication_count": 1
+    },
+    {
+      "name": "Zhang, Hangning",
+      "publication_count": 1
+    },
+    {
+      "name": "Sreenivasulu, Nese",
+      "publication_count": 1
+    },
+    {
+      "name": "Weschke, Winfriede",
+      "publication_count": 1
+    },
+    {
+      "name": "Battchikova, Natalia",
+      "publication_count": 1
+    },
+    {
+      "name": "Zhang, Pengpeng",
+      "publication_count": 1
+    },
+    {
+      "name": "Ogawa, Teruo",
+      "publication_count": 1
+    },
+    {
+      "name": "Aro, Eva-Mari",
+      "publication_count": 1
+    },
+    {
+      "name": "Katari, Manpreet S.",
+      "publication_count": 1
+    },
+    {
+      "name": "Brosche, Mikael",
+      "publication_count": 1
+    },
+    {
+      "name": "Vinocur, Basia",
+      "publication_count": 1
+    },
+    {
+      "name": "Alatalo, Edward R.",
+      "publication_count": 1
+    },
+    {
+      "name": "Friedel, Caroline C.",
+      "publication_count": 1
+    },
+    {
+      "name": "Jahn, Katharina H. V.",
+      "publication_count": 1
+    },
+    {
+      "name": "Sommer, Selina",
+      "publication_count": 1
+    },
+    {
+      "name": "Mewes, Hans W.",
+      "publication_count": 1
+    },
+    {
+      "name": "Germain, Hugo",
+      "publication_count": 1
+    },
+    {
+      "name": "Zotti, Corine",
+      "publication_count": 1
+    },
+    {
+      "name": "Laitinen, Roosa A. E.",
+      "publication_count": 1
+    },
+    {
+      "name": "Immanen, Juha",
+      "publication_count": 1
+    },
+    {
+      "name": "Auvinen, Petri",
+      "publication_count": 1
+    },
+    {
+      "name": "Technau, Ulrich",
+      "publication_count": 1
+    },
+    {
+      "name": "Maxwell, Peter",
+      "publication_count": 1
+    },
+    {
+      "name": "Beldade, Patricia",
+      "publication_count": 1
+    },
+    {
+      "name": "Gruber, Jonathan D.",
+      "publication_count": 1
+    },
+    {
+      "name": "Long, Anthony D.",
+      "publication_count": 1
+    },
+    {
+      "name": "Bottger, Angelika",
+      "publication_count": 1
+    },
+    {
+      "name": "Strasser, Dominik",
+      "publication_count": 1
+    },
+    {
+      "name": "Alexandrova, Olga",
+      "publication_count": 1
+    },
+    {
+      "name": "Grapes, L.",
+      "publication_count": 1
+    },
+    {
+      "name": "Fernando, R. L.",
+      "publication_count": 1
+    },
+    {
+      "name": "Megy, K.",
+      "publication_count": 1
+    },
+    {
+      "name": "Rocha, D.",
+      "publication_count": 1
+    },
+    {
+      "name": "Rothschild, M. F.",
+      "publication_count": 1
+    },
+    {
+      "name": "Mracek, Jaroslav",
+      "publication_count": 1
+    },
+    {
+      "name": "Greiner, Stephan",
+      "publication_count": 1
+    },
+    {
+      "name": "Cho, Won Kyong",
+      "publication_count": 1
+    },
+    {
+      "name": "Haberer, Georg",
+      "publication_count": 1
+    },
+    {
+      "name": "Meyers, Blake",
+      "publication_count": 1
+    },
+    {
+      "name": "Emmersen, Jeppe",
+      "publication_count": 1
+    },
+    {
+      "name": "Koutaniemi, Sanna",
+      "publication_count": 1
+    },
+    {
+      "name": "Warinowski, Tino",
+      "publication_count": 1
+    },
+    {
+      "name": "Karkonen, Anna",
+      "publication_count": 1
+    },
+    {
+      "name": "Lokko, Y.",
+      "publication_count": 1
+    },
+    {
+      "name": "Anderson, J. V.",
+      "publication_count": 1
+    },
+    {
+      "name": "Pauly, Barbara",
+      "publication_count": 1
+    },
+    {
+      "name": "Lasi, Margherita",
+      "publication_count": 1
+    },
+    {
+      "name": "MacKintosh, Carol",
+      "publication_count": 1
+    },
+    {
+      "name": "Rotter, David",
+      "publication_count": 1
+    },
+    {
+      "name": "Bharti, Arvind K.",
+      "publication_count": 1
+    },
+    {
+      "name": "Li, Huaijun Michael",
+      "publication_count": 1
+    },
+    {
+      "name": "Grasso, Lauretta C.",
+      "publication_count": 1
+    },
+    {
+      "name": "Maindonald, John",
+      "publication_count": 1
+    },
+    {
+      "name": "Hackauf, B.",
+      "publication_count": 1
+    },
+    {
+      "name": "van der Voort, J. R.",
+      "publication_count": 1
+    },
+    {
+      "name": "Miedaner, T.",
+      "publication_count": 1
+    },
+    {
+      "name": "Wehling, P.",
+      "publication_count": 1
+    },
+    {
+      "name": "Lim, Kean-Jin",
+      "publication_count": 1
+    },
+    {
+      "name": "Gunaletchumy, Selva Perumal",
+      "publication_count": 1
+    },
+    {
+      "name": "Teh, Xinsheng",
+      "publication_count": 1
+    },
+    {
+      "name": "Khosravi, Yalda",
+      "publication_count": 1
+    },
+    {
+      "name": "Laiho, Asta",
+      "publication_count": 1
+    },
+    {
+      "name": "Gyenesei, Attila",
+      "publication_count": 1
+    },
+    {
+      "name": "Melian, Ezequiel Balmori",
+      "publication_count": 1
+    },
+    {
+      "name": "Hall-Mendelin, Sonja",
+      "publication_count": 1
+    },
+    {
+      "name": "Du, Fangyao",
+      "publication_count": 1
+    },
+    {
+      "name": "De Rienzo, Assunta",
+      "publication_count": 1
+    },
+    {
+      "name": "Archer, Michael A.",
+      "publication_count": 1
+    },
+    {
+      "name": "Yeap, Beow Y.",
+      "publication_count": 1
+    },
+    {
+      "name": "Wise, Andrea F.",
+      "publication_count": 1
+    },
+    {
+      "name": "Williams, Timothy M.",
+      "publication_count": 1
+    },
+    {
+      "name": "Wells, Christine A.",
+      "publication_count": 1
+    },
+    {
+      "name": "Kerr, Peter G.",
+      "publication_count": 1
+    },
+    {
+      "name": "Ricardo, Sharon D.",
+      "publication_count": 1
+    },
+    {
+      "name": "Schmutzer, Thomas",
+      "publication_count": 1
+    },
+    {
+      "name": "Bolger, Marie E.",
+      "publication_count": 1
+    },
+    {
+      "name": "Chappell, Timothy",
+      "publication_count": 1
+    },
+    {
+      "name": "Geva, Shlomo",
+      "publication_count": 1
+    },
+    {
+      "name": "Hogan, James M.",
+      "publication_count": 1
+    },
+    {
+      "name": "Huygens, Flavia",
+      "publication_count": 1
+    },
+    {
+      "name": "Rathnayake, Irani U.",
+      "publication_count": 1
+    },
+    {
+      "name": "Kelly, Wayne",
+      "publication_count": 1
+    },
+    {
+      "name": "Perrin, Dimitri",
+      "publication_count": 1
+    },
+    {
+      "name": "Lee, Soohyun",
+      "publication_count": 1
+    },
+    {
+      "name": "Gratten, Jacob",
+      "publication_count": 1
+    },
+    {
+      "name": "Visscher, Peter M.",
+      "publication_count": 1
+    },
+    {
+      "name": "Prins, Johannes B.",
+      "publication_count": 1
+    },
+    {
+      "name": "Dawson, Paul A.",
+      "publication_count": 1
+    }
+  ],
+  "focal_author": "Stephen Rudd"
+}

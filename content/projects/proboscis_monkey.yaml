@@ -2,11 +2,6 @@
   "id": "proboscis_monkey",
   "type": "Project",
   "name": "Proboscis Monkey",
-  "relationships": {
-    "products": [],
-    "publications": [],
-    "technologies": [
-      "genomics"
-    ]
-  }
+  "description": "Genomic work on the Proboscis Monkey at Malaysian Genomics Resource Centre.",
+  "relationships": {"roles": ["malaysian_genomics_resource_centre_chief_scientific_officer"], "technologies": ["genomics"]}
 }

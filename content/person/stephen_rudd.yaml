@@ -1,0 +1,27 @@
+{
+  "id": "stephen_rudd",
+  "type": "Person",
+  "name": "Stephen Rudd, PhD",
+  "professional_title": "Computational Biology",
+  "location": "Norfolk, United Kingdom",
+  "profiles": [
+    {"network": "GitHub", "username": "sagrudd", "url": "https://github.com/sagrudd"},
+    {"network": "LinkedIn", "username": "stephen-rudd-27650a1", "url": "https://linkedin.com/in/stephen-rudd-27650a1"}
+  ],
+  "education": [
+    {"study_type": "PhD, Molecular Biology", "institution": "University of East Anglia", "thesis": "Towards an understanding of the host encoded RdRp"},
+    {"study_type": "BSc, Genetics", "institution": "University of Nottingham"}
+  ],
+  "relationships": {
+    "roles": [
+      "oxford_nanopore_technologies_director_bioinformatics_product",
+      "mnemosyne_genomics_founder_genomics_consultant",
+      "pacific_biosciences_territory_manager",
+      "qfab_bioinformatics_head_of_computational_biology",
+      "malaysian_genomics_resource_centre_chief_scientific_officer",
+      "orion_pharma_senior_specialist_bioinformatics",
+      "university_of_turku_turku_centre_for_biotechnology_senior_scientist_head_of_bioinformatics_visiting_scientist",
+      "max_planck_institute_of_biochemistry_helmholtz_zentrum_m_nchen_postdoctoral_researcher"
+    ]
+  }
+}

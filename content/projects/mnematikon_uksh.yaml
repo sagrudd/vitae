@@ -1,0 +1,7 @@
+{
+  "id": "mnematikon_uksh",
+  "type": "Project",
+  "name": "Mnematikon with UKSH",
+  "description": "Collaborative development of edge-computing bioinformatics for intraoperative tumour classification.",
+  "relationships": {"products": ["mnematikon"], "technologies": ["genomics", "cloud_computing"], "employers": ["mnemosyne_genomics"]}
+}

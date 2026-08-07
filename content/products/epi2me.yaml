@@ -2,10 +2,12 @@
   "id": "epi2me",
   "type": "Product",
   "name": "EPI2ME",
-  "description": "Oxford Nanopore workflow platform.",
-  "problem": "Scientific data and analysis need accessible, reusable systems.",
-  "solution": "Oxford Nanopore workflow platform.",
-  "impact": "Connects scientific users with repeatable delivery.",
+  "description": "Oxford Nanopore's workflow platform for supported bioinformatics analyses.",
+  "problem": "Sequencing laboratories need analysis products that are scientifically useful without requiring every user to assemble a bespoke workflow.",
+  "scientific_context": "Long-read sequencing analysis spans laboratory decisions, applications support and computational delivery.",
+  "solution": "Supported, open-source Nextflow workflows delivered across sequencing devices, desktop systems and cloud workflows.",
+  "design_decisions": ["Choose analyses with sequencing laboratories, applications scientists and software engineers.", "Make workflow orchestration portable across device, desktop and cloud execution.", "Use open-source software for computational analysis products."],
+  "impact": "Turned a set of analyses into a coherent product surface informed by practical laboratory requirements.",
   "technologies": [
     "genomics",
     "nextflow"
@@ -14,6 +16,6 @@
   "employers": [
     "oxford_nanopore_technologies"
   ],
-  "projects": [],
+  "projects": ["covid_response"],
   "career_phase": "Product leadership"
 }

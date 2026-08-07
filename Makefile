@@ -1,4 +1,4 @@
-.PHONY: pdf pdf-in-container generate website verify render clean cv portfolio biography docker release publications publications-in-container publications-metrics publications-verify knowledge dashboard talks timeline
+.PHONY: pdf pdf-in-container generate website verify render clean cv portfolio biography docker release publications publications-in-container publications-metrics publications-enrich publications-verify publications-orcid knowledge dashboard talks timeline curate-publications platform platform-check api json-resume linked-in
 
 DOCS := Executive_CV Executive_Portfolio Executive_Biography Cover_Letter_Template
 
@@ -30,17 +30,33 @@ pdf-in-container: generate
 	    -outdir=build/latex src/$$doc.tex || exit 1; \
 	  cp build/latex/$$doc.pdf output/$$doc.pdf; \
 	done
-	python3 scripts/verify.py output
+	python3 scripts/verify.py output $(addsuffix .pdf,$(DOCS))
 
 generate:
 	python3 scripts/generate.py
 
-website: generate
+website:
+	python3 scripts/import_publications.py
+	python3 scripts/curate_publications.py
+	python3 scripts/generate.py
+	python3 scripts/build_knowledge_graph.py --check
+
+platform: website
+
+platform-check:
+	python3 scripts/import_publications.py
+	python3 scripts/build_knowledge_graph.py --check
+
+api: platform
+
+json-resume: platform
+
+linked-in: platform
 
 knowledge:
 	mkdir -p content dashboard site output
 	docker compose build latex
-	docker compose run --rm latex sh -lc 'python3 scripts/build_knowledge_graph.py && cp output/career_dashboard.pdf output/career_timeline.pdf /artifacts/'
+	docker compose run --rm latex sh -lc 'python3 scripts/import_publications.py && python3 scripts/curate_publications.py && python3 scripts/build_knowledge_graph.py --check && cp output/career_dashboard.pdf output/career_timeline.pdf output/software_dashboard.pdf /artifacts/'
 
 dashboard: knowledge
 
@@ -61,8 +77,18 @@ publications-in-container:
 publications-metrics: publications
 	docker compose run --rm latex python3 scripts/update_metrics.py
 
+publications-enrich:
+	python3 scripts/import_publications.py
+	python3 scripts/enrich_publications.py
+
+publications-orcid:
+	python3 scripts/sync_orcid.py
+
 publications-verify:
 	docker compose run --rm latex python3 scripts/verify_dois.py
+
+curate-publications:
+	docker compose run --rm latex python3 scripts/curate_publications.py
 
 verify:
 	docker compose run --rm latex python3 scripts/verify.py /artifacts

@@ -2,8 +2,8 @@
   "id": "malaysian_genomics_resource_centre_chief_scientific_officer",
   "type": "Role",
   "title": "Chief Scientific Officer",
-  "period": "National genomics",
-  "summary": "Built laboratory and bioinformatics capability for commercial and national genomics programmes.",
+  "period": "Aug 2010-Jan 2013",
+  "summary": "Built laboratory and bioinformatics capability for commercial sequencing and population-genomics work.",
   "employer": "malaysian_genomics_resource_centre",
   "achievements": [
     "Established Illumina sequencing capability and integrated laboratory, analysis and scientific leadership.",
@@ -13,6 +13,7 @@
   "relationships": {
     "technologies": [
       "genomics"
-    ]
+    ],
+    "projects": ["mygenome", "proboscis_monkey"]
   }
 }

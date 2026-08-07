@@ -2,11 +2,6 @@
   "id": "covid_response",
   "type": "Project",
   "name": "COVID Response",
-  "relationships": {
-    "products": [],
-    "publications": [],
-    "technologies": [
-      "genomics"
-    ]
-  }
+  "description": "Adaptation of EPI2ME analyses as COVID-19 sequencing requirements changed.",
+  "relationships": {"products": ["epi2me"], "roles": ["oxford_nanopore_technologies_director_bioinformatics_product"], "technologies": ["genomics", "nextflow"]}
 }

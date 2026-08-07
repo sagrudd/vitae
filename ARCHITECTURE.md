@@ -1,5 +1,28 @@
 # Architecture
 
-The repository keeps facts, presentation, and generated outputs separate. Legacy canonical inputs (`content/profile.json`, `content/publications.bib`, and product Markdown) remain valid. The knowledge-graph layer adds normalized object records in `content/` and emits the dashboard, universal search index, website extensions, and structured APIs.
+Vitae is a structured professional knowledge platform. PDFs are projections, not the database.
 
-`make knowledge` runs in Docker, builds `dashboard/knowledge_graph.json`, and publishes site-compatible pages. `make publications` derives bibliography views. `make pdf` builds the executive document set. Generated directories are outputs, not editing surfaces.
+```text
+content/*.yaml + content/publications.bib
+                 |
+                 +--> publication importer --> derived publication records
+                 |
+                 +--> graph builder --> dashboard JSON, search index, APIs, RSS
+                 |                     --> static website and object pages
+                 |
+                 +--> document adapters --> LaTeX fragments --> PDFs
+```
+
+The graph builder is dependency-free Python. It normalises object relationships, resolves aliases, derives reverse links and refuses unresolved relationship IDs in `--check` mode. Its outputs are deterministic for the same content tree.
+
+`make platform` is the complete static publishing path. It imports the canonical BibTeX bibliography, curates derived publication views, generates legacy document fragments, and builds the knowledge graph, APIs and website. GitHub Pages runs this same target.
+
+The `bin/vitae` command exposes the portable platform workflow:
+
+```bash
+vitae init my-profile
+vitae validate
+vitae build
+```
+
+The reference implementation is Stephen Rudd's record, but object types, graph IDs, templates and generated views are not tied to any individual.

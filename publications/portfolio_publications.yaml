@@ -1,0 +1,95 @@
+{
+  "selection": [
+    {
+      "id": "rudd2003est",
+      "career_score": 16,
+      "theme": "Scientific Vision",
+      "title": "Expressed sequence tags: alternative or complement to whole genome sequences?",
+      "story": "Articulated a scientific direction for sequence resources as a complement to whole genomes; a conversation starter on evidence, data strategy and biological utility."
+    },
+    {
+      "id": "rudd2003sputnik",
+      "career_score": 26,
+      "theme": "Software Platforms",
+      "title": "Sputnik: a database platform for comparative plant genomics",
+      "story": "Turned comparative plant-genomics data into a usable platform, anticipating later work on scientist-facing products and workflow ecosystems."
+    },
+    {
+      "id": "rudd2005opensputnik",
+      "career_score": 32,
+      "theme": "Software Platforms",
+      "title": "openSputnik---a database to ESTablish comparative plant genomics using unsaturated sequence collections",
+      "story": "Extended comparative-genomics infrastructure into a reusable EST resource for working scientists."
+    },
+    {
+      "id": "rudd2005plantmarkers",
+      "career_score": 18,
+      "theme": "Software Platforms",
+      "title": "PlantMarkers---a database of predicted molecular markers from plants",
+      "story": "Translated prediction into a practical molecular-marker discovery resource."
+    },
+    {
+      "id": "rudd2004smar",
+      "career_score": 16,
+      "theme": "Computational Methods",
+      "title": "Genome-wide in silico mapping of scaffold/matrix attachment regions in Arabidopsis suggests correlation of intragenic scaffold/matrix attachment regions with gene expression",
+      "story": "Applied genome-scale computational prediction to expose a biological pattern in scaffold/matrix attachment regions - evidence of algorithmic and systems-level thinking."
+    },
+    {
+      "id": "tetko2006smar",
+      "career_score": 10,
+      "theme": "Computational Methods",
+      "title": "Spatiotemporal expression control correlates with intragenic scaffold matrix attachment regions (S/MARs) in Arabidopsis thaliana",
+      "story": "Connected genome-scale prediction with spatiotemporal expression control, moving computational inference toward biological explanation."
+    },
+    {
+      "id": "friedel2005svm",
+      "career_score": 26,
+      "theme": "Computational Methods",
+      "title": "Support vector machines for separation of mixed plant-pathogen EST collections based on codon usage",
+      "story": "Used support vector machines to separate mixed plant-pathogen EST collections, demonstrating early machine-learning application to biological classification."
+    },
+    {
+      "id": "rudd2005eclair",
+      "career_score": 32,
+      "theme": "Classification & Machine Learning",
+      "title": "Eclair---a web service for unravelling species origin of sequences sampled from mixed host interfaces",
+      "story": "Addressed mixed biological sequence analysis through computational classification and decision support, foreshadowing modern AI-assisted assignment workflows without overstating the method."
+    },
+    {
+      "id": "chappell2018",
+      "career_score": 32,
+      "theme": "Classification & Machine Learning",
+      "title": "Rapid analysis of metagenomic data using signature-based clustering",
+      "story": "Applied signature-based clustering to metagenomic analysis, linking computational classification to fast scientific decision support."
+    },
+    {
+      "id": "derienzo2016mesothelioma",
+      "career_score": 16,
+      "theme": "Clinical Translation",
+      "title": "Gender-specific molecular and clinical features underlie malignant pleural mesothelioma",
+      "story": "Contributed to molecular and clinical understanding of malignant pleural mesothelioma, evidencing breadth into human disease."
+    },
+    {
+      "id": "gunaletchumy2012",
+      "career_score": 16,
+      "theme": "Clinical Translation",
+      "title": "Draft genome sequences of Helicobacter pylori isolates from Malaysia, cultured from patients with functional dyspepsia and gastric cancer",
+      "story": "Applied genome sequencing to clinically sourced Helicobacter pylori isolates from Malaysia, adding a practical infectious-disease and national-genomics perspective."
+    },
+    {
+      "id": "wise2016stemcells",
+      "career_score": 10,
+      "theme": "Clinical Translation",
+      "title": "Human mesenchymal stem cells alter the gene profile of monocytes from patients with type 2 diabetes and end-stage renal disease",
+      "story": "Applied genomic analysis to a clinically relevant regenerative-medicine question."
+    },
+    {
+      "id": "schmutzer2017plant",
+      "career_score": 18,
+      "theme": "Modern Computational Biology",
+      "title": "Bioinformatics in the plant genomic and phenomic domain: the German contribution to resources, services and perspectives",
+      "story": "Connected plant genomics resources, services and scientific infrastructure to a modern bioinformatics ecosystem."
+    }
+  ]
+}

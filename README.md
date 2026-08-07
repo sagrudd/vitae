@@ -1,8 +1,8 @@
-# Stephen Rudd - Executive Portfolio
+# Vitae - professional knowledge platform
 
-A reproducible, publication-quality portfolio for senior computational biology, bioinformatics product, and scientific software leadership roles.
+Vitae is an open-source, structured representation of a professional life. Stephen Rudd's record is the reference implementation; the platform is designed so a scientist, engineer or research-software leader can generate publication-quality documents, a website, dashboards and machine-readable APIs from one version-controlled knowledge base.
 
-The repository is deliberately structured like a software product: canonical career, publication and product sources drive four PDFs and a static website, while typography, composition and build tooling remain independent.
+The executive CV is one view. The primary record is object-per-file professional data in `content/`, with explicit, queryable relationships between roles, employers, projects, products, technologies, talks, training and publications.
 
 ## Build
 
@@ -23,15 +23,35 @@ The command runs LuaLaTeX through `latexmk` inside a pinned TeX Live container. 
 
 Other focused commands are available: `make cv`, `make portfolio`, `make biography`, `make website`, `make publications`, `make knowledge`, `make dashboard`, `make talks`, `make timeline`, `make docker`, `make verify`, `make render` and `make clean`. `make release VERSION=v2026.1` builds, tags and pushes a semantic release; the release workflow attaches the PDFs automatically.
 
+`make publications-enrich` refreshes a dated, reviewable cache of Crossref, OpenAlex and Semantic Scholar metrics; it never changes the canonical BibTeX. `make publications-orcid` downloads a public ORCID works inventory when an `orcid` value has been added to the Person record (or is passed to `scripts/sync_orcid.py --orcid`).
+
+## Platform build
+
+```bash
+make platform-check
+make platform
+```
+
+This produces a responsive website with career, projects, products, software, publications, teaching, timeline, relationship and search views. It also emits a queryable knowledge graph, full-text search index, object APIs, JSON Resume, LinkedIn snippets, RSS feed and archival dashboard PDFs.
+
+The portable command-line entry point is available as `bin/vitae`:
+
+```bash
+bin/vitae validate
+bin/vitae build
+bin/vitae init ../my-professional-record
+```
+
 ## Architecture
 
 ```text
-content/profile.json       canonical narrative and career data
-content/publications.bib   canonical bibliography
-products/*.md              canonical one-page product case studies
 content/<object-type>/*.yaml object-per-file professional knowledge graph
-dashboard/                 generated career graph, universal search and timeline views
-scripts/generate.py        adapters for LaTeX and HTML
+content/publications.bib   canonical bibliography
+content/profile.json       legacy compatibility adapter for current PDF compositions
+products/*.md              canonical product case-study prose
+dashboard/                 generated knowledge graph, search index and dashboards
+scripts/build_knowledge_graph.py graph, API and static platform builder
+scripts/generate.py        adapters for existing LaTeX compositions
 style/vitae.cls            shared design system and environments
 src/*.tex                  document composition only
 build/generated/           generated LaTeX fragments (ignored)
@@ -41,13 +61,13 @@ output/                    final PDFs (ignored except release assets)
 
 ## Editing
 
-Change career facts and prose in `content/profile.json`; add references to `content/publications.bib`; add product narratives in `products/`; and change presentation in `style/vitae.cls`. See [CONTRIBUTING.md](CONTRIBUTING.md) for tailored CVs, publications, talks and checks.
+Add professional facts as object records in `content/<object-type>/`; add references to `content/publications.bib`; add rich product narratives in `products/`; and change presentation in `style/vitae.cls`. See [CONTENT_GUIDE.md](CONTENT_GUIDE.md) and [CONTRIBUTING.md](CONTRIBUTING.md) for the workflow.
 
-For the long-term knowledge model, read [SCHEMA.md](SCHEMA.md), [ARCHITECTURE.md](ARCHITECTURE.md), [CONTENT_GUIDE.md](CONTENT_GUIDE.md), and [PUBLISHING.md](PUBLISHING.md). `make knowledge` bootstraps and then maintains the object graph without replacing existing sources.
+For the model and publishing workflow, read [SCHEMA.md](SCHEMA.md), [ARCHITECTURE.md](ARCHITECTURE.md), [CONTENT_GUIDE.md](CONTENT_GUIDE.md), [DEVELOPER_GUIDE.md](DEVELOPER_GUIDE.md) and [PUBLISHING_GUIDE.md](PUBLISHING_GUIDE.md).
 
 ## GitHub Pages
 
-The workflow in `.github/workflows/pages.yml` regenerates and publishes the website from the same content model on every push to `main`.
+The workflow in `.github/workflows/pages.yml` regenerates and publishes the platform from the same content model on every push to `main`.
 
 ## Licensing
 

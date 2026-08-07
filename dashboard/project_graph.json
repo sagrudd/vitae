@@ -1,0 +1,117 @@
+[
+  {
+    "source": "malaysian_genomics_resource_centre_chief_scientific_officer",
+    "target": "mygenome",
+    "kind": "projects"
+  },
+  {
+    "source": "malaysian_genomics_resource_centre_chief_scientific_officer",
+    "target": "proboscis_monkey",
+    "kind": "projects"
+  },
+  {
+    "source": "mnemosyne_genomics_founder_genomics_consultant",
+    "target": "mnematikon_uksh",
+    "kind": "projects"
+  },
+  {
+    "source": "oxford_nanopore_technologies_director_bioinformatics_product",
+    "target": "covid_response",
+    "kind": "projects"
+  },
+  {
+    "source": "arabidopsis_genome",
+    "target": "genomics",
+    "kind": "technologies"
+  },
+  {
+    "source": "commercial_bioinformatics",
+    "target": "genomics",
+    "kind": "technologies"
+  },
+  {
+    "source": "core_facility",
+    "target": "genomics",
+    "kind": "technologies"
+  },
+  {
+    "source": "covid_response",
+    "target": "epi2me",
+    "kind": "products"
+  },
+  {
+    "source": "covid_response",
+    "target": "oxford_nanopore_technologies_director_bioinformatics_product",
+    "kind": "roles"
+  },
+  {
+    "source": "covid_response",
+    "target": "genomics",
+    "kind": "technologies"
+  },
+  {
+    "source": "covid_response",
+    "target": "nextflow",
+    "kind": "technologies"
+  },
+  {
+    "source": "mnematikon_uksh",
+    "target": "mnematikon",
+    "kind": "products"
+  },
+  {
+    "source": "mnematikon_uksh",
+    "target": "genomics",
+    "kind": "technologies"
+  },
+  {
+    "source": "mnematikon_uksh",
+    "target": "cloud_computing",
+    "kind": "technologies"
+  },
+  {
+    "source": "mnematikon_uksh",
+    "target": "mnemosyne_genomics",
+    "kind": "employers"
+  },
+  {
+    "source": "mygenome",
+    "target": "malaysian_genomics_resource_centre_chief_scientific_officer",
+    "kind": "roles"
+  },
+  {
+    "source": "mygenome",
+    "target": "genomics",
+    "kind": "technologies"
+  },
+  {
+    "source": "proboscis_monkey",
+    "target": "malaysian_genomics_resource_centre_chief_scientific_officer",
+    "kind": "roles"
+  },
+  {
+    "source": "proboscis_monkey",
+    "target": "genomics",
+    "kind": "technologies"
+  },
+  {
+    "source": "arabidopsis",
+    "target": "arabidopsis_genome",
+    "kind": "projects"
+  },
+  {
+    "source": "epi2me",
+    "target": "covid_response",
+    "kind": "projects"
+  },
+  {
+    "source": "mips",
+    "target": "arabidopsis_genome",
+    "kind": "projects"
+  },
+  {
+    "source": "mnematikon",
+    "target": "mnematikon_uksh",
+    "kind": "projects"
+  }
+]

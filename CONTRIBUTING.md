@@ -2,11 +2,11 @@
 
 Corrections and improvements are welcome.
 
-1. Edit career material in `content/profile.json`, publications in `content/publications.bib`, talks in the `talks` list, and product case studies in `products/`.
-2. Run `make pdf` and confirm all four files are produced.
-3. Run `make verify` to check page counts, metadata, and PDF text.
-4. Visually inspect rendered pages with `make render`.
-5. Keep claims factual, concise, and outcome-led. Do not introduce duplicated prose into `src/`.
+1. Add or correct facts in the appropriate `content/<type>/<id>.yaml` record; use relationship IDs instead of copied names or prose.
+2. Add publications only to `content/publications.bib` and product case-study prose only to `products/`.
+3. Run `make platform-check`, then `make platform`.
+4. Run `make pdf` and `make verify`; visually inspect rendered pages with `make render` after a layout change.
+5. Keep claims factual, concise and outcome-led. Do not introduce duplicated prose into `src/` or edit generated outputs.
 
 Use conventional, focused commits. Publication corrections should include a DOI or other primary source where possible.
 
@@ -16,4 +16,4 @@ Keep the canonical career record unchanged. Create a new composition file in `sr
 
 ## Publications, employers and talks
 
-Add a BibTeX entry with a DOI where available; bibliography pages are rendered automatically by Biber. Add employers to the `experience` array in reverse chronology with a concise chapter summary and achievement-led bullets. Add talks as plain entries in the `talks` array. Rebuild all PDFs after each factual change.
+Add a BibTeX entry with a DOI where available; bibliography pages and publication objects are rendered automatically. Add employers, roles, talks and training as their own records with explicit relationships. Rebuild the platform after each factual change.

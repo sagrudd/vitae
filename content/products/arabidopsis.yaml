@@ -1,0 +1,11 @@
+{
+  "id": "arabidopsis",
+  "type": "Product",
+  "name": "Arabidopsis Genome Resources",
+  "description": "Genome analysis and community knowledge resources for Arabidopsis.",
+  "problem": "The first complete plant genome required durable, reusable annotation and reference resources.",
+  "solution": "Genome analysis, comparative annotation and community database resources.",
+  "impact": "Provided a foundation for comparative genomics and crop-science interpretation.",
+  "technologies": ["genomics"],
+  "projects": ["arabidopsis_genome"]
+}

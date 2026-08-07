@@ -1,13 +1,61 @@
 {
-  "schema_version": 1,
-  "objects": [
+  "schema_version": 2,
+  "generated": "2026-08-06",
+  "nodes": [
+    {
+      "id": "stephen_rudd",
+      "type": "Person",
+      "name": "Stephen Rudd, PhD",
+      "professional_title": "Computational Biology",
+      "location": "Norfolk, United Kingdom",
+      "profiles": [
+        {
+          "network": "GitHub",
+          "username": "sagrudd",
+          "url": "https://github.com/sagrudd"
+        },
+        {
+          "network": "LinkedIn",
+          "username": "stephen-rudd-27650a1",
+          "url": "https://linkedin.com/in/stephen-rudd-27650a1"
+        }
+      ],
+      "education": [
+        {
+          "study_type": "PhD, Molecular Biology",
+          "institution": "University of East Anglia",
+          "thesis": "Towards an understanding of the host encoded RdRp"
+        },
+        {
+          "study_type": "BSc, Genetics",
+          "institution": "University of Nottingham"
+        }
+      ],
+      "relationships": {
+        "roles": [
+          "malaysian_genomics_resource_centre_chief_scientific_officer",
+          "max_planck_institute_of_biochemistry_helmholtz_zentrum_m_nchen_postdoctoral_researcher",
+          "mnemosyne_genomics_founder_genomics_consultant",
+          "orion_pharma_senior_specialist_bioinformatics",
+          "oxford_nanopore_technologies_director_bioinformatics_product",
+          "pacific_biosciences_territory_manager",
+          "qfab_bioinformatics_head_of_computational_biology",
+          "university_of_turku_turku_centre_for_biotechnology_senior_scientist_head_of_bioinformatics_visiting_scientist"
+        ]
+      },
+      "source": "content/person/stephen_rudd.yaml",
+      "search_text": "stephen_rudd person stephen rudd, phd computational biology norfolk, united kingdom github sagrudd https://github.com/sagrudd linkedin stephen-rudd-27650a1 https://linkedin.com/in/stephen-rudd-27650a1 phd, molecular biology university of east anglia towards an understanding of the host encoded rdrp bsc, genetics university of nottingham"
+    },
     {
       "id": "ipk_gatersleben",
       "type": "Employer",
       "name": "IPK Gatersleben",
       "locations": [
         "Germany"
-      ]
+      ],
+      "source": "content/employers/ipk_gatersleben.yaml",
+      "relationships": {},
+      "search_text": "ipk_gatersleben employer ipk gatersleben germany"
     },
     {
       "id": "malaysian_genomics_resource_centre",
@@ -15,7 +63,10 @@
       "name": "Malaysian Genomics Resource Centre",
       "locations": [
         "Kuala Lumpur, Malaysia"
-      ]
+      ],
+      "source": "content/employers/malaysian_genomics_resource_centre.yaml",
+      "relationships": {},
+      "search_text": "malaysian_genomics_resource_centre employer malaysian genomics resource centre kuala lumpur, malaysia"
     },
     {
       "id": "max_planck_institute_of_biochemistry_helmholtz_zentrum_m_nchen",
@@ -23,15 +74,21 @@
       "name": "Max Planck Institute of Biochemistry / Helmholtz Zentrum München",
       "locations": [
         "Germany"
-      ]
+      ],
+      "source": "content/employers/max_planck_institute_of_biochemistry_helmholtz_zentrum_m_nchen.yaml",
+      "relationships": {},
+      "search_text": "max_planck_institute_of_biochemistry_helmholtz_zentrum_m_nchen employer max planck institute of biochemistry / helmholtz zentrum münchen germany"
     },
     {
       "id": "mnemosyne_genomics",
       "type": "Employer",
-      "name": "Mnemosyne Genomics",
+      "name": "Mnemosyne Biosciences Ltd",
       "locations": [
-        "International"
-      ]
+        "United Kingdom / Germany collaboration"
+      ],
+      "source": "content/employers/mnemosyne_genomics.yaml",
+      "relationships": {},
+      "search_text": "mnemosyne_genomics employer mnemosyne biosciences ltd united kingdom / germany collaboration"
     },
     {
       "id": "orion_pharma",
@@ -39,7 +96,10 @@
       "name": "Orion Pharma",
       "locations": [
         "Finland"
-      ]
+      ],
+      "source": "content/employers/orion_pharma.yaml",
+      "relationships": {},
+      "search_text": "orion_pharma employer orion pharma finland"
     },
     {
       "id": "oxford_nanopore_technologies",
@@ -47,7 +107,10 @@
       "name": "Oxford Nanopore Technologies",
       "locations": [
         "United Kingdom / international"
-      ]
+      ],
+      "source": "content/employers/oxford_nanopore_technologies.yaml",
+      "relationships": {},
+      "search_text": "oxford_nanopore_technologies employer oxford nanopore technologies united kingdom / international"
     },
     {
       "id": "pacific_biosciences",
@@ -55,7 +118,10 @@
       "name": "Pacific Biosciences",
       "locations": [
         "Asia-Pacific"
-      ]
+      ],
+      "source": "content/employers/pacific_biosciences.yaml",
+      "relationships": {},
+      "search_text": "pacific_biosciences employer pacific biosciences asia-pacific"
     },
     {
       "id": "qfab_bioinformatics",
@@ -63,7 +129,10 @@
       "name": "QFAB Bioinformatics",
       "locations": [
         "Brisbane, Australia"
-      ]
+      ],
+      "source": "content/employers/qfab_bioinformatics.yaml",
+      "relationships": {},
+      "search_text": "qfab_bioinformatics employer qfab bioinformatics brisbane, australia"
     },
     {
       "id": "university_of_turku_turku_centre_for_biotechnology",
@@ -71,7 +140,10 @@
       "name": "University of Turku - Turku Centre for Biotechnology",
       "locations": [
         "Finland"
-      ]
+      ],
+      "source": "content/employers/university_of_turku_turku_centre_for_biotechnology.yaml",
+      "relationships": {},
+      "search_text": "university_of_turku_turku_centre_for_biotechnology employer university of turku - turku centre for biotechnology finland"
     },
     {
       "id": "ipk_gatersleben_research_scientist",
@@ -86,15 +158,20 @@
       "relationships": {
         "technologies": [
           "genomics"
+        ],
+        "employer": [
+          "ipk_gatersleben"
         ]
-      }
+      },
+      "source": "content/roles/ipk_gatersleben_research_scientist.yaml",
+      "search_text": "ipk_gatersleben_research_scientist role research scientist 2017-2018 advanced scientific interoperability through technical writing and development of a plant breeding api. ipk_gatersleben translated plant-science requirements into a clear interoperability model and developer-facing documentation."
     },
     {
       "id": "malaysian_genomics_resource_centre_chief_scientific_officer",
       "type": "Role",
       "title": "Chief Scientific Officer",
-      "period": "National genomics",
-      "summary": "Built laboratory and bioinformatics capability for commercial and national genomics programmes.",
+      "period": "Aug 2010-Jan 2013",
+      "summary": "Built laboratory and bioinformatics capability for commercial sequencing and population-genomics work.",
       "employer": "malaysian_genomics_resource_centre",
       "achievements": [
         "Established Illumina sequencing capability and integrated laboratory, analysis and scientific leadership.",
@@ -104,8 +181,17 @@
       "relationships": {
         "technologies": [
           "genomics"
+        ],
+        "projects": [
+          "mygenome",
+          "proboscis_monkey"
+        ],
+        "employer": [
+          "malaysian_genomics_resource_centre"
         ]
-      }
+      },
+      "source": "content/roles/malaysian_genomics_resource_centre_chief_scientific_officer.yaml",
+      "search_text": "malaysian_genomics_resource_centre_chief_scientific_officer role chief scientific officer aug 2010-jan 2013 built laboratory and bioinformatics capability for commercial sequencing and population-genomics work. malaysian_genomics_resource_centre established illumina sequencing capability and integrated laboratory, analysis and scientific leadership. supported mygenome, microbial and biodiversity programmes including the proboscis monkey genome. developed staff capability and robust analysis pipelines for human genome delivery and interpretation."
     },
     {
       "id": "max_planck_institute_of_biochemistry_helmholtz_zentrum_m_nchen_postdoctoral_researcher",
@@ -121,24 +207,42 @@
       "relationships": {
         "technologies": [
           "genomics"
+        ],
+        "employer": [
+          "max_planck_institute_of_biochemistry_helmholtz_zentrum_m_nchen"
         ]
-      }
+      },
+      "source": "content/roles/max_planck_institute_of_biochemistry_helmholtz_zentrum_m_nchen_postdoctoral_researcher.yaml",
+      "search_text": "max_planck_institute_of_biochemistry_helmholtz_zentrum_m_nchen_postdoctoral_researcher role postdoctoral researcher research developed comparative-genomics resources, annotation systems and molecular-marker methods. max_planck_institute_of_biochemistry_helmholtz_zentrum_m_nchen contributed to annotation of the first arabidopsis genome and built sputnik, a comparative plant-genomics platform covering millions of expressed sequences. connected genome annotation, comparative analysis and marker discovery in tools designed for working plant biologists."
     },
     {
       "id": "mnemosyne_genomics_founder_genomics_consultant",
       "type": "Role",
-      "title": "Founder / Genomics Consultant",
-      "period": "Independent consultancy",
-      "summary": "Provided independent genomics, bioinformatics and scientific software advice.",
+      "title": "Founder",
+      "period": "Jan 2026-present",
+      "summary": "Developing software for scientific support units and bioinformatics core facilities.",
       "employer": "mnemosyne_genomics",
       "achievements": [
-        "Helped organisations frame analysis problems, delivery models and technology choices."
+        "Developing Mnematikon with UKSH in Germany for intraoperative tumour classification.",
+        "Applying product and workflow thinking to the infrastructure needs of scientific support units."
       ],
       "relationships": {
         "technologies": [
+          "cloud_computing",
           "genomics"
+        ],
+        "products": [
+          "mnematikon"
+        ],
+        "projects": [
+          "mnematikon_uksh"
+        ],
+        "employer": [
+          "mnemosyne_genomics"
         ]
-      }
+      },
+      "source": "content/roles/mnemosyne_genomics_founder_genomics_consultant.yaml",
+      "search_text": "mnemosyne_genomics_founder_genomics_consultant role founder jan 2026-present developing software for scientific support units and bioinformatics core facilities. mnemosyne_genomics developing mnematikon with uksh in germany for intraoperative tumour classification. applying product and workflow thinking to the infrastructure needs of scientific support units."
     },
     {
       "id": "orion_pharma_senior_specialist_bioinformatics",
@@ -154,14 +258,19 @@
       "relationships": {
         "technologies": [
           "genomics"
+        ],
+        "employer": [
+          "orion_pharma"
         ]
-      }
+      },
+      "source": "content/roles/orion_pharma_senior_specialist_bioinformatics.yaml",
+      "search_text": "orion_pharma_senior_specialist_bioinformatics role senior specialist, bioinformatics pharmaceutical r&d applied computational biology to discovery research and strengthened bioinformatics practice within pharmaceutical r&d. orion_pharma developed translational analysis approaches for gene expression, toxicogenomics and pharmacogenomics. supervised research and helped scientists use reproducible computational methods in decision-making."
     },
     {
       "id": "oxford_nanopore_technologies_director_bioinformatics_product",
       "type": "Role",
       "title": "Director, Bioinformatics Product",
-      "period": "2018-present",
+      "period": "Jul 2017-Nov 2025",
       "summary": "Advanced through four appointments to lead the customer-led bioinformatics roadmap for EPI2ME, connecting scientific applications, commercial insight and software delivery.",
       "employer": "oxford_nanopore_technologies",
       "achievements": [
@@ -172,10 +281,23 @@
       ],
       "relationships": {
         "technologies": [
-          "nextflow",
-          "genomics"
+          "cloud_computing",
+          "genomics",
+          "long_read_sequencing",
+          "nextflow"
+        ],
+        "products": [
+          "epi2me"
+        ],
+        "projects": [
+          "covid_response"
+        ],
+        "employer": [
+          "oxford_nanopore_technologies"
         ]
-      }
+      },
+      "source": "content/roles/oxford_nanopore_technologies_director_bioinformatics_product.yaml",
+      "search_text": "oxford_nanopore_technologies_director_bioinformatics_product role director, bioinformatics product jul 2017-nov 2025 advanced through four appointments to lead the customer-led bioinformatics roadmap for epi2me, connecting scientific applications, commercial insight and software delivery. oxford_nanopore_technologies set epi2me product direction around accessible, reproducible nanopore analysis and nextflow-based workflow orchestration. established a voice-of-customer loop across customers, applications scientists, commercial teams and engineers, translating field evidence into roadmap choices. shaped cloud and on-device workflow strategy, including the rapid bioinformatics response to covid-19 sequencing needs. made capability building part of product adoption through training, technical communication and approachable user journeys for complex computational tasks."
     },
     {
       "id": "pacific_biosciences_territory_manager",
@@ -190,8 +312,13 @@
       "relationships": {
         "technologies": [
           "genomics"
+        ],
+        "employer": [
+          "pacific_biosciences"
         ]
-      }
+      },
+      "source": "content/roles/pacific_biosciences_territory_manager.yaml",
+      "search_text": "pacific_biosciences_territory_manager role territory manager commercial genomics enabled long-read sequencing adoption across india, south-east asia, australia and new zealand. pacific_biosciences combined technical support, commercial leadership and voice-of-customer insight across a diverse international territory."
     },
     {
       "id": "qfab_bioinformatics_head_of_computational_biology",
@@ -207,8 +334,13 @@
       "relationships": {
         "technologies": [
           "genomics"
+        ],
+        "employer": [
+          "qfab_bioinformatics"
         ]
-      }
+      },
+      "source": "content/roles/qfab_bioinformatics_head_of_computational_biology.yaml",
+      "search_text": "qfab_bioinformatics_head_of_computational_biology role head of computational biology commercial bioinformatics led commercial bioinformatics services, scientific consultancy and customer delivery. qfab_bioinformatics developed internal tooling and repeatable delivery practices that helped turn expert analyses into scalable services. built customer confidence by connecting experimental context, computational design and decision-ready reporting."
     },
     {
       "id": "university_of_turku_turku_centre_for_biotechnology_senior_scientist_head_of_bioinformatics_visiting_scientist",
@@ -225,70 +357,152 @@
       "relationships": {
         "technologies": [
           "genomics"
+        ],
+        "employer": [
+          "university_of_turku_turku_centre_for_biotechnology"
         ]
-      }
+      },
+      "source": "content/roles/university_of_turku_turku_centre_for_biotechnology_senior_scientist_head_of_bioinformatics_visiting_scientist.yaml",
+      "search_text": "university_of_turku_turku_centre_for_biotechnology_senior_scientist_head_of_bioinformatics_visiting_scientist role senior scientist / head of bioinformatics / visiting scientist academic leadership established and led the bioinformatics core facility and research capability within the turku centre for biotechnology, a department of the university of turku. university_of_turku_turku_centre_for_biotechnology built workflows for affymetrix, illumina and agilent platforms with a semi-automatic reporting framework. led research and service delivery across clinical genomics, plant genomics, endometriosis and mouse myelination. developed researchers through training, supervision and embedded project collaboration."
     },
     {
-      "id": "talk_01",
-      "type": "Talk",
-      "title": "Nextflow and nanopores: democratising the analysis of long-read DNA sequences",
-      "venue": "Nextflow Summit, 2023",
+      "id": "arabidopsis_genome",
+      "type": "Project",
+      "name": "Arabidopsis Genome",
       "relationships": {
         "technologies": [
+          "genomics"
+        ]
+      },
+      "source": "content/projects/arabidopsis_genome.yaml",
+      "search_text": "arabidopsis_genome project arabidopsis genome"
+    },
+    {
+      "id": "commercial_bioinformatics",
+      "type": "Project",
+      "name": "Commercial Bioinformatics",
+      "relationships": {
+        "technologies": [
+          "genomics"
+        ]
+      },
+      "source": "content/projects/commercial_bioinformatics.yaml",
+      "search_text": "commercial_bioinformatics project commercial bioinformatics"
+    },
+    {
+      "id": "core_facility",
+      "type": "Project",
+      "name": "Core Facility",
+      "relationships": {
+        "technologies": [
+          "genomics"
+        ]
+      },
+      "source": "content/projects/core_facility.yaml",
+      "search_text": "core_facility project core facility"
+    },
+    {
+      "id": "covid_response",
+      "type": "Project",
+      "name": "COVID Response",
+      "description": "Adaptation of EPI2ME analyses as COVID-19 sequencing requirements changed.",
+      "relationships": {
+        "products": [
+          "epi2me"
+        ],
+        "roles": [
+          "oxford_nanopore_technologies_director_bioinformatics_product"
+        ],
+        "technologies": [
+          "genomics",
           "nextflow"
         ]
-      }
+      },
+      "source": "content/projects/covid_response.yaml",
+      "search_text": "covid_response project covid response adaptation of epi2me analyses as covid-19 sequencing requirements changed."
     },
     {
-      "id": "talk_02",
-      "type": "Talk",
-      "title": "Bioinformatics 101",
-      "venue": "Oxford Nanopore Technologies, 2020",
+      "id": "mnematikon_uksh",
+      "type": "Project",
+      "name": "Mnematikon with UKSH",
+      "description": "Collaborative development of edge-computing bioinformatics for intraoperative tumour classification.",
       "relationships": {
-        "technologies": []
-      }
-    },
-    {
-      "id": "talk_03",
-      "type": "Talk",
-      "title": "Bacterial genomics: from biology to publication",
-      "venue": "MGRC Premium Workshop, 2013",
-      "relationships": {
-        "technologies": []
-      }
-    },
-    {
-      "id": "training_01",
-      "type": "Training Course",
-      "description": "International customer enablement for nanopore analysis, including Bioinformatics 101 and the Nextflow Summit.",
-      "relationships": {
-        "domains": [
-          "Bioinformatics Capability Building"
+        "products": [
+          "mnematikon"
+        ],
+        "technologies": [
+          "cloud_computing",
+          "genomics"
+        ],
+        "employers": [
+          "mnemosyne_genomics"
         ]
-      }
+      },
+      "source": "content/projects/mnematikon_uksh.yaml",
+      "search_text": "mnematikon_uksh project mnematikon with uksh collaborative development of edge-computing bioinformatics for intraoperative tumour classification."
     },
     {
-      "id": "training_02",
-      "type": "Training Course",
-      "description": "Scientific workshops spanning long-read sequencing, bacterial genomics and reproducible workflow adoption.",
+      "id": "mygenome",
+      "type": "Project",
+      "name": "MyGenome",
+      "description": "An indigenous and local population genomics programme at Malaysian Genomics Resource Centre.",
       "relationships": {
-        "domains": [
-          "Bioinformatics Capability Building"
+        "roles": [
+          "malaysian_genomics_resource_centre_chief_scientific_officer"
+        ],
+        "technologies": [
+          "genomics"
         ]
-      }
+      },
+      "source": "content/projects/mygenome.yaml",
+      "search_text": "mygenome project mygenome an indigenous and local population genomics programme at malaysian genomics resource centre."
     },
     {
-      "id": "training_03",
-      "type": "Training Course",
-      "description": "Academic supervision and embedded training that helped teams apply bioinformatics with confidence.",
+      "id": "proboscis_monkey",
+      "type": "Project",
+      "name": "Proboscis Monkey",
+      "description": "Genomic work on the Proboscis Monkey at Malaysian Genomics Resource Centre.",
       "relationships": {
-        "domains": [
-          "Bioinformatics Capability Building"
+        "roles": [
+          "malaysian_genomics_resource_centre_chief_scientific_officer"
+        ],
+        "technologies": [
+          "genomics"
         ]
-      }
+      },
+      "source": "content/projects/proboscis_monkey.yaml",
+      "search_text": "proboscis_monkey project proboscis monkey genomic work on the proboscis monkey at malaysian genomics resource centre."
+    },
+    {
+      "id": "arabidopsis",
+      "type": "Product",
+      "name": "Arabidopsis Genome Resources",
+      "description": "Genome analysis and community knowledge resources for Arabidopsis.",
+      "problem": "The first complete plant genome required durable, reusable annotation and reference resources.",
+      "solution": "Genome analysis, comparative annotation and community database resources.",
+      "impact": "Provided a foundation for comparative genomics and crop-science interpretation.",
+      "technologies": [
+        "genomics"
+      ],
+      "projects": [
+        "arabidopsis_genome"
+      ],
+      "source": "content/products/arabidopsis.yaml",
+      "relationships": {
+        "technologies": [
+          "genomics"
+        ],
+        "projects": [
+          "arabidopsis_genome"
+        ]
+      },
+      "search_text": "arabidopsis product arabidopsis genome resources genome analysis and community knowledge resources for arabidopsis. the first complete plant genome required durable, reusable annotation and reference resources. genome analysis, comparative annotation and community database resources. provided a foundation for comparative genomics and crop-science interpretation. genomics arabidopsis_genome"
     },
     {
       "id": "clair",
+      "aliases": [
+        "eclair"
+      ],
       "type": "Product",
       "name": "Éclair",
       "description": "Sequence-origin web service.",
@@ -301,16 +515,29 @@
       "publications": [],
       "employers": [],
       "projects": [],
-      "career_phase": "Product leadership"
+      "career_phase": "Product leadership",
+      "source": "content/products/clair.yaml",
+      "relationships": {
+        "technologies": [
+          "genomics"
+        ]
+      },
+      "search_text": "clair eclair product éclair sequence-origin web service. scientific data and analysis need accessible, reusable systems. sequence-origin web service. connects scientific users with repeatable delivery. genomics    product leadership"
     },
     {
       "id": "epi2me",
       "type": "Product",
       "name": "EPI2ME",
-      "description": "Oxford Nanopore workflow platform.",
-      "problem": "Scientific data and analysis need accessible, reusable systems.",
-      "solution": "Oxford Nanopore workflow platform.",
-      "impact": "Connects scientific users with repeatable delivery.",
+      "description": "Oxford Nanopore's workflow platform for supported bioinformatics analyses.",
+      "problem": "Sequencing laboratories need analysis products that are scientifically useful without requiring every user to assemble a bespoke workflow.",
+      "scientific_context": "Long-read sequencing analysis spans laboratory decisions, applications support and computational delivery.",
+      "solution": "Supported, open-source Nextflow workflows delivered across sequencing devices, desktop systems and cloud workflows.",
+      "design_decisions": [
+        "Choose analyses with sequencing laboratories, applications scientists and software engineers.",
+        "Make workflow orchestration portable across device, desktop and cloud execution.",
+        "Use open-source software for computational analysis products."
+      ],
+      "impact": "Turned a set of analyses into a coherent product surface informed by practical laboratory requirements.",
       "technologies": [
         "genomics",
         "nextflow"
@@ -319,8 +546,91 @@
       "employers": [
         "oxford_nanopore_technologies"
       ],
-      "projects": [],
-      "career_phase": "Product leadership"
+      "projects": [
+        "covid_response"
+      ],
+      "career_phase": "Product leadership",
+      "source": "content/products/epi2me.yaml",
+      "relationships": {
+        "technologies": [
+          "genomics",
+          "nextflow"
+        ],
+        "employers": [
+          "oxford_nanopore_technologies"
+        ],
+        "projects": [
+          "covid_response"
+        ]
+      },
+      "search_text": "epi2me product epi2me oxford nanopore's workflow platform for supported bioinformatics analyses. sequencing laboratories need analysis products that are scientifically useful without requiring every user to assemble a bespoke workflow. long-read sequencing analysis spans laboratory decisions, applications support and computational delivery. supported, open-source nextflow workflows delivered across sequencing devices, desktop systems and cloud workflows. choose analyses with sequencing laboratories, applications scientists and software engineers. make workflow orchestration portable across device, desktop and cloud execution. use open-source software for computational analysis products. turned a set of analyses into a coherent product surface informed by practical laboratory requirements. genomics nextflow  oxford_nanopore_technologies covid_response product leadership"
+    },
+    {
+      "id": "mips",
+      "type": "Product",
+      "name": "MIPS",
+      "description": "Integrated genome and protein-sequence database resources.",
+      "problem": "Genome annotation and protein knowledge needed a shared, searchable reference layer.",
+      "solution": "Integrated genome and protein-sequence databases.",
+      "impact": "Supported the early genome-resource infrastructure that enabled comparative analysis.",
+      "technologies": [
+        "genomics",
+        "bioinformatics"
+      ],
+      "projects": [
+        "arabidopsis_genome"
+      ],
+      "source": "content/products/mips.yaml",
+      "relationships": {
+        "technologies": [
+          "bioinformatics",
+          "genomics"
+        ],
+        "projects": [
+          "arabidopsis_genome"
+        ]
+      },
+      "search_text": "mips product mips integrated genome and protein-sequence database resources. genome annotation and protein knowledge needed a shared, searchable reference layer. integrated genome and protein-sequence databases. supported the early genome-resource infrastructure that enabled comparative analysis. genomics bioinformatics arabidopsis_genome"
+    },
+    {
+      "id": "mnematikon",
+      "type": "Product",
+      "name": "Mnematikon",
+      "description": "An edge-computing bioinformatics platform for intraoperative tumour classification, developed with UKSH in Germany.",
+      "problem": "Scientific support units need computational systems that can be used close to the experiment and clinical decision point.",
+      "scientific_context": "Intraoperative tumour classification requires timely, reproducible computational support.",
+      "solution": "An edge-computing bioinformatics platform within the Mnemosyne ecosystem.",
+      "design_decisions": [
+        "Keep execution close to the point of use.",
+        "Support scientific support units and bioinformatics core facilities.",
+        "Develop with an external clinical collaborator."
+      ],
+      "impact": "Extends the same product and workflow thinking into a current clinical collaboration.",
+      "future_evolution": "Developed as part of the Mnemosyne Biosciences ecosystem.",
+      "technologies": [
+        "genomics",
+        "cloud_computing"
+      ],
+      "employers": [
+        "mnemosyne_genomics"
+      ],
+      "projects": [
+        "mnematikon_uksh"
+      ],
+      "source": "content/products/mnematikon.yaml",
+      "relationships": {
+        "technologies": [
+          "cloud_computing",
+          "genomics"
+        ],
+        "employers": [
+          "mnemosyne_genomics"
+        ],
+        "projects": [
+          "mnematikon_uksh"
+        ]
+      },
+      "search_text": "mnematikon product mnematikon an edge-computing bioinformatics platform for intraoperative tumour classification, developed with uksh in germany. scientific support units need computational systems that can be used close to the experiment and clinical decision point. intraoperative tumour classification requires timely, reproducible computational support. an edge-computing bioinformatics platform within the mnemosyne ecosystem. keep execution close to the point of use. support scientific support units and bioinformatics core facilities. develop with an external clinical collaborator. extends the same product and workflow thinking into a current clinical collaboration. developed as part of the mnemosyne biosciences ecosystem. genomics cloud_computing mnemosyne_genomics mnematikon_uksh"
     },
     {
       "id": "mnemosyne",
@@ -336,7 +646,14 @@
       "publications": [],
       "employers": [],
       "projects": [],
-      "career_phase": "Product leadership"
+      "career_phase": "Product leadership",
+      "source": "content/products/mnemosyne.yaml",
+      "relationships": {
+        "technologies": [
+          "genomics"
+        ]
+      },
+      "search_text": "mnemosyne product mnemosyne independent genomics consultancy. scientific data and analysis need accessible, reusable systems. independent genomics consultancy. connects scientific users with repeatable delivery. genomics    product leadership"
     },
     {
       "id": "opensputnik",
@@ -352,7 +669,14 @@
       "publications": [],
       "employers": [],
       "projects": [],
-      "career_phase": "Product leadership"
+      "career_phase": "Product leadership",
+      "source": "content/products/opensputnik.yaml",
+      "relationships": {
+        "technologies": [
+          "genomics"
+        ]
+      },
+      "search_text": "opensputnik product opensputnik est-oriented comparative genomics resource. scientific data and analysis need accessible, reusable systems. est-oriented comparative genomics resource. connects scientific users with repeatable delivery. genomics    product leadership"
     },
     {
       "id": "plant_breeding_api",
@@ -368,7 +692,14 @@
       "publications": [],
       "employers": [],
       "projects": [],
-      "career_phase": "Product leadership"
+      "career_phase": "Product leadership",
+      "source": "content/products/plant_breeding_api.yaml",
+      "relationships": {
+        "technologies": [
+          "genomics"
+        ]
+      },
+      "search_text": "plant_breeding_api product plant breeding api plant-science interoperability api. scientific data and analysis need accessible, reusable systems. plant-science interoperability api. connects scientific users with repeatable delivery. genomics    product leadership"
     },
     {
       "id": "plantmarkers",
@@ -384,7 +715,14 @@
       "publications": [],
       "employers": [],
       "projects": [],
-      "career_phase": "Product leadership"
+      "career_phase": "Product leadership",
+      "source": "content/products/plantmarkers.yaml",
+      "relationships": {
+        "technologies": [
+          "genomics"
+        ]
+      },
+      "search_text": "plantmarkers product plantmarkers plant molecular marker database. scientific data and analysis need accessible, reusable systems. plant molecular marker database. connects scientific users with repeatable delivery. genomics    product leadership"
     },
     {
       "id": "sputnik",
@@ -400,881 +738,1754 @@
       "publications": [],
       "employers": [],
       "projects": [],
-      "career_phase": "Product leadership"
-    },
-    {
-      "id": "arabidopsis_genome",
-      "type": "Project",
-      "name": "Arabidopsis Genome",
+      "career_phase": "Product leadership",
+      "source": "content/products/sputnik.yaml",
       "relationships": {
-        "products": [],
-        "publications": [],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "search_text": "sputnik product sputnik comparative plant-genomics database platform. scientific data and analysis need accessible, reusable systems. comparative plant-genomics database platform. connects scientific users with repeatable delivery. genomics    product leadership"
     },
     {
-      "id": "commercial_bioinformatics",
-      "type": "Project",
-      "name": "Commercial Bioinformatics",
+      "id": "talk_01",
+      "type": "Talk",
+      "title": "Nextflow and nanopores: democratising the analysis of long-read DNA sequences",
+      "venue": "Nextflow Summit, 2023",
       "relationships": {
-        "products": [],
-        "publications": [],
         "technologies": [
-          "genomics"
+          "nextflow"
         ]
-      }
+      },
+      "source": "content/talks/talk_01.yaml",
+      "search_text": "talk_01 talk nextflow and nanopores: democratising the analysis of long-read dna sequences nextflow summit, 2023"
     },
     {
-      "id": "core_facility",
-      "type": "Project",
-      "name": "Core Facility",
-      "relationships": {
-        "products": [],
-        "publications": [],
-        "technologies": [
-          "genomics"
-        ]
-      }
+      "id": "talk_02",
+      "type": "Talk",
+      "title": "Bioinformatics 101",
+      "venue": "Oxford Nanopore Technologies, 2020",
+      "relationships": {},
+      "source": "content/talks/talk_02.yaml",
+      "search_text": "talk_02 talk bioinformatics 101 oxford nanopore technologies, 2020"
     },
     {
-      "id": "covid_response",
-      "type": "Project",
-      "name": "COVID Response",
-      "relationships": {
-        "products": [],
-        "publications": [],
-        "technologies": [
-          "genomics"
-        ]
-      }
+      "id": "talk_03",
+      "type": "Talk",
+      "title": "Bacterial genomics: from biology to publication",
+      "venue": "MGRC Premium Workshop, 2013",
+      "relationships": {},
+      "source": "content/talks/talk_03.yaml",
+      "search_text": "talk_03 talk bacterial genomics: from biology to publication mgrc premium workshop, 2013"
     },
     {
-      "id": "mygenome",
-      "type": "Project",
-      "name": "MyGenome",
+      "id": "training_01",
+      "type": "Training Course",
+      "description": "International customer enablement for nanopore analysis, including Bioinformatics 101 and the Nextflow Summit.",
       "relationships": {
-        "products": [],
-        "publications": [],
-        "technologies": [
-          "genomics"
+        "domains": [
+          "bioinformatics_capability_building"
         ]
-      }
+      },
+      "source": "content/training/training_01.yaml",
+      "search_text": "training_01 training course international customer enablement for nanopore analysis, including bioinformatics 101 and the nextflow summit."
     },
     {
-      "id": "proboscis_monkey",
-      "type": "Project",
-      "name": "Proboscis Monkey",
+      "id": "training_02",
+      "type": "Training Course",
+      "description": "Scientific workshops spanning long-read sequencing, bacterial genomics and reproducible workflow adoption.",
       "relationships": {
-        "products": [],
-        "publications": [],
-        "technologies": [
-          "genomics"
+        "domains": [
+          "bioinformatics_capability_building"
         ]
-      }
+      },
+      "source": "content/training/training_02.yaml",
+      "search_text": "training_02 training course scientific workshops spanning long-read sequencing, bacterial genomics and reproducible workflow adoption."
+    },
+    {
+      "id": "training_03",
+      "type": "Training Course",
+      "description": "Academic supervision and embedded training that helped teams apply bioinformatics with confidence.",
+      "relationships": {
+        "domains": [
+          "bioinformatics_capability_building"
+        ]
+      },
+      "source": "content/training/training_03.yaml",
+      "search_text": "training_03 training course academic supervision and embedded training that helped teams apply bioinformatics with confidence."
+    },
+    {
+      "id": "bioinformatics",
+      "type": "Technology",
+      "name": "Bioinformatics",
+      "description": "Computational methods, software and data systems for biological research.",
+      "source": "content/technologies/bioinformatics.yaml",
+      "relationships": {},
+      "search_text": "bioinformatics technology bioinformatics computational methods, software and data systems for biological research."
     },
     {
       "id": "cloud_computing",
       "type": "Technology",
-      "name": "Cloud Computing"
+      "name": "Cloud Computing",
+      "source": "content/technologies/cloud_computing.yaml",
+      "relationships": {},
+      "search_text": "cloud_computing technology cloud computing"
     },
     {
       "id": "genomics",
       "type": "Technology",
-      "name": "Genomics"
+      "name": "Genomics",
+      "source": "content/technologies/genomics.yaml",
+      "relationships": {},
+      "search_text": "genomics technology genomics"
     },
     {
       "id": "interoperability",
       "type": "Technology",
-      "name": "Interoperability"
+      "name": "Interoperability",
+      "source": "content/technologies/interoperability.yaml",
+      "relationships": {},
+      "search_text": "interoperability technology interoperability"
     },
     {
       "id": "long_read_sequencing",
       "type": "Technology",
-      "name": "Long-read Sequencing"
+      "name": "Long-read Sequencing",
+      "source": "content/technologies/long_read_sequencing.yaml",
+      "relationships": {},
+      "search_text": "long_read_sequencing technology long-read sequencing"
     },
     {
       "id": "nextflow",
       "type": "Technology",
-      "name": "Nextflow"
+      "name": "Nextflow",
+      "source": "content/technologies/nextflow.yaml",
+      "relationships": {},
+      "search_text": "nextflow technology nextflow"
+    },
+    {
+      "id": "bioinformatics_capability_building",
+      "type": "Scientific Domain",
+      "name": "Bioinformatics Capability Building",
+      "description": "Building the people, workflows and operating models that make computational biology usable.",
+      "source": "content/domains/bioinformatics_capability_building.yaml",
+      "relationships": {},
+      "search_text": "bioinformatics_capability_building scientific domain bioinformatics capability building building the people, workflows and operating models that make computational biology usable."
     },
     {
       "id": "arabidopsis2000",
       "type": "Publication",
       "name": "Analysis of the genome sequence of the flowering plant Arabidopsis thaliana",
       "year": 2000,
+      "journal": "Nature",
+      "summary": "Genome Resources; Plant Genomics; Methods",
+      "authors": "The Arabidopsis Genome Initiative",
+      "doi": "10.1038/35048692",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Plant Genomics",
-          "Methods"
+        "products": [
+          "arabidopsis"
         ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "arabidopsis2000 publication analysis of the genome sequence of the flowering plant arabidopsis thaliana 2000 nature genome resources; plant genomics; methods the arabidopsis genome initiative 10.1038/35048692"
     },
     {
       "id": "dalmay2000silencing",
       "type": "Publication",
       "name": "An RNA-dependent RNA polymerase gene in Arabidopsis is required for posttranscriptional gene silencing mediated by a transgene but not by a virus",
       "year": 2000,
+      "journal": "Cell",
+      "summary": "Transcriptomics; Plant Genomics",
+      "authors": "Dalmay, Tamas and Hamilton, Andrew and Rudd, Stephen and Angell, Susan and Baulcombe, David C.",
+      "doi": "10.1016/s0092-8674(00)80864-8",
       "relationships": {
-        "categories": [
-          "Transcriptomics",
-          "Plant Genomics"
+        "products": [
+          "arabidopsis"
         ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "dalmay2000silencing publication an rna-dependent rna polymerase gene in arabidopsis is required for posttranscriptional gene silencing mediated by a transgene but not by a virus 2000 cell transcriptomics; plant genomics dalmay, tamas and hamilton, andrew and rudd, stephen and angell, susan and baulcombe, david c. 10.1016/s0092-8674(00)80864-8"
     },
     {
       "id": "eu2000chromosome3",
       "type": "Publication",
       "name": "Sequence and analysis of chromosome 3 of the plant Arabidopsis thaliana",
       "year": 2000,
+      "journal": "Nature",
+      "summary": "Genome Resources; Plant Genomics; Methods",
+      "authors": "European Union Chromosome 3 Arabidopsis Genome Sequencing Consortium and The Institute for Genomic Research and Kazusa DNA Research Institute",
+      "doi": "10.1038/35048706",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Plant Genomics",
-          "Methods"
+        "products": [
+          "arabidopsis"
         ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "eu2000chromosome3 publication sequence and analysis of chromosome 3 of the plant arabidopsis thaliana 2000 nature genome resources; plant genomics; methods european union chromosome 3 arabidopsis genome sequencing consortium and the institute for genomic research and kazusa dna research institute 10.1038/35048706"
     },
     {
       "id": "kazusa2000chromosome5",
       "type": "Publication",
       "name": "Sequence and analysis of chromosome 5 of the plant Arabidopsis thaliana",
       "year": 2000,
+      "journal": "Nature",
+      "summary": "Genome Resources; Plant Genomics; Methods",
+      "authors": "Kazusa DNA Research Institute and The Cold Spring Harbor and Washington University Sequencing Consortium and The European Union Arabidopsis Genome Sequencing Consortium and Institute of Plant Genetics and Crop Plant Research (IPK)",
+      "doi": "10.1038/35048507",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Plant Genomics",
-          "Methods"
+        "products": [
+          "arabidopsis"
         ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "kazusa2000chromosome5 publication sequence and analysis of chromosome 5 of the plant arabidopsis thaliana 2000 nature genome resources; plant genomics; methods kazusa dna research institute and the cold spring harbor and washington university sequencing consortium and the european union arabidopsis genome sequencing consortium and institute of plant genetics and crop plant research (ipk) 10.1038/35048507"
     },
     {
       "id": "mayer2000chromosome4",
       "type": "Publication",
       "name": "Arabidopsis genome analysis as exemplified by analysis of chromosome 4",
       "year": 2000,
+      "journal": "Briefings in Bioinformatics",
+      "summary": "Genome Resources; Plant Genomics; Bioinformatics Infrastructure; Methods",
+      "authors": "Mayer, Klaus F. X. and Lemcke, Kai and Rudd, Stephen and Zaccaria, Paolo and Schuller, Christine M.",
+      "doi": "10.1093/bib/1.4.389",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Plant Genomics",
-          "Bioinformatics Infrastructure",
-          "Methods"
+        "products": [
+          "arabidopsis"
         ],
         "technologies": [
-          "genomics",
-          "bioinformatics"
+          "bioinformatics",
+          "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "mayer2000chromosome4 publication arabidopsis genome analysis as exemplified by analysis of chromosome 4 2000 briefings in bioinformatics genome resources; plant genomics; bioinformatics infrastructure; methods mayer, klaus f. x. and lemcke, kai and rudd, stephen and zaccaria, paolo and schuller, christine m. 10.1093/bib/1.4.389"
     },
     {
       "id": "haas2002full",
       "type": "Publication",
       "name": "Full-length messenger RNA sequences greatly improve genome annotation",
       "year": 2002,
+      "journal": "Genome Biology",
+      "summary": "Genome Resources; Transcriptomics",
+      "authors": "Haas, Brian J. and Volfovsky, Natalia and Town, Christopher D. and Troukhan, Michael and Alexandrov, Nikolai and Feldmann, Kenneth A. and Flavell, Richard B. and White, Owen and Salzberg, Steven L.",
+      "doi": "10.1186/gb-2002-3-6-research0029",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Transcriptomics"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "haas2002full publication full-length messenger rna sequences greatly improve genome annotation 2002 genome biology genome resources; transcriptomics haas, brian j. and volfovsky, natalia and town, christopher d. and troukhan, michael and alexandrov, nikolai and feldmann, kenneth a. and flavell, richard b. and white, owen and salzberg, steven l. 10.1186/gb-2002-3-6-research0029"
     },
     {
       "id": "mewes2002mips",
       "type": "Publication",
       "name": "MIPS: a database for genomes and protein sequences",
       "year": 2002,
+      "journal": "Nucleic Acids Research",
+      "summary": "Genome Resources; Bioinformatics Databases",
+      "authors": "Mewes, H. W. and Frishman, D. and Guldener, U. and others",
+      "doi": "10.1093/nar/30.1.31",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Bioinformatics Databases"
+        "products": [
+          "mips"
         ],
         "technologies": [
-          "genomics",
-          "bioinformatics"
+          "bioinformatics",
+          "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "mewes2002mips publication mips: a database for genomes and protein sequences 2002 nucleic acids research genome resources; bioinformatics databases mewes, h. w. and frishman, d. and guldener, u. and others 10.1093/nar/30.1.31"
     },
     {
       "id": "schoof2002matdb",
       "type": "Publication",
       "name": "MIPS Arabidopsis thaliana Database (MAtDB): an integrated biological knowledge resource based on the first complete plant genome",
       "year": 2002,
+      "journal": "Nucleic Acids Research",
+      "summary": "Genome Resources; Plant Genomics; Bioinformatics Databases; Resources",
+      "authors": "Schoof, Heiko and Zaccaria, Paolo and Gundlach, Heidrun and Lemcke, Kai and Rudd, Stephen and Kolesov, Grigory and Arnold, Roland and Mewes, Hans-Werner and Mayer, Klaus F. X.",
+      "doi": "10.1093/nar/30.1.91",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Plant Genomics",
-          "Bioinformatics Databases",
-          "Resources"
+        "products": [
+          "arabidopsis",
+          "mips"
         ],
         "technologies": [
-          "genomics",
-          "bioinformatics"
+          "bioinformatics",
+          "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "schoof2002matdb publication mips arabidopsis thaliana database (matdb): an integrated biological knowledge resource based on the first complete plant genome 2002 nucleic acids research genome resources; plant genomics; bioinformatics databases; resources schoof, heiko and zaccaria, paolo and gundlach, heidrun and lemcke, kai and rudd, stephen and kolesov, grigory and arnold, roland and mewes, hans-werner and mayer, klaus f. x. 10.1093/nar/30.1.91"
     },
     {
       "id": "brenner2003cycas",
       "type": "Publication",
       "name": "Expressed sequence tag analysis in Cycas, the most primitive living seed plant",
       "year": 2003,
+      "journal": "Genome Biology",
+      "summary": "Genome Resources; Transcriptomics; Plant Genomics; Methods",
+      "authors": "Brenner, Eric D. and Stevenson, Dennis W. and McCombie, Richard W. and others",
+      "doi": "10.1186/gb-2003-4-12-r78",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Transcriptomics",
-          "Plant Genomics",
-          "Methods"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "brenner2003cycas publication expressed sequence tag analysis in cycas, the most primitive living seed plant 2003 genome biology genome resources; transcriptomics; plant genomics; methods brenner, eric d. and stevenson, dennis w. and mccombie, richard w. and others 10.1186/gb-2003-4-12-r78"
     },
     {
       "id": "galagan2003neurospora",
       "type": "Publication",
       "name": "The genome sequence of the filamentous fungus Neurospora crassa",
       "year": 2003,
+      "journal": "Nature",
+      "summary": "Genome Resources",
+      "authors": "Galagan, James E. and Calvo, Sarah E. and Borkovich, Katherine A. and others",
+      "doi": "10.1038/nature01554",
       "relationships": {
-        "categories": [
-          "Genome Resources"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "galagan2003neurospora publication the genome sequence of the filamentous fungus neurospora crassa 2003 nature genome resources galagan, james e. and calvo, sarah e. and borkovich, katherine a. and others 10.1038/nature01554"
     },
     {
       "id": "kota2003barley",
       "type": "Publication",
       "name": "Snipping polymorphisms from large EST collections in barley (Hordeum vulgare L.)",
       "year": 2003,
+      "journal": "Molecular Genetics and Genomics",
+      "summary": "Genome Resources; Transcriptomics; Population Genomics; Plant Genomics; Resources",
+      "authors": "Kota, R. and Rudd, S. and Facius, A. and others",
+      "doi": "10.1007/s00438-003-0891-6",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Transcriptomics",
-          "Population Genomics",
-          "Plant Genomics",
-          "Resources"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "kota2003barley publication snipping polymorphisms from large est collections in barley (hordeum vulgare l.) 2003 molecular genetics and genomics genome resources; transcriptomics; population genomics; plant genomics; resources kota, r. and rudd, s. and facius, a. and others 10.1007/s00438-003-0891-6"
     },
     {
       "id": "rudd2003est",
       "type": "Publication",
       "name": "Expressed sequence tags: alternative or complement to whole genome sequences?",
       "year": 2003,
+      "journal": "Trends in Plant Science",
+      "summary": "Genome Resources; Transcriptomics; Plant Genomics; Reviews",
+      "authors": "Rudd, Stephen",
+      "doi": "10.1016/s1360-1385(03)00131-6",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Transcriptomics",
-          "Plant Genomics",
-          "Reviews"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "rudd2003est publication expressed sequence tags: alternative or complement to whole genome sequences? 2003 trends in plant science genome resources; transcriptomics; plant genomics; reviews rudd, stephen 10.1016/s1360-1385(03)00131-6"
     },
     {
       "id": "rudd2003sputnik",
       "type": "Publication",
       "name": "Sputnik: a database platform for comparative plant genomics",
       "year": 2003,
+      "journal": "Nucleic Acids Research",
+      "summary": "Genome Resources; Comparative Genomics; Plant Genomics; Bioinformatics Infrastructure; Bioinformatics Databases; Software",
+      "authors": "Rudd, Stephen and Mewes, Hans-Werner and Mayer, Klaus F. X.",
+      "doi": "10.1093/nar/gkg075",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Comparative Genomics",
-          "Plant Genomics",
-          "Bioinformatics Infrastructure",
-          "Bioinformatics Databases",
-          "Software"
+        "products": [
+          "sputnik"
         ],
         "technologies": [
-          "genomics",
-          "bioinformatics"
+          "bioinformatics",
+          "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "rudd2003sputnik publication sputnik: a database platform for comparative plant genomics 2003 nucleic acids research genome resources; comparative genomics; plant genomics; bioinformatics infrastructure; bioinformatics databases; software rudd, stephen and mewes, hans-werner and mayer, klaus f. x. 10.1093/nar/gkg075"
     },
     {
       "id": "lai2004maize",
       "type": "Publication",
       "name": "Characterization of the maize endosperm transcriptome and its comparison to the rice genome",
       "year": 2004,
+      "journal": "Genome Research",
+      "summary": "Genome Resources; Transcriptomics; Plant Genomics",
+      "authors": "Lai, Jinsheng and Dey, Nrisingha and Kim, Cheol-Soo and others",
+      "doi": "10.1101/gr.2780504",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Transcriptomics",
-          "Plant Genomics"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "lai2004maize publication characterization of the maize endosperm transcriptome and its comparison to the rice genome 2004 genome research genome resources; transcriptomics; plant genomics lai, jinsheng and dey, nrisingha and kim, cheol-soo and others 10.1101/gr.2780504"
     },
     {
       "id": "rudd2004smar",
       "type": "Publication",
       "name": "Genome-wide in silico mapping of scaffold/matrix attachment regions in Arabidopsis suggests correlation of intragenic scaffold/matrix attachment regions with gene expression",
       "year": 2004,
+      "journal": "Plant Physiology",
+      "summary": "Genome Resources; Comparative Genomics; Transcriptomics; Plant Genomics",
+      "authors": "Rudd, Stephen and Frisch, Matthias and Grote, Korbinian and Meyers, Blake C. and Mayer, Klaus and Werner, Thomas",
+      "doi": "10.1104/pp.103.037861",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Comparative Genomics",
-          "Transcriptomics",
-          "Plant Genomics"
+        "products": [
+          "arabidopsis"
         ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "rudd2004smar publication genome-wide in silico mapping of scaffold/matrix attachment regions in arabidopsis suggests correlation of intragenic scaffold/matrix attachment regions with gene expression 2004 plant physiology genome resources; comparative genomics; transcriptomics; plant genomics rudd, stephen and frisch, matthias and grote, korbinian and meyers, blake c. and mayer, klaus and werner, thomas 10.1104/pp.103.037861"
     },
     {
       "id": "zhang2004barley",
       "type": "Publication",
       "name": "Large-scale analysis of the barley transcriptome based on expressed sequence tags",
       "year": 2004,
+      "journal": "The Plant Journal",
+      "summary": "Transcriptomics; Plant Genomics; Methods",
+      "authors": "Zhang, Hangning and Sreenivasulu, Nese and Weschke, Winfriede and others",
+      "doi": "10.1111/j.1365-313x.2004.02209.x",
       "relationships": {
-        "categories": [
-          "Transcriptomics",
-          "Plant Genomics",
-          "Methods"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "zhang2004barley publication large-scale analysis of the barley transcriptome based on expressed sequence tags 2004 the plant journal transcriptomics; plant genomics; methods zhang, hangning and sreenivasulu, nese and weschke, winfriede and others 10.1111/j.1365-313x.2004.02209.x"
     },
     {
       "id": "battchikova2005ndh",
       "type": "Publication",
       "name": "Identification of NdhL and Ssl1690 (NdhO) in NDH-1L and NDH-1M complexes of Synechocystis sp. PCC 6803",
       "year": 2005,
+      "journal": "Journal of Biological Chemistry",
+      "summary": "Transcriptomics",
+      "authors": "Battchikova, Natalia and Zhang, Pengpeng and Rudd, Stephen and Ogawa, Teruo and Aro, Eva-Mari",
+      "doi": "10.1074/jbc.m410914200",
       "relationships": {
-        "categories": [
-          "Transcriptomics"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "battchikova2005ndh publication identification of ndhl and ssl1690 (ndho) in ndh-1l and ndh-1m complexes of synechocystis sp. pcc 6803 2005 journal of biological chemistry transcriptomics battchikova, natalia and zhang, pengpeng and rudd, stephen and ogawa, teruo and aro, eva-mari 10.1074/jbc.m410914200"
     },
     {
       "id": "brenner2005ginkgo",
       "type": "Publication",
       "name": "EST analysis in Ginkgo biloba: an assessment of conserved developmental regulators and gymnosperm-specific genes",
       "year": 2005,
+      "journal": "BMC Genomics",
+      "summary": "Genome Resources; Transcriptomics; Plant Genomics; Methods",
+      "authors": "Brenner, Eric D. and Katari, Manpreet S. and Stevenson, Dennis W. and others",
+      "doi": "10.1186/1471-2164-6-143",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Transcriptomics",
-          "Plant Genomics",
-          "Methods"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "brenner2005ginkgo publication est analysis in ginkgo biloba: an assessment of conserved developmental regulators and gymnosperm-specific genes 2005 bmc genomics genome resources; transcriptomics; plant genomics; methods brenner, eric d. and katari, manpreet s. and stevenson, dennis w. and others 10.1186/1471-2164-6-143"
     },
     {
       "id": "brosche2005populus",
       "type": "Publication",
       "name": "Gene expression and metabolite profiling of Populus euphratica growing in the Negev desert",
       "year": 2005,
+      "journal": "Genome Biology",
+      "summary": "Genome Resources; Plant Genomics; Methods",
+      "authors": "Brosche, Mikael and Vinocur, Basia and Alatalo, Edward R. and others",
+      "doi": "10.1186/gb-2005-6-12-r101",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Plant Genomics",
-          "Methods"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "brosche2005populus publication gene expression and metabolite profiling of populus euphratica growing in the negev desert 2005 genome biology genome resources; plant genomics; methods brosche, mikael and vinocur, basia and alatalo, edward r. and others 10.1186/gb-2005-6-12-r101"
     },
     {
       "id": "friedel2005svm",
       "type": "Publication",
       "name": "Support vector machines for separation of mixed plant-pathogen EST collections based on codon usage",
       "year": 2005,
+      "journal": "Bioinformatics",
+      "summary": "Transcriptomics; Plant Genomics; Bioinformatics Infrastructure; Methods; Machine Learning; Resources",
+      "authors": "Friedel, Caroline C. and Jahn, Katharina H. V. and Sommer, Selina and Rudd, Stephen and Mewes, Hans W. and Tetko, Igor V.",
+      "doi": "10.1093/bioinformatics/bti200",
       "relationships": {
-        "categories": [
-          "Transcriptomics",
-          "Plant Genomics",
-          "Bioinformatics Infrastructure",
-          "Methods",
-          "Machine Learning",
-          "Resources"
-        ],
         "technologies": [
-          "genomics",
-          "bioinformatics"
+          "bioinformatics",
+          "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "friedel2005svm publication support vector machines for separation of mixed plant-pathogen est collections based on codon usage 2005 bioinformatics transcriptomics; plant genomics; bioinformatics infrastructure; methods; machine learning; resources friedel, caroline c. and jahn, katharina h. v. and sommer, selina and rudd, stephen and mewes, hans w. and tetko, igor v. 10.1093/bioinformatics/bti200"
     },
     {
       "id": "germain2005solanum",
       "type": "Publication",
       "name": "A 6374 unigene set corresponding to low abundance transcripts expressed following fertilization in Solanum chacoense and characterization of 30 receptor-like kinases",
       "year": 2005,
+      "journal": "Plant Molecular Biology",
+      "summary": "Transcriptomics; Plant Genomics",
+      "authors": "Germain, Hugo and Rudd, Stephen and Zotti, Corine and others",
+      "doi": "10.1007/s11103-005-0536-8",
       "relationships": {
-        "categories": [
-          "Transcriptomics",
-          "Plant Genomics"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "germain2005solanum publication a 6374 unigene set corresponding to low abundance transcripts expressed following fertilization in solanum chacoense and characterization of 30 receptor-like kinases 2005 plant molecular biology transcriptomics; plant genomics germain, hugo and rudd, stephen and zotti, corine and others 10.1007/s11103-005-0536-8"
     },
     {
       "id": "laitinen2005gerbera",
       "type": "Publication",
       "name": "Analysis of the floral transcriptome uncovers new regulators of organ determination and gene families related to flower organ differentiation in Gerbera hybrida (Asteraceae)",
       "year": 2005,
+      "journal": "Genome Research",
+      "summary": "Genome Resources; Transcriptomics; Plant Genomics; Methods",
+      "authors": "Laitinen, Roosa A. E. and Immanen, Juha and Auvinen, Petri and others",
+      "doi": "10.1101/gr.3043705",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Transcriptomics",
-          "Plant Genomics",
-          "Methods"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "laitinen2005gerbera publication analysis of the floral transcriptome uncovers new regulators of organ determination and gene families related to flower organ differentiation in gerbera hybrida (asteraceae) 2005 genome research genome resources; transcriptomics; plant genomics; methods laitinen, roosa a. e. and immanen, juha and auvinen, petri and others 10.1101/gr.3043705"
     },
     {
       "id": "rudd2005eclair",
       "type": "Publication",
       "name": "Eclair---a web service for unravelling species origin of sequences sampled from mixed host interfaces",
       "year": 2005,
+      "journal": "Nucleic Acids Research",
+      "summary": "Bioinformatics Infrastructure; Software",
+      "authors": "Rudd, Stephen and Tetko, Igor V.",
+      "doi": "10.1093/nar/gki434",
       "relationships": {
-        "categories": [
-          "Bioinformatics Infrastructure",
-          "Software"
+        "products": [
+          "clair"
         ],
         "technologies": [
-          "genomics",
-          "bioinformatics"
+          "bioinformatics",
+          "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "rudd2005eclair publication eclair---a web service for unravelling species origin of sequences sampled from mixed host interfaces 2005 nucleic acids research bioinformatics infrastructure; software rudd, stephen and tetko, igor v. 10.1093/nar/gki434"
     },
     {
       "id": "rudd2005opensputnik",
       "type": "Publication",
       "name": "openSputnik---a database to ESTablish comparative plant genomics using unsaturated sequence collections",
       "year": 2005,
+      "journal": "Nucleic Acids Research",
+      "summary": "Genome Resources; Comparative Genomics; Transcriptomics; Plant Genomics; Bioinformatics Databases; Software; Resources",
+      "authors": "Rudd, Stephen",
+      "doi": "10.1093/nar/gki040",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Comparative Genomics",
-          "Transcriptomics",
-          "Plant Genomics",
-          "Bioinformatics Databases",
-          "Software",
-          "Resources"
+        "products": [
+          "opensputnik",
+          "sputnik"
         ],
         "technologies": [
-          "genomics",
-          "bioinformatics"
+          "bioinformatics",
+          "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "rudd2005opensputnik publication opensputnik---a database to establish comparative plant genomics using unsaturated sequence collections 2005 nucleic acids research genome resources; comparative genomics; transcriptomics; plant genomics; bioinformatics databases; software; resources rudd, stephen 10.1093/nar/gki040"
     },
     {
       "id": "rudd2005plantmarkers",
       "type": "Publication",
       "name": "PlantMarkers---a database of predicted molecular markers from plants",
       "year": 2005,
+      "journal": "Nucleic Acids Research",
+      "summary": "Plant Genomics; Bioinformatics Databases",
+      "authors": "Rudd, Stephen and Schoof, Heiko and Mayer, Klaus",
+      "doi": "10.1093/nar/gki074",
       "relationships": {
-        "categories": [
-          "Plant Genomics",
-          "Bioinformatics Databases"
+        "products": [
+          "plantmarkers"
         ],
         "technologies": [
-          "genomics",
-          "bioinformatics"
+          "bioinformatics",
+          "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "rudd2005plantmarkers publication plantmarkers---a database of predicted molecular markers from plants 2005 nucleic acids research plant genomics; bioinformatics databases rudd, stephen and schoof, heiko and mayer, klaus 10.1093/nar/gki074"
     },
     {
       "id": "technau2005cnidarians",
       "type": "Publication",
       "name": "Maintenance of ancestral complexity and non-metazoan genes in two basal cnidarians",
       "year": 2005,
+      "journal": "Trends in Genetics",
+      "summary": "Transcriptomics",
+      "authors": "Technau, Ulrich and Rudd, Stephen and Maxwell, Peter and others",
+      "doi": "10.1016/j.tig.2005.09.007",
       "relationships": {
-        "categories": [
-          "Transcriptomics"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "technau2005cnidarians publication maintenance of ancestral complexity and non-metazoan genes in two basal cnidarians 2005 trends in genetics transcriptomics technau, ulrich and rudd, stephen and maxwell, peter and others 10.1016/j.tig.2005.09.007"
     },
     {
       "id": "beldade2006bicyclus",
       "type": "Publication",
       "name": "A wing expressed sequence tag resource for Bicyclus anynana butterflies, an evo-devo model",
       "year": 2006,
+      "journal": "BMC Genomics",
+      "summary": "Genome Resources; Transcriptomics; Resources",
+      "authors": "Beldade, Patricia and Rudd, Stephen and Gruber, Jonathan D. and Long, Anthony D.",
+      "doi": "10.1186/1471-2164-7-130",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Transcriptomics",
-          "Resources"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "beldade2006bicyclus publication a wing expressed sequence tag resource for bicyclus anynana butterflies, an evo-devo model 2006 bmc genomics genome resources; transcriptomics; resources beldade, patricia and rudd, stephen and gruber, jonathan d. and long, anthony d. 10.1186/1471-2164-7-130"
     },
     {
       "id": "bottger2006hydra",
       "type": "Publication",
       "name": "Genetic screen for signal peptides in Hydra reveals novel secreted proteins and evidence for non-classical protein secretion",
       "year": 2006,
+      "journal": "European Journal of Cell Biology",
+      "summary": "Transcriptomics; Methods",
+      "authors": "Bottger, Angelika and Strasser, Dominik and Alexandrova, Olga and others",
+      "doi": "10.1016/j.ejcb.2006.05.007",
       "relationships": {
-        "categories": [
-          "Transcriptomics",
-          "Methods"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "bottger2006hydra publication genetic screen for signal peptides in hydra reveals novel secreted proteins and evidence for non-classical protein secretion 2006 european journal of cell biology transcriptomics; methods bottger, angelika and strasser, dominik and alexandrova, olga and others 10.1016/j.ejcb.2006.05.007"
     },
     {
       "id": "grapes2006pig",
       "type": "Publication",
       "name": "Prospecting for pig single nucleotide polymorphisms in the human genome: have we struck gold?",
       "year": 2006,
+      "journal": "Journal of Animal Breeding and Genetics",
+      "summary": "Genome Resources; Transcriptomics; Population Genomics",
+      "authors": "Grapes, L. and Rudd, S. and Fernando, R. L. and Megy, K. and Rocha, D. and Rothschild, M. F.",
+      "doi": "10.1111/j.1439-0388.2006.00587.x",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Transcriptomics",
-          "Population Genomics"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "grapes2006pig publication prospecting for pig single nucleotide polymorphisms in the human genome: have we struck gold? 2006 journal of animal breeding and genetics genome resources; transcriptomics; population genomics grapes, l. and rudd, s. and fernando, r. l. and megy, k. and rocha, d. and rothschild, m. f. 10.1111/j.1439-0388.2006.00587.x"
     },
     {
       "id": "mracek2006oenothera",
       "type": "Publication",
       "name": "Construction, database integration, and application of an Oenothera EST library",
       "year": 2006,
+      "journal": "Genomics",
+      "summary": "Genome Resources; Transcriptomics; Bioinformatics Databases; Resources",
+      "authors": "Mracek, Jaroslav and Greiner, Stephan and Cho, Won Kyong and others",
+      "doi": "10.1016/j.ygeno.2006.05.010",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Transcriptomics",
-          "Bioinformatics Databases",
-          "Resources"
-        ],
         "technologies": [
-          "genomics",
-          "bioinformatics"
+          "bioinformatics",
+          "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "mracek2006oenothera publication construction, database integration, and application of an oenothera est library 2006 genomics genome resources; transcriptomics; bioinformatics databases; resources mracek, jaroslav and greiner, stephan and cho, won kyong and others 10.1016/j.ygeno.2006.05.010"
     },
     {
       "id": "tetko2006smar",
       "type": "Publication",
       "name": "Spatiotemporal expression control correlates with intragenic scaffold matrix attachment regions (S/MARs) in Arabidopsis thaliana",
       "year": 2006,
+      "journal": "PLOS Computational Biology",
+      "summary": "Plant Genomics",
+      "authors": "Tetko, Igor V. and Haberer, Georg and Rudd, Stephen and Meyers, Blake and Mewes, Hans-Werner and Mayer, Klaus F. X.",
+      "doi": "10.1371/journal.pcbi.0020021",
       "relationships": {
-        "categories": [
-          "Plant Genomics"
+        "products": [
+          "arabidopsis"
         ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "tetko2006smar publication spatiotemporal expression control correlates with intragenic scaffold matrix attachment regions (s/mars) in arabidopsis thaliana 2006 plos computational biology plant genomics tetko, igor v. and haberer, georg and rudd, stephen and meyers, blake and mewes, hans-werner and mayer, klaus f. x. 10.1371/journal.pcbi.0020021"
     },
     {
       "id": "emmersen2007triplet",
       "type": "Publication",
       "name": "Separation of sequences from host-pathogen interface using triplet nucleotide frequencies",
       "year": 2007,
+      "journal": "Fungal Genetics and Biology",
+      "summary": "Other",
+      "authors": "Emmersen, Jeppe and Rudd, Stephen and Mewes, Hans-Werner and Tetko, Igor V.",
+      "doi": "10.1016/j.fgb.2006.11.010",
       "relationships": {
-        "categories": [
-          "Other"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "emmersen2007triplet publication separation of sequences from host-pathogen interface using triplet nucleotide frequencies 2007 fungal genetics and biology other emmersen, jeppe and rudd, stephen and mewes, hans-werner and tetko, igor v. 10.1016/j.fgb.2006.11.010"
     },
     {
       "id": "koutaniemi2007lignin",
       "type": "Publication",
       "name": "Expression profiling of the lignin biosynthetic pathway in Norway spruce using EST sequencing and real-time RT-PCR",
       "year": 2007,
+      "journal": "Plant Molecular Biology",
+      "summary": "Transcriptomics; Plant Genomics; Methods",
+      "authors": "Koutaniemi, Sanna and Warinowski, Tino and Karkonen, Anna and others",
+      "doi": "10.1007/s11103-007-9220-5",
       "relationships": {
-        "categories": [
-          "Transcriptomics",
-          "Plant Genomics",
-          "Methods"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "koutaniemi2007lignin publication expression profiling of the lignin biosynthetic pathway in norway spruce using est sequencing and real-time rt-pcr 2007 plant molecular biology transcriptomics; plant genomics; methods koutaniemi, sanna and warinowski, tino and karkonen, anna and others 10.1007/s11103-007-9220-5"
     },
     {
       "id": "lokko2007cassava",
       "type": "Publication",
       "name": "Characterization of an 18,166 EST dataset for cassava (Manihot esculenta Crantz) enriched for drought-responsive genes",
       "year": 2007,
+      "journal": "Plant Cell Reports",
+      "summary": "Transcriptomics; Plant Genomics; Resources",
+      "authors": "Lokko, Y. and Anderson, J. V. and Rudd, S. and others",
+      "doi": "10.1007/s00299-007-0378-8",
       "relationships": {
-        "categories": [
-          "Transcriptomics",
-          "Plant Genomics",
-          "Resources"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "lokko2007cassava publication characterization of an 18,166 est dataset for cassava (manihot esculenta crantz) enriched for drought-responsive genes 2007 plant cell reports transcriptomics; plant genomics; resources lokko, y. and anderson, j. v. and rudd, s. and others 10.1007/s00299-007-0378-8"
     },
     {
       "id": "pauly2007hydra",
       "type": "Publication",
       "name": "Proteomic screen in the simple metazoan Hydra identifies 14-3-3 binding proteins implicated in cellular metabolism, cytoskeletal organisation and Ca2+ signalling",
       "year": 2007,
+      "journal": "BMC Cell Biology",
+      "summary": "Methods",
+      "authors": "Pauly, Barbara and Lasi, Margherita and MacKintosh, Carol and others",
+      "doi": "10.1186/1471-2121-8-31",
       "relationships": {
-        "categories": [
-          "Methods"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "pauly2007hydra publication proteomic screen in the simple metazoan hydra identifies 14-3-3 binding proteins implicated in cellular metabolism, cytoskeletal organisation and ca2+ signalling 2007 bmc cell biology methods pauly, barbara and lasi, margherita and mackintosh, carol and others 10.1186/1471-2121-8-31"
     },
     {
       "id": "rotter2007bentgrass",
       "type": "Publication",
       "name": "Analysis of EST sequences suggests recent origin of allotetraploid colonial and creeping bentgrasses",
       "year": 2007,
+      "journal": "Molecular Genetics and Genomics",
+      "summary": "Genome Resources; Transcriptomics; Methods",
+      "authors": "Rotter, David and Bharti, Arvind K. and Li, Huaijun Michael and others",
+      "doi": "10.1007/s00438-007-0240-2",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Transcriptomics",
-          "Methods"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "rotter2007bentgrass publication analysis of est sequences suggests recent origin of allotetraploid colonial and creeping bentgrasses 2007 molecular genetics and genomics genome resources; transcriptomics; methods rotter, david and bharti, arvind k. and li, huaijun michael and others 10.1007/s00438-007-0240-2"
     },
     {
       "id": "grasso2008coral",
       "type": "Publication",
       "name": "Microarray analysis identifies candidate genes for key roles in coral development",
       "year": 2008,
+      "journal": "BMC Genomics",
+      "summary": "Genome Resources; Methods",
+      "authors": "Grasso, Lauretta C. and Maindonald, John and Rudd, Stephen and others",
+      "doi": "10.1186/1471-2164-9-540",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Methods"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "grasso2008coral publication microarray analysis identifies candidate genes for key roles in coral development 2008 bmc genomics genome resources; methods grasso, lauretta c. and maindonald, john and rudd, stephen and others 10.1186/1471-2164-9-540"
     },
     {
       "id": "hackauf2009rye",
       "type": "Publication",
       "name": "Comparative mapping of DNA sequences in rye (Secale cereale L.) in relation to the rice genome",
       "year": 2009,
+      "journal": "Theoretical and Applied Genetics",
+      "summary": "Genome Resources; Comparative Genomics; Plant Genomics",
+      "authors": "Hackauf, B. and Rudd, S. and van der Voort, J. R. and Miedaner, T. and Wehling, P.",
+      "doi": "10.1007/s00122-008-0906-0",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Comparative Genomics",
-          "Plant Genomics"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "hackauf2009rye publication comparative mapping of dna sequences in rye (secale cereale l.) in relation to the rice genome 2009 theoretical and applied genetics genome resources; comparative genomics; plant genomics hackauf, b. and rudd, s. and van der voort, j. r. and miedaner, t. and wehling, p. 10.1007/s00122-008-0906-0"
     },
     {
       "id": "junttila2009rna",
       "type": "Publication",
       "name": "Optimization and comparison of different methods for RNA isolation for cDNA library construction from the reindeer lichen Cladonia rangiferina",
       "year": 2009,
+      "journal": "BMC Research Notes",
+      "summary": "Transcriptomics; Methods; Resources",
+      "authors": "Junttila, Sini and Lim, Kean-Jin and Rudd, Stephen",
+      "doi": "10.1186/1756-0500-2-204",
       "relationships": {
-        "categories": [
-          "Transcriptomics",
-          "Methods",
-          "Resources"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "junttila2009rna publication optimization and comparison of different methods for rna isolation for cdna library construction from the reindeer lichen cladonia rangiferina 2009 bmc research notes transcriptomics; methods; resources junttila, sini and lim, kean-jin and rudd, stephen 10.1186/1756-0500-2-204"
     },
     {
       "id": "gunaletchumy2012",
       "type": "Publication",
       "name": "Draft genome sequences of Helicobacter pylori isolates from Malaysia, cultured from patients with functional dyspepsia and gastric cancer",
       "year": 2012,
+      "journal": "Journal of Bacteriology",
+      "summary": "Genome Resources; Transcriptomics; Cancer Genomics; Clinical Genomics",
+      "authors": "Gunaletchumy, Selva Perumal and Teh, Xinsheng and Khosravi, Yalda and others",
+      "doi": "10.1128/jb.01278-12",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Transcriptomics",
-          "Cancer Genomics",
-          "Clinical Genomics"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "gunaletchumy2012 publication draft genome sequences of helicobacter pylori isolates from malaysia, cultured from patients with functional dyspepsia and gastric cancer 2012 journal of bacteriology genome resources; transcriptomics; cancer genomics; clinical genomics gunaletchumy, selva perumal and teh, xinsheng and khosravi, yalda and others 10.1128/jb.01278-12"
     },
     {
       "id": "junttila2012lichen",
       "type": "Publication",
       "name": "Characterization of a transcriptome from a non-model organism, Cladonia rangiferina, the grey reindeer lichen, using high-throughput next generation sequencing and EST sequence data",
       "year": 2012,
+      "journal": "BMC Genomics",
+      "summary": "Genome Resources; Transcriptomics",
+      "authors": "Junttila, Sini and Rudd, Stephen",
+      "doi": "10.1186/1471-2164-13-575",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Transcriptomics"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "junttila2012lichen publication characterization of a transcriptome from a non-model organism, cladonia rangiferina, the grey reindeer lichen, using high-throughput next generation sequencing and est sequence data 2012 bmc genomics genome resources; transcriptomics junttila, sini and rudd, stephen 10.1186/1471-2164-13-575"
     },
     {
       "id": "junttila2013dehydration",
       "type": "Publication",
       "name": "Whole transcriptome characterization of the effects of dehydration and rehydration on Cladonia rangiferina, the grey reindeer lichen",
       "year": 2013,
+      "journal": "BMC Genomics",
+      "summary": "Genome Resources; Transcriptomics",
+      "authors": "Junttila, Sini and Laiho, Asta and Gyenesei, Attila and Rudd, Stephen",
+      "doi": "10.1186/1471-2164-14-870",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Transcriptomics"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "junttila2013dehydration publication whole transcriptome characterization of the effects of dehydration and rehydration on cladonia rangiferina, the grey reindeer lichen 2013 bmc genomics genome resources; transcriptomics junttila, sini and laiho, asta and gyenesei, attila and rudd, stephen 10.1186/1471-2164-14-870"
     },
     {
       "id": "melian2014westnile",
       "type": "Publication",
       "name": "Programmed ribosomal frameshift alters expression of West Nile virus genes and facilitates virus replication in birds and mosquitoes",
       "year": 2014,
+      "journal": "PLOS Pathogens",
+      "summary": "Transcriptomics",
+      "authors": "Melian, Ezequiel Balmori and Hall-Mendelin, Sonja and Du, Fangyao and others",
+      "doi": "10.1371/journal.ppat.1004447",
       "relationships": {
-        "categories": [
-          "Transcriptomics"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "melian2014westnile publication programmed ribosomal frameshift alters expression of west nile virus genes and facilitates virus replication in birds and mosquitoes 2014 plos pathogens transcriptomics melian, ezequiel balmori and hall-mendelin, sonja and du, fangyao and others 10.1371/journal.ppat.1004447"
     },
     {
       "id": "derienzo2016mesothelioma",
       "type": "Publication",
       "name": "Gender-specific molecular and clinical features underlie malignant pleural mesothelioma",
       "year": 2016,
+      "journal": "Cancer Research",
+      "summary": "Cancer Genomics; Clinical Genomics",
+      "authors": "De Rienzo, Assunta and Archer, Michael A. and Yeap, Beow Y. and others",
+      "doi": "10.1158/0008-5472.can-15-0751",
       "relationships": {
-        "categories": [
-          "Cancer Genomics",
-          "Clinical Genomics"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "derienzo2016mesothelioma publication gender-specific molecular and clinical features underlie malignant pleural mesothelioma 2016 cancer research cancer genomics; clinical genomics de rienzo, assunta and archer, michael a. and yeap, beow y. and others 10.1158/0008-5472.can-15-0751"
     },
     {
       "id": "wise2016stemcells",
       "type": "Publication",
       "name": "Human mesenchymal stem cells alter the gene profile of monocytes from patients with type 2 diabetes and end-stage renal disease",
       "year": 2016,
+      "journal": "Regenerative Medicine",
+      "summary": "Clinical Genomics",
+      "authors": "Wise, Andrea F. and Williams, Timothy M. and Rudd, Stephen and Wells, Christine A. and Kerr, Peter G. and Ricardo, Sharon D.",
+      "doi": "10.2217/rme.15.74",
       "relationships": {
-        "categories": [
-          "Clinical Genomics"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "wise2016stemcells publication human mesenchymal stem cells alter the gene profile of monocytes from patients with type 2 diabetes and end-stage renal disease 2016 regenerative medicine clinical genomics wise, andrea f. and williams, timothy m. and rudd, stephen and wells, christine a. and kerr, peter g. and ricardo, sharon d. 10.2217/rme.15.74"
     },
     {
       "id": "schmutzer2017plant",
       "type": "Publication",
       "name": "Bioinformatics in the plant genomic and phenomic domain: the German contribution to resources, services and perspectives",
       "year": 2017,
+      "journal": "Journal of Biotechnology",
+      "summary": "Genome Resources; Transcriptomics; Plant Genomics; Bioinformatics Infrastructure; Reviews; Resources",
+      "authors": "Schmutzer, Thomas and Bolger, Marie E. and Rudd, Stephen and others",
+      "doi": "10.1016/j.jbiotec.2017.07.006",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Transcriptomics",
-          "Plant Genomics",
-          "Bioinformatics Infrastructure",
-          "Reviews",
-          "Resources"
-        ],
         "technologies": [
-          "genomics",
-          "bioinformatics"
+          "bioinformatics",
+          "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "schmutzer2017plant publication bioinformatics in the plant genomic and phenomic domain: the german contribution to resources, services and perspectives 2017 journal of biotechnology genome resources; transcriptomics; plant genomics; bioinformatics infrastructure; reviews; resources schmutzer, thomas and bolger, marie e. and rudd, stephen and others 10.1016/j.jbiotec.2017.07.006"
     },
     {
       "id": "chappell2018",
       "type": "Publication",
       "name": "Rapid analysis of metagenomic data using signature-based clustering",
       "year": 2018,
+      "journal": "BMC Bioinformatics",
+      "summary": "Genome Resources; Metagenomics; Bioinformatics Infrastructure; Methods; Machine Learning",
+      "authors": "Chappell, Timothy and Geva, Shlomo and Hogan, James M. and Huygens, Flavia and Rathnayake, Irani U. and Rudd, Stephen and Kelly, Wayne and Perrin, Dimitri",
+      "doi": "10.1186/s12859-018-2540-4",
       "relationships": {
-        "categories": [
-          "Genome Resources",
-          "Metagenomics",
-          "Bioinformatics Infrastructure",
-          "Methods",
-          "Machine Learning"
-        ],
         "technologies": [
-          "genomics",
-          "bioinformatics"
+          "bioinformatics",
+          "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "chappell2018 publication rapid analysis of metagenomic data using signature-based clustering 2018 bmc bioinformatics genome resources; metagenomics; bioinformatics infrastructure; methods; machine learning chappell, timothy and geva, shlomo and hogan, james m. and huygens, flavia and rathnayake, irani u. and rudd, stephen and kelly, wayne and perrin, dimitri 10.1186/s12859-018-2540-4"
     },
     {
       "id": "lee2018intellectual",
       "type": "Publication",
       "name": "Gene networks associated with non-syndromic intellectual disability",
       "year": 2018,
+      "journal": "Journal of Neurogenetics",
+      "summary": "Transcriptomics; Clinical Genomics",
+      "authors": "Lee, Soohyun and Rudd, Stephen and Gratten, Jacob and Visscher, Peter M. and Prins, Johannes B. and Dawson, Paul A.",
+      "doi": "10.1080/01677063.2017.1404058",
       "relationships": {
-        "categories": [
-          "Transcriptomics",
-          "Clinical Genomics"
-        ],
         "technologies": [
           "genomics"
         ]
-      }
+      },
+      "source": "content/publications.bib",
+      "search_text": "lee2018intellectual publication gene networks associated with non-syndromic intellectual disability 2018 journal of neurogenetics transcriptomics; clinical genomics lee, soohyun and rudd, stephen and gratten, jacob and visscher, peter m. and prins, johannes b. and dawson, paul a. 10.1080/01677063.2017.1404058"
     }
-  ]
+  ],
+  "edges": [
+    {
+      "source": "stephen_rudd",
+      "target": "oxford_nanopore_technologies_director_bioinformatics_product",
+      "kind": "roles"
+    },
+    {
+      "source": "stephen_rudd",
+      "target": "mnemosyne_genomics_founder_genomics_consultant",
+      "kind": "roles"
+    },
+    {
+      "source": "stephen_rudd",
+      "target": "pacific_biosciences_territory_manager",
+      "kind": "roles"
+    },
+    {
+      "source": "stephen_rudd",
+      "target": "qfab_bioinformatics_head_of_computational_biology",
+      "kind": "roles"
+    },
+    {
+      "source": "stephen_rudd",
+      "target": "malaysian_genomics_resource_centre_chief_scientific_officer",
+      "kind": "roles"
+    },
+    {
+      "source": "stephen_rudd",
+      "target": "orion_pharma_senior_specialist_bioinformatics",
+      "kind": "roles"
+    },
+    {
+      "source": "stephen_rudd",
+      "target": "university_of_turku_turku_centre_for_biotechnology_senior_scientist_head_of_bioinformatics_visiting_scientist",
+      "kind": "roles"
+    },
+    {
+      "source": "stephen_rudd",
+      "target": "max_planck_institute_of_biochemistry_helmholtz_zentrum_m_nchen_postdoctoral_researcher",
+      "kind": "roles"
+    },
+    {
+      "source": "ipk_gatersleben_research_scientist",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "ipk_gatersleben_research_scientist",
+      "target": "ipk_gatersleben",
+      "kind": "employer"
+    },
+    {
+      "source": "malaysian_genomics_resource_centre_chief_scientific_officer",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "malaysian_genomics_resource_centre_chief_scientific_officer",
+      "target": "mygenome",
+      "kind": "projects"
+    },
+    {
+      "source": "malaysian_genomics_resource_centre_chief_scientific_officer",
+      "target": "proboscis_monkey",
+      "kind": "projects"
+    },
+    {
+      "source": "malaysian_genomics_resource_centre_chief_scientific_officer",
+      "target": "malaysian_genomics_resource_centre",
+      "kind": "employer"
+    },
+    {
+      "source": "max_planck_institute_of_biochemistry_helmholtz_zentrum_m_nchen_postdoctoral_researcher",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "max_planck_institute_of_biochemistry_helmholtz_zentrum_m_nchen_postdoctoral_researcher",
+      "target": "max_planck_institute_of_biochemistry_helmholtz_zentrum_m_nchen",
+      "kind": "employer"
+    },
+    {
+      "source": "mnemosyne_genomics_founder_genomics_consultant",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "mnemosyne_genomics_founder_genomics_consultant",
+      "target": "cloud_computing",
+      "kind": "technologies"
+    },
+    {
+      "source": "mnemosyne_genomics_founder_genomics_consultant",
+      "target": "mnematikon",
+      "kind": "products"
+    },
+    {
+      "source": "mnemosyne_genomics_founder_genomics_consultant",
+      "target": "mnematikon_uksh",
+      "kind": "projects"
+    },
+    {
+      "source": "mnemosyne_genomics_founder_genomics_consultant",
+      "target": "mnemosyne_genomics",
+      "kind": "employer"
+    },
+    {
+      "source": "orion_pharma_senior_specialist_bioinformatics",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "orion_pharma_senior_specialist_bioinformatics",
+      "target": "orion_pharma",
+      "kind": "employer"
+    },
+    {
+      "source": "oxford_nanopore_technologies_director_bioinformatics_product",
+      "target": "nextflow",
+      "kind": "technologies"
+    },
+    {
+      "source": "oxford_nanopore_technologies_director_bioinformatics_product",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "oxford_nanopore_technologies_director_bioinformatics_product",
+      "target": "long_read_sequencing",
+      "kind": "technologies"
+    },
+    {
+      "source": "oxford_nanopore_technologies_director_bioinformatics_product",
+      "target": "cloud_computing",
+      "kind": "technologies"
+    },
+    {
+      "source": "oxford_nanopore_technologies_director_bioinformatics_product",
+      "target": "epi2me",
+      "kind": "products"
+    },
+    {
+      "source": "oxford_nanopore_technologies_director_bioinformatics_product",
+      "target": "covid_response",
+      "kind": "projects"
+    },
+    {
+      "source": "oxford_nanopore_technologies_director_bioinformatics_product",
+      "target": "oxford_nanopore_technologies",
+      "kind": "employer"
+    },
+    {
+      "source": "pacific_biosciences_territory_manager",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "pacific_biosciences_territory_manager",
+      "target": "pacific_biosciences",
+      "kind": "employer"
+    },
+    {
+      "source": "qfab_bioinformatics_head_of_computational_biology",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "qfab_bioinformatics_head_of_computational_biology",
+      "target": "qfab_bioinformatics",
+      "kind": "employer"
+    },
+    {
+      "source": "university_of_turku_turku_centre_for_biotechnology_senior_scientist_head_of_bioinformatics_visiting_scientist",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "university_of_turku_turku_centre_for_biotechnology_senior_scientist_head_of_bioinformatics_visiting_scientist",
+      "target": "university_of_turku_turku_centre_for_biotechnology",
+      "kind": "employer"
+    },
+    {
+      "source": "arabidopsis_genome",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "commercial_bioinformatics",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "core_facility",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "covid_response",
+      "target": "epi2me",
+      "kind": "products"
+    },
+    {
+      "source": "covid_response",
+      "target": "oxford_nanopore_technologies_director_bioinformatics_product",
+      "kind": "roles"
+    },
+    {
+      "source": "covid_response",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "covid_response",
+      "target": "nextflow",
+      "kind": "technologies"
+    },
+    {
+      "source": "mnematikon_uksh",
+      "target": "mnematikon",
+      "kind": "products"
+    },
+    {
+      "source": "mnematikon_uksh",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "mnematikon_uksh",
+      "target": "cloud_computing",
+      "kind": "technologies"
+    },
+    {
+      "source": "mnematikon_uksh",
+      "target": "mnemosyne_genomics",
+      "kind": "employers"
+    },
+    {
+      "source": "mygenome",
+      "target": "malaysian_genomics_resource_centre_chief_scientific_officer",
+      "kind": "roles"
+    },
+    {
+      "source": "mygenome",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "proboscis_monkey",
+      "target": "malaysian_genomics_resource_centre_chief_scientific_officer",
+      "kind": "roles"
+    },
+    {
+      "source": "proboscis_monkey",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "arabidopsis",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "arabidopsis",
+      "target": "arabidopsis_genome",
+      "kind": "projects"
+    },
+    {
+      "source": "clair",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "epi2me",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "epi2me",
+      "target": "nextflow",
+      "kind": "technologies"
+    },
+    {
+      "source": "epi2me",
+      "target": "oxford_nanopore_technologies",
+      "kind": "employers"
+    },
+    {
+      "source": "epi2me",
+      "target": "covid_response",
+      "kind": "projects"
+    },
+    {
+      "source": "mips",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "mips",
+      "target": "bioinformatics",
+      "kind": "technologies"
+    },
+    {
+      "source": "mips",
+      "target": "arabidopsis_genome",
+      "kind": "projects"
+    },
+    {
+      "source": "mnematikon",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "mnematikon",
+      "target": "cloud_computing",
+      "kind": "technologies"
+    },
+    {
+      "source": "mnematikon",
+      "target": "mnemosyne_genomics",
+      "kind": "employers"
+    },
+    {
+      "source": "mnematikon",
+      "target": "mnematikon_uksh",
+      "kind": "projects"
+    },
+    {
+      "source": "mnemosyne",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "opensputnik",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "plant_breeding_api",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "plantmarkers",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "sputnik",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "talk_01",
+      "target": "nextflow",
+      "kind": "technologies"
+    },
+    {
+      "source": "training_01",
+      "target": "bioinformatics_capability_building",
+      "kind": "domains"
+    },
+    {
+      "source": "training_02",
+      "target": "bioinformatics_capability_building",
+      "kind": "domains"
+    },
+    {
+      "source": "training_03",
+      "target": "bioinformatics_capability_building",
+      "kind": "domains"
+    },
+    {
+      "source": "arabidopsis2000",
+      "target": "arabidopsis",
+      "kind": "products"
+    },
+    {
+      "source": "arabidopsis2000",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "dalmay2000silencing",
+      "target": "arabidopsis",
+      "kind": "products"
+    },
+    {
+      "source": "dalmay2000silencing",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "eu2000chromosome3",
+      "target": "arabidopsis",
+      "kind": "products"
+    },
+    {
+      "source": "eu2000chromosome3",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "kazusa2000chromosome5",
+      "target": "arabidopsis",
+      "kind": "products"
+    },
+    {
+      "source": "kazusa2000chromosome5",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "mayer2000chromosome4",
+      "target": "arabidopsis",
+      "kind": "products"
+    },
+    {
+      "source": "mayer2000chromosome4",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "mayer2000chromosome4",
+      "target": "bioinformatics",
+      "kind": "technologies"
+    },
+    {
+      "source": "haas2002full",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "mewes2002mips",
+      "target": "mips",
+      "kind": "products"
+    },
+    {
+      "source": "mewes2002mips",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "mewes2002mips",
+      "target": "bioinformatics",
+      "kind": "technologies"
+    },
+    {
+      "source": "schoof2002matdb",
+      "target": "mips",
+      "kind": "products"
+    },
+    {
+      "source": "schoof2002matdb",
+      "target": "arabidopsis",
+      "kind": "products"
+    },
+    {
+      "source": "schoof2002matdb",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "schoof2002matdb",
+      "target": "bioinformatics",
+      "kind": "technologies"
+    },
+    {
+      "source": "brenner2003cycas",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "galagan2003neurospora",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "kota2003barley",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "rudd2003est",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "rudd2003sputnik",
+      "target": "sputnik",
+      "kind": "products"
+    },
+    {
+      "source": "rudd2003sputnik",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "rudd2003sputnik",
+      "target": "bioinformatics",
+      "kind": "technologies"
+    },
+    {
+      "source": "lai2004maize",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "rudd2004smar",
+      "target": "arabidopsis",
+      "kind": "products"
+    },
+    {
+      "source": "rudd2004smar",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "zhang2004barley",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "battchikova2005ndh",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "brenner2005ginkgo",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "brosche2005populus",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "friedel2005svm",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "friedel2005svm",
+      "target": "bioinformatics",
+      "kind": "technologies"
+    },
+    {
+      "source": "germain2005solanum",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "laitinen2005gerbera",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "rudd2005eclair",
+      "target": "clair",
+      "kind": "products"
+    },
+    {
+      "source": "rudd2005eclair",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "rudd2005eclair",
+      "target": "bioinformatics",
+      "kind": "technologies"
+    },
+    {
+      "source": "rudd2005opensputnik",
+      "target": "sputnik",
+      "kind": "products"
+    },
+    {
+      "source": "rudd2005opensputnik",
+      "target": "opensputnik",
+      "kind": "products"
+    },
+    {
+      "source": "rudd2005opensputnik",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "rudd2005opensputnik",
+      "target": "bioinformatics",
+      "kind": "technologies"
+    },
+    {
+      "source": "rudd2005plantmarkers",
+      "target": "plantmarkers",
+      "kind": "products"
+    },
+    {
+      "source": "rudd2005plantmarkers",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "rudd2005plantmarkers",
+      "target": "bioinformatics",
+      "kind": "technologies"
+    },
+    {
+      "source": "technau2005cnidarians",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "beldade2006bicyclus",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "bottger2006hydra",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "grapes2006pig",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "mracek2006oenothera",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "mracek2006oenothera",
+      "target": "bioinformatics",
+      "kind": "technologies"
+    },
+    {
+      "source": "tetko2006smar",
+      "target": "arabidopsis",
+      "kind": "products"
+    },
+    {
+      "source": "tetko2006smar",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "emmersen2007triplet",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "koutaniemi2007lignin",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "lokko2007cassava",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "pauly2007hydra",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "rotter2007bentgrass",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "grasso2008coral",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "hackauf2009rye",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "junttila2009rna",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "gunaletchumy2012",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "junttila2012lichen",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "junttila2013dehydration",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "melian2014westnile",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "derienzo2016mesothelioma",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "wise2016stemcells",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "schmutzer2017plant",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "schmutzer2017plant",
+      "target": "bioinformatics",
+      "kind": "technologies"
+    },
+    {
+      "source": "chappell2018",
+      "target": "genomics",
+      "kind": "technologies"
+    },
+    {
+      "source": "chappell2018",
+      "target": "bioinformatics",
+      "kind": "technologies"
+    },
+    {
+      "source": "lee2018intellectual",
+      "target": "genomics",
+      "kind": "technologies"
+    }
+  ],
+  "validation": {
+    "errors": [],
+    "object_count": 97,
+    "edge_count": 148
+  }
 }

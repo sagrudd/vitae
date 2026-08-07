@@ -8,6 +8,12 @@ from pathlib import Path
 
 directory = Path(sys.argv[1])
 expected = {"Executive_CV.pdf": 2, "Executive_Portfolio.pdf": 6, "Executive_Biography.pdf": 1, "Cover_Letter_Template.pdf": 1}
+requested = set(sys.argv[2:])
+if requested:
+    expected = {name: pages for name, pages in expected.items() if name in requested}
+    unknown = requested - set(expected)
+    if unknown:
+        raise SystemExit(f"Unknown PDF verification target(s): {', '.join(sorted(unknown))}")
 errors = []
 for filename, pages in expected.items():
     path = directory / filename
@@ -32,4 +38,4 @@ for filename, pages in expected.items():
         errors.append(f"{filename}: essential text missing")
 if errors:
     raise SystemExit("PDF verification failed:\n- " + "\n- ".join(errors))
-print("Verified four PDFs: page counts, file sizes, and essential text are valid.")
+print(f"Verified {len(expected)} PDF(s): page counts, file sizes, and essential text are valid.")

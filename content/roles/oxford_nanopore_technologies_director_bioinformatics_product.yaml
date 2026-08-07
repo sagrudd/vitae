@@ -2,7 +2,7 @@
   "id": "oxford_nanopore_technologies_director_bioinformatics_product",
   "type": "Role",
   "title": "Director, Bioinformatics Product",
-  "period": "2018-present",
+  "period": "Jul 2017-Nov 2025",
   "summary": "Advanced through four appointments to lead the customer-led bioinformatics roadmap for EPI2ME, connecting scientific applications, commercial insight and software delivery.",
   "employer": "oxford_nanopore_technologies",
   "achievements": [
@@ -14,7 +14,11 @@
   "relationships": {
     "technologies": [
       "nextflow",
-      "genomics"
-    ]
+      "genomics",
+      "long_read_sequencing",
+      "cloud_computing"
+    ],
+    "products": ["epi2me"],
+    "projects": ["covid_response"]
   }
 }
